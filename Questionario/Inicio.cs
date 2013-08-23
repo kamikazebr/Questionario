@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,9 @@ namespace Questionario
 {
     public partial class Inicio : MyForm
     {
+
+        
+
         public Inicio()
         {
             InitializeComponent();
@@ -33,8 +37,12 @@ namespace Questionario
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            new A0().Show();
+            Dictionary<string, object> row = new Dictionary<string, object>();
+
+            row[col_idioma] = System.Globalization.CultureInfo.DefaultThreadCurrentCulture.Name;
+
+            newRow(row);
+            goToForm(new A0());
         }
         private void RefreshResources(Control ctrl, ComponentResourceManager res, System.Globalization.CultureInfo CurrentLocale)
         {
@@ -47,6 +55,22 @@ namespace Questionario
 
         private void Inicio_Load(object sender, EventArgs e)
         {
+            if (DesignMode)
+            {
+                return;
+            }
+
+            try
+            {
+                InsertColumnIFNotExist(col_idioma, col_idioma_type);
+                InsertColumnIFNotExist(col_encerrado, col_encerrado_type);
+                InsertColumnIFNotExist(col_ultima, col_ultima_type);
+            }catch(OleDbException ex){
+                MessageBox.Show(String.Format("Cod:{0}: {1}", ex.ErrorCode, ex.Message));
+                Application.DoEvents();
+                Application.Exit();
+            }
+            
         }
 
     }

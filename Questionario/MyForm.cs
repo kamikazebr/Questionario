@@ -220,7 +220,15 @@ namespace Questionario
                         InsertColumnIFNotExist(col, "INT");
                         row[col] = value;
                         onePanelFoi = true;
-                       
+
+                        if (panel is ClassLibrary1.Class1)
+                        {
+                            string colNome = col+"_NOME";
+                            InsertColumnIFNotExist(colNome, "TEXT");
+                            row[colNome] = rb.Text; 
+                        }
+
+
                         findTag(row, panel, col, rb);
                     }
                 }

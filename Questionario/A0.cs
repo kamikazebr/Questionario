@@ -57,11 +57,18 @@ namespace Questionario
             }
             Console.WriteLine("Native lingua: {0}", System.Globalization.CultureInfo.CurrentCulture.Name);
 
+            TextBox1.Enabled = false;
+
         }
 
         private void RadioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void RadioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            TextBox1.Enabled = ((RadioButton)sender).Checked;
         }
 
 

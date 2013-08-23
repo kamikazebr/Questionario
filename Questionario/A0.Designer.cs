@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(A0));
             this.Label4 = new System.Windows.Forms.Label();
-            this.Button1 = new System.Windows.Forms.Button();
+            this.Button2 = new System.Windows.Forms.Button();
             this.Label3 = new System.Windows.Forms.Label();
             this.Label2 = new System.Windows.Forms.Label();
             this.Label1 = new System.Windows.Forms.Label();
@@ -59,12 +59,12 @@
             resources.ApplyResources(this.Label4, "Label4");
             this.Label4.Name = "Label4";
             // 
-            // Button1
+            // Button2
             // 
-            resources.ApplyResources(this.Button1, "Button1");
-            this.Button1.Name = "Button1";
-            this.Button1.UseVisualStyleBackColor = true;
-            this.Button1.Click += new System.EventHandler(this.Button1_Click_1);
+            resources.ApplyResources(this.Button2, "Button2");
+            this.Button2.Name = "Button2";
+            this.Button2.UseVisualStyleBackColor = true;
+            this.Button2.Click += new System.EventHandler(this.Button1_Click_1);
             // 
             // Label3
             // 
@@ -109,6 +109,7 @@
             this.RadioButton5.TabStop = true;
             this.RadioButton5.Tag = "TextBox1";
             this.RadioButton5.UseVisualStyleBackColor = true;
+            this.RadioButton5.CheckedChanged += new System.EventHandler(this.RadioButton5_CheckedChanged);
             // 
             // RadioButton3
             // 
@@ -204,7 +205,7 @@
             this.Controls.Add(this.panel_B);
             this.Controls.Add(this.panel_A);
             this.Controls.Add(this.Label4);
-            this.Controls.Add(this.Button1);
+            this.Controls.Add(this.Button2);
             this.Controls.Add(this.Label3);
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.Label1);
@@ -224,7 +225,7 @@
         #endregion
 
         internal System.Windows.Forms.Label Label4;
-        internal System.Windows.Forms.Button Button1;
+        internal System.Windows.Forms.Button Button2;
         internal System.Windows.Forms.Label Label3;
         internal System.Windows.Forms.Label Label2;
         internal System.Windows.Forms.Label Label1;

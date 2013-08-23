@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -23,8 +24,7 @@ namespace Questionario
             {
                 return;
             }
-
-             string msg = isPT() ? String.Format("Qual é a linha de modelo do {0}",rowCurrent["A4_A"]) : "¿Cuál es el la línea de modelo de su ";
+             string msg = isPT() ? String.Format("Qual é a linha {1} de modelo do {0}?",rowCurrent["A4_A_NOME"],"Chupa-me") : String.Format("¿Cuál es el la línea de modelo de su {0}?",rowCurrent["A4_A_NOME"]);
             int A1 = (int)rowCurrent["A1_A"];
             if (A1 == 1)
             {
@@ -60,7 +60,42 @@ namespace Questionario
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            goToForm(new A6());
+            bool onePanelFoi = false;
+            Dictionary<string, object> row = new Dictionary<string, object>();
+            try
+            {
+
+                onePanelFoi = findPanels(row, onePanelFoi);
+
+                goToForm(new A6());
+                return;
+                if (onePanelFoi)
+                {
+
+                    updateRow(row);
+
+                    //if (this.RadioButton11.Checked)
+                    //{
+                    //    MessageBox.Show("Salvo! - Encerrando");
+                    //    Application.Exit();
+                    //}
+                    //else
+                    //{
+                    //MessageBox.Show("Salvo! - Passar implementacao para proxima tela");
+                    goToForm(new A6());
+                    //}
+                }
+                else
+                {
+                    MessageBox.Show("Selecione uma das opcoes antes de continuar!");
+                }
+            }
+            catch (OleDbException ex)
+            {
+                MessageBox.Show(String.Format("Cod:{0}: {1}", ex.ErrorCode, ex.Message));
+            }
+
+            
         }
     }
 }

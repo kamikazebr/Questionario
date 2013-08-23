@@ -77,11 +77,11 @@
             // 
             // panel_A
             // 
-            resources.ApplyResources(this.panel_A, "panel_A");
             this.panel_A.Controls.Add(this.numericUpDown1);
             this.panel_A.Controls.Add(this.RadioButton3);
             this.panel_A.Controls.Add(this.RadioButton1);
             this.panel_A.Controls.Add(this.RadioButton2);
+            resources.ApplyResources(this.panel_A, "panel_A");
             this.panel_A.Name = "panel_A";
             // 
             // numericUpDown1
@@ -134,8 +134,8 @@
             // 
             // PictureBox2
             // 
-            resources.ApplyResources(this.PictureBox2, "PictureBox2");
             this.PictureBox2.Image = global::Questionario.Properties.Resources.psyma_logo;
+            resources.ApplyResources(this.PictureBox2, "PictureBox2");
             this.PictureBox2.Name = "PictureBox2";
             this.PictureBox2.TabStop = false;
             // 
@@ -152,6 +152,7 @@
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.Label1);
             this.Name = "A25";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.A25_Load);
             this.panel_A.ResumeLayout(false);
             this.panel_A.PerformLayout();

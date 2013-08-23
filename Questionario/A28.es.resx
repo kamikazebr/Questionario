@@ -158,9 +158,6 @@
   <data name="Label1.Text" xml:space="preserve">
     <value>A.28.	(A.25a)Número de asientos corridos o  individuales detrás de los asientos delanteros</value>
   </data>
-  <data name="panel_A.Size" type="System.Drawing.Size, System.Drawing">
-    <value>595, 161</value>
-  </data>
   <data name="numericUpDown4.Location" type="System.Drawing.Point, System.Drawing">
     <value>408, 82</value>
   </data>
@@ -227,10 +224,10 @@
   <data name="RadioButton1.Text" xml:space="preserve">
     <value>No sabe</value>
   </data>
-  <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="panel_A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>595, 161</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
 </root>

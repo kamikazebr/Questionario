@@ -39,12 +39,13 @@
             this.RadioButton6 = new System.Windows.Forms.RadioButton();
             this.RadioButton5 = new System.Windows.Forms.RadioButton();
             this.RadioButton4 = new System.Windows.Forms.RadioButton();
-            this.TextBox1 = new System.Windows.Forms.TextBox();
             this.RadioButton3 = new System.Windows.Forms.RadioButton();
             this.RadioButton1 = new System.Windows.Forms.RadioButton();
             this.RadioButton2 = new System.Windows.Forms.RadioButton();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.panel_A.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // Button1
@@ -55,6 +56,7 @@
             this.Button1.TabIndex = 286;
             this.Button1.Text = "Próxima questão";
             this.Button1.UseVisualStyleBackColor = true;
+            this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Label5
             // 
@@ -69,7 +71,7 @@
             // 
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(16, 171);
+            this.Label3.Location = new System.Drawing.Point(16, 156);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(21, 20);
             this.Label3.TabIndex = 280;
@@ -81,10 +83,9 @@
             this.Label2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.Label2.Location = new System.Drawing.Point(17, 134);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(428, 13);
+            this.Label2.Size = new System.Drawing.Size(16, 13);
             this.Label2.TabIndex = 279;
-            this.Label2.Text = "ENT: verifique documentos de registro para saber o peso bruto técnico do veículo " +
-    "(PBT) ";
+            this.Label2.Text = "...";
             // 
             // Label1
             // 
@@ -107,15 +108,15 @@
             // 
             // panel_A
             // 
+            this.panel_A.Controls.Add(this.numericUpDown1);
             this.panel_A.Controls.Add(this.Label4);
             this.panel_A.Controls.Add(this.RadioButton6);
             this.panel_A.Controls.Add(this.RadioButton5);
             this.panel_A.Controls.Add(this.RadioButton4);
-            this.panel_A.Controls.Add(this.TextBox1);
             this.panel_A.Controls.Add(this.RadioButton3);
             this.panel_A.Controls.Add(this.RadioButton1);
             this.panel_A.Controls.Add(this.RadioButton2);
-            this.panel_A.Location = new System.Drawing.Point(20, 216);
+            this.panel_A.Location = new System.Drawing.Point(20, 195);
             this.panel_A.Name = "panel_A";
             this.panel_A.Size = new System.Drawing.Size(654, 218);
             this.panel_A.TabIndex = 301;
@@ -161,16 +162,9 @@
             this.RadioButton4.Size = new System.Drawing.Size(135, 17);
             this.RadioButton4.TabIndex = 296;
             this.RadioButton4.TabStop = true;
-            this.RadioButton4.Tag = "TextBox1";
+            this.RadioButton4.Tag = "numericUpDown1";
             this.RadioButton4.Text = "Outra resposta em kg.: ";
             this.RadioButton4.UseVisualStyleBackColor = true;
-            // 
-            // TextBox1
-            // 
-            this.TextBox1.Location = new System.Drawing.Point(155, 87);
-            this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(68, 20);
-            this.TextBox1.TabIndex = 295;
             // 
             // RadioButton3
             // 
@@ -205,6 +199,28 @@
             this.RadioButton2.Text = "...";
             this.RadioButton2.UseVisualStyleBackColor = true;
             // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(155, 87);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            30000,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(100, 20);
+            this.numericUpDown1.TabIndex = 300;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            // 
             // A29
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -220,9 +236,11 @@
             this.Name = "A29";
             this.Text = "A29";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.A29_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             this.panel_A.ResumeLayout(false);
             this.panel_A.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,9 +259,9 @@
         internal System.Windows.Forms.RadioButton RadioButton6;
         internal System.Windows.Forms.RadioButton RadioButton5;
         internal System.Windows.Forms.RadioButton RadioButton4;
-        internal System.Windows.Forms.TextBox TextBox1;
         internal System.Windows.Forms.RadioButton RadioButton3;
         internal System.Windows.Forms.RadioButton RadioButton1;
         internal System.Windows.Forms.RadioButton RadioButton2;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }

@@ -28,17 +28,23 @@ namespace Questionario
             row["data"] = DateTime.Now;
 
             bool onePanelFoi = false;
-
-            onePanelFoi = findPanels(row, onePanelFoi);
-            if (onePanelFoi)
+            try
             {
-                //initDB();
-                newRow(row);
-                goToForm(new A1());
+                onePanelFoi = findPanels(row, onePanelFoi);
+                if (onePanelFoi)
+                {
+                    //initDB();
+                    newRow(row);
+                    goToForm(new A1());
+                }
+                else
+                {
+                    MessageBox.Show("Selecione uma das opcoes antes de continuar!");
+                }
             }
-            else
+            catch (OleDbException ex)
             {
-                MessageBox.Show("Selecione uma das opcoes antes de continuar!");
+                MessageBox.Show(String.Format("Cod:{0}: {1}", ex.ErrorCode, ex.Message));
             }
         }
 

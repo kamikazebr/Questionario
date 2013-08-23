@@ -30,7 +30,7 @@ namespace Questionario
 
                 updateRow(row);
 
-                if (this.RadioButton11.Checked)
+                if (this.class_A.Radios["11"].Checked)
                 {
                     MessageBox.Show("Salvo! - Encerrando");
                     Application.Exit();
@@ -99,8 +99,12 @@ namespace Questionario
 
              listVisiveis.Shuffle();
 
-             class11.Lista = list;
-             class11.Visiveis = listVisiveis;
+
+             list.Add("Outros/Não sabe/Não responde");
+             listVisiveis.Add("11");
+
+             class_A.Lista = list;
+             class_A.Visiveis = listVisiveis;
         }
       
 

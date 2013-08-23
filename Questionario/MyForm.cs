@@ -87,9 +87,18 @@ namespace Questionario
         {
             foreach (Panel panel in this.Controls.OfType<Panel>().OrderBy(Panel => Panel.Name))
             {
+                Console.WriteLine("Quem {0}",panel.Name);
                 String[] partes = panel.Name.Split("_".ToCharArray());
                 onePanelFoi = findRadioButtons(row,panel, partes);
                 onePanelFoi |= findCheckBoxs(row, panel, partes);
+
+                foreach (Panel panelIn in panel.Controls.OfType<Panel>().OrderBy(Panel => Panel.Name))
+                {
+                    Console.WriteLine("Quem {0}", panelIn.Name);
+                    partes = panelIn.Name.Split("_".ToCharArray());
+                    onePanelFoi = findRadioButtons(row, panelIn, partes);
+                    onePanelFoi |= findCheckBoxs(row, panelIn, partes);
+                }
             }
 
             if (onePanelFoi)
@@ -103,39 +112,41 @@ namespace Questionario
         private bool findCheckBoxs(Dictionary<string, object> row, Panel panel, string[] partes)
         {
             bool onePanelFoi = false;
-            foreach (CheckBox cb in panel.Controls.OfType<CheckBox>().OrderBy(CheckBox => CheckBox.Name))
-            {
-                //if (!rb.Checked)
-                //{
-                //    continue;
-                //}
-
-                if (cb.Name != null)
+           
+                foreach (CheckBox cb in panel.Controls.OfType<CheckBox>().OrderBy(CheckBox => CheckBox.Name))
                 {
-                    String[] partes_cb = cb.Name.ToLower().Split(typeof(CheckBox).Name.ToLower().ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
-                    if (partes_cb.Length > 0)
+                    //if (!rb.Checked)
+                    //{
+                    //    continue;
+                    //}
+
+                    if (cb.Name != null)
                     {
-                        string str = partes_cb[partes_cb.Length - 1];
-                        int value = convertStringToInt(str);
-                       
-
-                        if (value == -1)
+                        String[] partes_cb = cb.Name.ToLower().Split(typeof(CheckBox).Name.ToLower().ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+                        if (partes_cb.Length > 0)
                         {
-                            MessageBox.Show(String.Format("Erro na criacao da tela, verifique o nome dos componentes tipo:{0}", typeof(CheckBox).Name));
-                            Application.DoEvents();
-                            throw new Exception();
-                        }
+                            string str = partes_cb[partes_cb.Length - 1];
+                            int value = convertStringToInt(str);
 
-                        String col = this.Name + "_" + partes[1] + "_" + value;
-                        
-                        InsertColumnIFNotExist(col, "INT");
-                        row[col] = cb.Checked?1:0;
-                        onePanelFoi = true;
-                        
-                        findTag(row, panel, col, cb);
+
+                            if (value == -1)
+                            {
+                                MessageBox.Show(String.Format("Erro na criacao da tela, verifique o nome dos componentes tipo:{0}", typeof(CheckBox).Name));
+                                Application.DoEvents();
+                                throw new Exception();
+                            }
+
+                            String col = this.Name + "_" + partes[1] + "_" + value;
+
+                            InsertColumnIFNotExist(col, "INT");
+                            row[col] = cb.Checked ? 1 : 0;
+                            onePanelFoi = true;
+
+                            findTag(row, panel, col, cb);
+                        }
                     }
                 }
-            }
+            
             return onePanelFoi;
         }
 
@@ -419,7 +430,19 @@ namespace Questionario
                     string add = "ALTER TABLE " + tableName + " ADD COLUMN " + colName + " " + colType;
 
                     OleDbCommand cmd = new OleDbCommand(add, con);
-                    cmd.ExecuteNonQuery();
+
+                    try
+                    {
+                        cmd.ExecuteNonQuery();
+                    }
+                    catch (OleDbException ex)
+                    {
+                        //MessageBox.Show(ex.Message);
+                        throw;
+                        //MessageBox.Show(ex.ErrorCode.ToString());
+                    }
+
+                   
                 }
                 con.Close();
             }

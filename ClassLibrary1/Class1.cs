@@ -16,6 +16,9 @@ namespace ClassLibrary1
 
         public List<string> _visiveis = new List<string>();
 
+        public Dictionary<string,RadioButton> Radios {get;set;}
+
+
         [Editor(@"System.Windows.Forms.Design.StringCollectionEditor," +
         "System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
        typeof(System.Drawing.Design.UITypeEditor))]
@@ -55,7 +58,7 @@ namespace ClassLibrary1
 
 
         [DesignerSerializationVisibility(
-           DesignerSerializationVisibility.Visible)]
+           DesignerSerializationVisibility.Hidden)]
         List<string> listVis = new List<string>();
 
         public Class1():base()
@@ -83,34 +86,46 @@ namespace ClassLibrary1
 
             this.Controls.Clear();
 
-            listVis.Clear();
+            //listVis.Clear();
+            Radios = new Dictionary<string,RadioButton>();
 
-            foreach (string vis in _visiveis)
-            {
-                int inteiro = Int16.Parse(vis);
-                if (inteiro>0)
-                {
-                    inteiro--;
-                }
 
-                listVis.Add(_lista.ElementAt(inteiro));
-            }
+            //foreach (string vis in _visiveis)
+            //{
+            //    int inteiro = Int16.Parse(vis);
+            //    if (inteiro > 0)
+            //    {
+            //        inteiro--;
+            //    }
 
-            if (_visiveis == null)
-            {
-                listVis = _lista;
-            }
+            //    listVis.Add(_lista.ElementAt(inteiro));
+            //}
+
+            //if (_visiveis == null)
+            //{
+            //    listVis = _lista;
+            //}
 
             int w = 104;
             int h = 24;
 
-
-            for (int i = 0; i < listVis.Count; i++)
+            for (int i = 0; i < _lista.Count; i++)
             {
-                Point p = new System.Drawing.Point(0, i * h);
+                string posString = String.Format("{0}", i + 1);
+                Point p = new System.Drawing.Point(0, 0);
                 Size s = new System.Drawing.Size(w, h);
                 string name = String.Format("RadioButton{0}", i + 1);
-                RadioButton rb = criarRadioButton(name, listVis.ElementAt<string>(i), p, s);
+                RadioButton rb = criarRadioButton(name, _lista.ElementAt<string>(i), p, s);
+                Radios.Add(posString, rb);
+            }
+
+
+            for (int i = 0; i < _visiveis.Count; i++)
+            {
+                //string posString = String.Format("{0}",i+1);
+                Point p = new System.Drawing.Point(0, i * h);
+                RadioButton rb = Radios[_visiveis[i]];
+                rb.Location = p;
                 this.Controls.Add(rb);
             }
             this.PerformLayout();

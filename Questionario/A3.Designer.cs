@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(A3));
             this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_A = new System.Windows.Forms.Panel();
-            this.class11 = new ClassLibrary1.Class1();
-            this.RadioButton11 = new System.Windows.Forms.RadioButton();
+            this.class_A = new ClassLibrary1.Class1();
             this.Button1 = new System.Windows.Forms.Button();
             this.Label3 = new System.Windows.Forms.Label();
             this.Label2 = new System.Windows.Forms.Label();
@@ -51,31 +51,20 @@
             // 
             // panel_A
             // 
-            this.panel_A.Controls.Add(this.class11);
-            this.panel_A.Controls.Add(this.RadioButton11);
+            this.panel_A.Controls.Add(this.class_A);
             this.panel_A.Location = new System.Drawing.Point(12, 198);
             this.panel_A.Name = "panel_A";
             this.panel_A.Size = new System.Drawing.Size(397, 265);
             this.panel_A.TabIndex = 69;
             this.panel_A.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // class11
+            // class_A
             // 
-            this.class11.Location = new System.Drawing.Point(3, 3);
-            this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(364, 224);
-            this.class11.TabIndex = 76;
-            // 
-            // RadioButton11
-            // 
-            this.RadioButton11.AutoSize = true;
-            this.RadioButton11.Location = new System.Drawing.Point(16, 233);
-            this.RadioButton11.Name = "RadioButton11";
-            this.RadioButton11.Size = new System.Drawing.Size(172, 17);
-            this.RadioButton11.TabIndex = 75;
-            this.RadioButton11.TabStop = true;
-            this.RadioButton11.Text = "Outro/Não sabe/não responde";
-            this.RadioButton11.UseVisualStyleBackColor = true;
+            this.class_A.Location = new System.Drawing.Point(3, 3);
+            this.class_A.Name = "class_A";
+            this.class_A.Radios = ((System.Collections.Generic.Dictionary<string, System.Windows.Forms.RadioButton>)(resources.GetObject("class_A.Radios")));
+            this.class_A.Size = new System.Drawing.Size(364, 259);
+            this.class_A.TabIndex = 76;
             // 
             // Button1
             // 
@@ -134,7 +123,6 @@
             this.Load += new System.EventHandler(this.A3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             this.panel_A.ResumeLayout(false);
-            this.panel_A.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,9 +135,8 @@
         internal System.Windows.Forms.Label Label2;
         internal System.Windows.Forms.Label Label1;
         private System.Windows.Forms.Panel panel_A;
-        internal System.Windows.Forms.RadioButton RadioButton11;
         internal System.Windows.Forms.PictureBox PictureBox2;
-        private ClassLibrary1.Class1 class11;
+        private ClassLibrary1.Class1 class_A;
         //private ClassLibrary1.Class1 class11;
     }
 }

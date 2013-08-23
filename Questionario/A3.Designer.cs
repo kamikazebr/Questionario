@@ -29,88 +29,64 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(A3));
-            this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_A = new System.Windows.Forms.Panel();
             this.class_A = new ClassLibrary1.Class1();
             this.Button1 = new System.Windows.Forms.Button();
             this.Label3 = new System.Windows.Forms.Label();
             this.Label2 = new System.Windows.Forms.Label();
             this.Label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
+            this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_A.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // PictureBox2
-            // 
-            this.PictureBox2.Image = global::Questionario.Properties.Resources.psyma_logo;
-            this.PictureBox2.Location = new System.Drawing.Point(26, 25);
-            this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.Size = new System.Drawing.Size(186, 60);
-            this.PictureBox2.TabIndex = 123;
-            this.PictureBox2.TabStop = false;
             // 
             // panel_A
             // 
+            resources.ApplyResources(this.panel_A, "panel_A");
             this.panel_A.Controls.Add(this.class_A);
-            this.panel_A.Location = new System.Drawing.Point(12, 198);
             this.panel_A.Name = "panel_A";
-            this.panel_A.Size = new System.Drawing.Size(397, 265);
-            this.panel_A.TabIndex = 69;
             this.panel_A.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // class_A
             // 
-            this.class_A.Location = new System.Drawing.Point(3, 3);
+            resources.ApplyResources(this.class_A, "class_A");
             this.class_A.Name = "class_A";
             this.class_A.Radios = ((System.Collections.Generic.Dictionary<string, System.Windows.Forms.RadioButton>)(resources.GetObject("class_A.Radios")));
-            this.class_A.Size = new System.Drawing.Size(364, 259);
-            this.class_A.TabIndex = 76;
             // 
             // Button1
             // 
-            this.Button1.Location = new System.Drawing.Point(942, 598);
+            resources.ApplyResources(this.Button1, "Button1");
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(254, 110);
-            this.Button1.TabIndex = 66;
-            this.Button1.Text = "Próxima questão";
             this.Button1.UseVisualStyleBackColor = true;
             this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Label3
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(22, 155);
+            resources.ApplyResources(this.Label3, "Label3");
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(21, 20);
-            this.Label3.TabIndex = 55;
-            this.Label3.Text = "...";
             // 
             // Label2
             // 
-            this.Label2.AutoSize = true;
+            resources.ApplyResources(this.Label2, "Label2");
             this.Label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Label2.Location = new System.Drawing.Point(24, 130);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(256, 13);
-            this.Label2.TabIndex = 54;
-            this.Label2.Text = "ENT: verifique os documentos de registro do veículo";
             // 
             // Label1
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(22, 97);
+            resources.ApplyResources(this.Label1, "Label1");
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(294, 24);
-            this.Label1.TabIndex = 53;
-            this.Label1.Text = "A.3. Marca do Veículo da Cota";
+            // 
+            // PictureBox2
+            // 
+            resources.ApplyResources(this.PictureBox2, "PictureBox2");
+            this.PictureBox2.Image = global::Questionario.Properties.Resources.psyma_logo;
+            this.PictureBox2.Name = "PictureBox2";
+            this.PictureBox2.TabStop = false;
             // 
             // A3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1219, 721);
             this.Controls.Add(this.PictureBox2);
             this.Controls.Add(this.panel_A);
             this.Controls.Add(this.Button1);
@@ -118,11 +94,10 @@
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.Label1);
             this.Name = "A3";
-            this.Text = "A3";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.A3_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             this.panel_A.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

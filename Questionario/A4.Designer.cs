@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(A4));
             this.Label3 = new System.Windows.Forms.Label();
             this.Label1 = new System.Windows.Forms.Label();
             this.Button1 = new System.Windows.Forms.Button();
             this.panel_A = new System.Windows.Forms.Panel();
-            this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.class11 = new ClassLibrary1.Class1();
+            this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_A.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -54,9 +55,9 @@
             this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label1.Location = new System.Drawing.Point(18, 109);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(307, 24);
+            this.Label1.Size = new System.Drawing.Size(340, 24);
             this.Label1.TabIndex = 66;
-            this.Label1.Text = "A.4. Modelo do Veículo da Cota";
+            this.Label1.Text = "A.4. Modelo del vehículo en cuotas";
             // 
             // Button1
             // 
@@ -64,7 +65,7 @@
             this.Button1.Name = "Button1";
             this.Button1.Size = new System.Drawing.Size(254, 110);
             this.Button1.TabIndex = 65;
-            this.Button1.Text = "Próxima questão";
+            this.Button1.Text = "Siguiente Pregunta";
             this.Button1.UseVisualStyleBackColor = true;
             this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
@@ -76,6 +77,14 @@
             this.panel_A.Size = new System.Drawing.Size(530, 239);
             this.panel_A.TabIndex = 80;
             // 
+            // class11
+            // 
+            this.class11.Location = new System.Drawing.Point(3, 3);
+            this.class11.Name = "class11";
+            this.class11.Radios = ((System.Collections.Generic.Dictionary<string, System.Windows.Forms.RadioButton>)(resources.GetObject("class11.Radios")));
+            this.class11.Size = new System.Drawing.Size(449, 233);
+            this.class11.TabIndex = 0;
+            // 
             // PictureBox2
             // 
             this.PictureBox2.Image = global::Questionario.Properties.Resources.psyma_logo;
@@ -84,13 +93,6 @@
             this.PictureBox2.Size = new System.Drawing.Size(186, 60);
             this.PictureBox2.TabIndex = 79;
             this.PictureBox2.TabStop = false;
-            // 
-            // class11
-            // 
-            this.class11.Location = new System.Drawing.Point(3, 3);
-            this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(449, 233);
-            this.class11.TabIndex = 0;
             // 
             // A4
             // 

@@ -117,143 +117,69 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 364</value>
-  </data>
-  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 20</value>
-  </data>
-  <data name="Label4.Text" xml:space="preserve">
-    <value>Papeles disponibles</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="Button1.Text" xml:space="preserve">
     <value>Siguiente Pregunta</value>
   </data>
-  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>241, 20</value>
+  <data name="RadioButton10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="Label3.Text" xml:space="preserve">
-    <value>Fuente para llegar al participante</value>
+  <data name="RadioButton7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
+  <data name="RadioButton8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioButton9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 13</value>
+    <value>124, 13</value>
   </data>
   <data name="Label2.Text" xml:space="preserve">
-    <value>ENT: Por favor,rellenelos siguientes datos sobre la entrevista:</value>
+    <value>ENT: Muestre la lista A.6</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 24</value>
+    <value>492, 24</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
-    <value>A.0. Estadísticas de la entrevista</value>
+    <value>A.6. 	(A.19)Tipo de carrocería del vehículo encuotas</value>
   </data>
-  <data name="RadioButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 17</value>
+  <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="RadioButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 17</value>
-  </data>
-  <data name="RadioButton1.Text" xml:space="preserve">
-    <value>1 - Lista de direcciones por encuestas / lista de direcciones de la muestra (comprada)</value>
-  </data>
-  <data name="RadioButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 109</value>
-  </data>
-  <data name="RadioButton5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>359, 17</value>
-  </data>
-  <data name="RadioButton5.Text" xml:space="preserve">
-    <value>5 - Reclutamiento por parte del entrevistador en otro lugar, especifique:</value>
-  </data>
-  <data name="RadioButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 63</value>
-  </data>
-  <data name="RadioButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>621, 17</value>
-  </data>
-  <data name="RadioButton3.Text" xml:space="preserve">
-    <value>3 - Reclutamiento por parte del entrevistador en las calles, estacionamientos, en el centro de la ciudad, en centros comerciales</value>
-  </data>
-  <data name="RadioButton4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 86</value>
-  </data>
-  <data name="RadioButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 17</value>
-  </data>
-  <data name="RadioButton4.Text" xml:space="preserve">
-    <value>4 - Contacto personal</value>
-  </data>
-  <data name="RadioButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 40</value>
-  </data>
-  <data name="RadioButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>349, 17</value>
-  </data>
-  <data name="RadioButton2.Text" xml:space="preserve">
-    <value>2 - Reclutamiento mediante un centro de recopilación de información</value>
-  </data>
-  <data name="TextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>369, 108</value>
-  </data>
-  <data name="panel_A.Size" type="System.Drawing.Size, System.Drawing">
-    <value>676, 145</value>
-  </data>
-  <data name="BradioButton6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 132</value>
-  </data>
-  <data name="BradioButton6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 17</value>
-  </data>
-  <data name="BradioButton6.Text" xml:space="preserve">
-    <value>6 - Ninguno de los anteriores</value>
-  </data>
-  <data name="BradioButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 111</value>
-  </data>
-  <data name="BradioButton5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 17</value>
-  </data>
-  <data name="BradioButton5.Text" xml:space="preserve">
-    <value>5 - Contrato de arrendamiento</value>
-  </data>
-  <data name="BradioButton4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 88</value>
-  </data>
-  <data name="BradioButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 17</value>
-  </data>
-  <data name="BradioButton4.Text" xml:space="preserve">
-    <value>4 - Otro financiamiento</value>
-  </data>
-  <data name="BradioButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 65</value>
-  </data>
-  <data name="BradioButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 17</value>
-  </data>
-  <data name="BradioButton3.Text" xml:space="preserve">
-    <value>3 - Plan de Ahorro </value>
-  </data>
-  <data name="BradioButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 14</value>
-  </data>
-  <data name="BradioButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 17</value>
-  </data>
-  <data name="BradioButton1.Text" xml:space="preserve">
-    <value>1 - Recibo de compra o facturadel vehículo encuotas</value>
-  </data>
-  <data name="CheckBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 39</value>
-  </data>
-  <data name="CheckBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 20</value>
-  </data>
-  <data name="CheckBox2.Text" xml:space="preserve">
-    <value>2 - Papeles de registro /tarjeta de registro </value>
-  </data>
-  <data name="panel_B.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 399</value>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
 </root>

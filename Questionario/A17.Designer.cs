@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(A17));
             this.Button1 = new System.Windows.Forms.Button();
             this.Label5 = new System.Windows.Forms.Label();
             this.Label6 = new System.Windows.Forms.Label();
@@ -37,11 +38,11 @@
             this.Label1 = new System.Windows.Forms.Label();
             this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_A = new System.Windows.Forms.Panel();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.Label7 = new System.Windows.Forms.Label();
             this.RadioButton3 = new System.Windows.Forms.RadioButton();
             this.RadioButton1 = new System.Windows.Forms.RadioButton();
             this.RadioButton2 = new System.Windows.Forms.RadioButton();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.panel_A.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -49,159 +50,108 @@
             // 
             // Button1
             // 
-            this.Button1.Location = new System.Drawing.Point(950, 595);
+            resources.ApplyResources(this.Button1, "Button1");
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(254, 110);
-            this.Button1.TabIndex = 224;
-            this.Button1.Text = "Próxima questão";
             this.Button1.UseVisualStyleBackColor = true;
             this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Label5
             // 
-            this.Label5.AutoSize = true;
+            resources.ApplyResources(this.Label5, "Label5");
             this.Label5.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Label5.Location = new System.Drawing.Point(15, 174);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(0, 13);
-            this.Label5.TabIndex = 222;
             // 
             // Label6
             // 
-            this.Label6.AutoSize = true;
+            resources.ApplyResources(this.Label6, "Label6");
             this.Label6.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Label6.Location = new System.Drawing.Point(15, 161);
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(248, 13);
-            this.Label6.TabIndex = 221;
-            this.Label6.Text = "ENT: Se não souber o valor, peça uma estimativa. ";
             // 
             // Label4
             // 
-            this.Label4.AutoSize = true;
+            resources.ApplyResources(this.Label4, "Label4");
             this.Label4.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Label4.Location = new System.Drawing.Point(15, 148);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(240, 13);
-            this.Label4.TabIndex = 220;
-            this.Label4.Text = "ENT: Favor ler da nota fiscal do Veículo da Cota.";
             // 
             // Label3
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(14, 202);
+            resources.ApplyResources(this.Label3, "Label3");
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(342, 20);
-            this.Label3.TabIndex = 214;
-            this.Label3.Text = "Qual é o valor mensal da prestação do leasing?";
             // 
             // Label2
             // 
-            this.Label2.AutoSize = true;
+            resources.ApplyResources(this.Label2, "Label2");
             this.Label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Label2.Location = new System.Drawing.Point(15, 135);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(16, 13);
-            this.Label2.TabIndex = 213;
-            this.Label2.Text = "...";
             // 
             // Label1
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(14, 104);
+            resources.ApplyResources(this.Label1, "Label1");
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(356, 24);
-            this.Label1.TabIndex = 212;
-            this.Label1.Text = "A.17.\t\t(A.14c) Valor mensal do leasing";
             // 
             // PictureBox2
             // 
+            resources.ApplyResources(this.PictureBox2, "PictureBox2");
             this.PictureBox2.Image = global::Questionario.Properties.Resources.psyma_logo;
-            this.PictureBox2.Location = new System.Drawing.Point(18, 29);
             this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.Size = new System.Drawing.Size(186, 60);
-            this.PictureBox2.TabIndex = 225;
             this.PictureBox2.TabStop = false;
             // 
             // panel_A
             // 
+            resources.ApplyResources(this.panel_A, "panel_A");
             this.panel_A.Controls.Add(this.numericUpDown1);
             this.panel_A.Controls.Add(this.Label7);
             this.panel_A.Controls.Add(this.RadioButton3);
             this.panel_A.Controls.Add(this.RadioButton1);
             this.panel_A.Controls.Add(this.RadioButton2);
-            this.panel_A.Location = new System.Drawing.Point(18, 234);
             this.panel_A.Name = "panel_A";
-            this.panel_A.Size = new System.Drawing.Size(391, 154);
-            this.panel_A.TabIndex = 226;
-            // 
-            // Label7
-            // 
-            this.Label7.AutoSize = true;
-            this.Label7.Location = new System.Drawing.Point(294, 30);
-            this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(28, 13);
-            this.Label7.TabIndex = 228;
-            this.Label7.Text = "BRL";
-            // 
-            // RadioButton3
-            // 
-            this.RadioButton3.AutoSize = true;
-            this.RadioButton3.Location = new System.Drawing.Point(21, 68);
-            this.RadioButton3.Name = "RadioButton3";
-            this.RadioButton3.Size = new System.Drawing.Size(92, 17);
-            this.RadioButton3.TabIndex = 226;
-            this.RadioButton3.TabStop = true;
-            this.RadioButton3.Text = "Não responde";
-            this.RadioButton3.UseVisualStyleBackColor = true;
-            // 
-            // RadioButton1
-            // 
-            this.RadioButton1.AutoSize = true;
-            this.RadioButton1.Location = new System.Drawing.Point(21, 28);
-            this.RadioButton1.Name = "RadioButton1";
-            this.RadioButton1.Size = new System.Drawing.Size(201, 17);
-            this.RadioButton1.TabIndex = 225;
-            this.RadioButton1.TabStop = true;
-            this.RadioButton1.Tag = "TextBox1";
-            this.RadioButton1.Text = "Valor mensal da prestação do leasing";
-            this.RadioButton1.UseVisualStyleBackColor = true;
-            // 
-            // RadioButton2
-            // 
-            this.RadioButton2.AutoSize = true;
-            this.RadioButton2.Location = new System.Drawing.Point(21, 49);
-            this.RadioButton2.Name = "RadioButton2";
-            this.RadioButton2.Size = new System.Drawing.Size(71, 17);
-            this.RadioButton2.TabIndex = 224;
-            this.RadioButton2.TabStop = true;
-            this.RadioButton2.Text = "Não sabe";
-            this.RadioButton2.UseVisualStyleBackColor = true;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(228, 28);
+            resources.ApplyResources(this.numericUpDown1, "numericUpDown1");
             this.numericUpDown1.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(67, 20);
-            this.numericUpDown1.TabIndex = 227;
             this.numericUpDown1.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
             // 
+            // Label7
+            // 
+            resources.ApplyResources(this.Label7, "Label7");
+            this.Label7.Name = "Label7";
+            // 
+            // RadioButton3
+            // 
+            resources.ApplyResources(this.RadioButton3, "RadioButton3");
+            this.RadioButton3.Name = "RadioButton3";
+            this.RadioButton3.TabStop = true;
+            this.RadioButton3.UseVisualStyleBackColor = true;
+            // 
+            // RadioButton1
+            // 
+            resources.ApplyResources(this.RadioButton1, "RadioButton1");
+            this.RadioButton1.Name = "RadioButton1";
+            this.RadioButton1.TabStop = true;
+            this.RadioButton1.Tag = "TextBox1";
+            this.RadioButton1.UseVisualStyleBackColor = true;
+            // 
+            // RadioButton2
+            // 
+            resources.ApplyResources(this.RadioButton2, "RadioButton2");
+            this.RadioButton2.Name = "RadioButton2";
+            this.RadioButton2.TabStop = true;
+            this.RadioButton2.UseVisualStyleBackColor = true;
+            // 
             // A17
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1219, 730);
             this.Controls.Add(this.panel_A);
             this.Controls.Add(this.PictureBox2);
             this.Controls.Add(this.Button1);
@@ -212,7 +162,6 @@
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.Label1);
             this.Name = "A17";
-            this.Text = "A17";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.A17_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();

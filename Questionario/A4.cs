@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -21,26 +22,34 @@ namespace Questionario
         {
             bool onePanelFoi = false;
             Dictionary<string, object> row = new Dictionary<string, object>();
-            onePanelFoi = findPanels(row, onePanelFoi);
-            if (onePanelFoi)
+            try
             {
 
-                updateRow(row);
+                onePanelFoi = findPanels(row, onePanelFoi);
+                if (onePanelFoi)
+                {
 
-                //if (this.RadioButton11.Checked)
-                //{
-                //    MessageBox.Show("Salvo! - Encerrando");
-                //    Application.Exit();
-                //}
-                //else
-                //{
+                    updateRow(row);
+
+                    //if (this.RadioButton11.Checked)
+                    //{
+                    //    MessageBox.Show("Salvo! - Encerrando");
+                    //    Application.Exit();
+                    //}
+                    //else
+                    //{
                     //MessageBox.Show("Salvo! - Passar implementacao para proxima tela");
-                goToForm(new A5());
-                //}
+                    goToForm(new A5());
+                    //}
+                }
+                else
+                {
+                    MessageBox.Show("Selecione uma das opcoes antes de continuar!");
+                }
             }
-            else
+            catch (OleDbException ex)
             {
-                MessageBox.Show("Selecione uma das opcoes antes de continuar!");
+                MessageBox.Show(String.Format("Cod:{0}: {1}", ex.ErrorCode, ex.Message));
             }
         }
 

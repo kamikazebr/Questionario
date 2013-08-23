@@ -22,14 +22,16 @@ namespace Questionario
         {
 
             Dictionary<String, Object> row = new Dictionary<string, object>();
-
-            //rowCurrent = dataTable.NewRow();
-            //dataTable.Rows.Add(rowCurrent);
-            row["data"] = DateTime.Now;
-
-            bool onePanelFoi = false;
             try
             {
+
+
+                //rowCurrent = dataTable.NewRow();
+                //dataTable.Rows.Add(rowCurrent);
+                row["data"] = DateTime.Now;
+
+                bool onePanelFoi = false;
+
                 onePanelFoi = findPanels(row, onePanelFoi);
                 if (onePanelFoi)
                 {
@@ -47,12 +49,6 @@ namespace Questionario
                 MessageBox.Show(String.Format("Cod:{0}: {1}", ex.ErrorCode, ex.Message));
             }
         }
-
-        
-
-
-        
-
         private void A0_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'bancoDataSet.questionario' table. You can move, or remove it, as needed.
@@ -61,7 +57,7 @@ namespace Questionario
                 return;
             }
             Console.WriteLine("Native lingua: {0}", System.Globalization.CultureInfo.CurrentCulture.Name);
-        
+
         }
 
         private void RadioButton1_CheckedChanged(object sender, EventArgs e)
@@ -69,6 +65,6 @@ namespace Questionario
 
         }
 
-               
+
     }
 }

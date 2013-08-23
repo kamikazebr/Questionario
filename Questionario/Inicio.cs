@@ -28,7 +28,6 @@ namespace Questionario
         {
             
             System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo((string)((Control)sender).Tag,true);
-            //System.Threading.Thread.CurrentThread.Def CurrentCulture = ci;
             System.Globalization.CultureInfo.DefaultThreadCurrentCulture = ci;
             System.Globalization.CultureInfo.DefaultThreadCurrentUICulture= ci;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
@@ -69,6 +68,32 @@ namespace Questionario
                 MessageBox.Show(String.Format("Cod:{0}: {1}", ex.ErrorCode, ex.Message));
                 Application.DoEvents();
                 Application.Exit();
+            }
+
+            this.lastID = (int)LastIDNaoEncerrado();
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Inicio_Shown(object sender, EventArgs e)
+        {
+            try
+            {
+                string lll = (string)rowCurrent[col_idioma];
+                System.Globalization.CultureInfo ci = new System.Globalization.CultureInfo(lll, true);
+                System.Globalization.CultureInfo.DefaultThreadCurrentCulture = ci;
+                System.Globalization.CultureInfo.DefaultThreadCurrentUICulture = ci;
+                System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
+                RefreshResources(this, resources, ci);
+                radioButton1.Enabled = false;
+                radioButton1.Enabled = false;
+                
+            }catch(NullReferenceException){
+                button3.Enabled = false;
             }
             
         }

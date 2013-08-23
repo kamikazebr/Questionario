@@ -36,16 +36,16 @@
             this.Label3 = new System.Windows.Forms.Label();
             this.Label2 = new System.Windows.Forms.Label();
             this.Label1 = new System.Windows.Forms.Label();
-            this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_A = new System.Windows.Forms.Panel();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.Label7 = new System.Windows.Forms.Label();
             this.RadioButton3 = new System.Windows.Forms.RadioButton();
             this.RadioButton1 = new System.Windows.Forms.RadioButton();
             this.RadioButton2 = new System.Windows.Forms.RadioButton();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
+            this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_A.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // Button1
@@ -88,13 +88,6 @@
             // 
             resources.ApplyResources(this.Label1, "Label1");
             this.Label1.Name = "Label1";
-            // 
-            // PictureBox2
-            // 
-            resources.ApplyResources(this.PictureBox2, "PictureBox2");
-            this.PictureBox2.Image = global::Questionario.Properties.Resources.psyma_logo;
-            this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.TabStop = false;
             // 
             // panel_A
             // 
@@ -148,6 +141,13 @@
             this.RadioButton2.TabStop = true;
             this.RadioButton2.UseVisualStyleBackColor = true;
             // 
+            // PictureBox2
+            // 
+            resources.ApplyResources(this.PictureBox2, "PictureBox2");
+            this.PictureBox2.Image = global::Questionario.Properties.Resources.psyma_logo;
+            this.PictureBox2.Name = "PictureBox2";
+            this.PictureBox2.TabStop = false;
+            // 
             // A17
             // 
             resources.ApplyResources(this, "$this");
@@ -164,10 +164,10 @@
             this.Name = "A17";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.A17_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             this.panel_A.ResumeLayout(false);
             this.panel_A.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

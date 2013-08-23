@@ -13,6 +13,7 @@ namespace Questionario
 {
 
     using CustomExtensions;
+    using System.Data.OleDb;
     public partial class A3 : MyForm
     {
         public A3()
@@ -24,26 +25,34 @@ namespace Questionario
         {
             bool onePanelFoi = false;
             Dictionary<string, object> row = new Dictionary<string, object>();
-            onePanelFoi = findPanels(row, onePanelFoi);
-            if (onePanelFoi)
+            try
             {
 
-                updateRow(row);
-
-                if (this.class_A.Radios["11"].Checked)
+                onePanelFoi = findPanels(row, onePanelFoi);
+                if (onePanelFoi)
                 {
-                    MessageBox.Show("Salvo! - Encerrando");
-                    Application.Exit();
+
+                    updateRow(row);
+
+                    if (this.class_A.Radios["11"].Checked)
+                    {
+                        MessageBox.Show("Salvo! - Encerrando");
+                        Application.Exit();
+                    }
+                    else
+                    {
+
+                        goToForm(new A4());
+                    }
                 }
                 else
                 {
-              
-                    goToForm(new A4());
+                    MessageBox.Show("Selecione uma das opcoes antes de continuar!");
                 }
             }
-            else
+            catch (OleDbException ex)
             {
-                MessageBox.Show("Selecione uma das opcoes antes de continuar!");
+                MessageBox.Show(String.Format("Cod:{0}: {1}", ex.ErrorCode, ex.Message));
             }
         }
 
@@ -87,26 +96,26 @@ namespace Questionario
             if (!isPT())
                 listVisiveis.Add("4");
             listVisiveis.Add("5");
-             if (isPT())
-                 listVisiveis.Add("6");
-             listVisiveis.Add("7");
-             listVisiveis.Add("8");
-             listVisiveis.Add("9");
-             if (isPT())
-                 listVisiveis.Add("10");
+            if (isPT())
+                listVisiveis.Add("6");
+            listVisiveis.Add("7");
+            listVisiveis.Add("8");
+            listVisiveis.Add("9");
+            if (isPT())
+                listVisiveis.Add("10");
 
 
 
-             listVisiveis.Shuffle();
+            listVisiveis.Shuffle();
 
 
-             list.Add("Outros/Não sabe/Não responde");
-             listVisiveis.Add("11");
+            list.Add("Outros/Não sabe/Não responde");
+            listVisiveis.Add("11");
 
-             class_A.Lista = list;
-             class_A.Visiveis = listVisiveis;
+            class_A.Lista = list;
+            class_A.Visiveis = listVisiveis;
         }
-      
+
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {

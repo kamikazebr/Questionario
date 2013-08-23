@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Questionario
 {
-    public partial class A1:MyForm
+    public partial class A1 : MyForm
     {
         public A1()
         {
@@ -22,29 +23,37 @@ namespace Questionario
 
             bool onePanelFoi = false;
             Dictionary<string, object> row = new Dictionary<string, object>();
-            onePanelFoi = findPanels(row, onePanelFoi);
-            if (onePanelFoi)
+            try
             {
 
-                updateRow(row);
-
-                if (this.numericUpDown1.Value == 0 || RadioButton2.Checked)
+                onePanelFoi = findPanels(row, onePanelFoi);
+                if (onePanelFoi)
                 {
-                    goToForm(new Encerrado());
+
+                    updateRow(row);
+
+                    if (this.numericUpDown1.Value == 0 || RadioButton2.Checked)
+                    {
+                        goToForm(new Encerrado());
+                    }
+                    else
+                    {
+                        //MessageBox.Show("Salvo! - Passar implementacao para proxima tela");
+                        //goToForm(new A3());
+                        goToForm(new A2());
+                    }
+
+
+                    //MessageBox.Show("Salvo! - Passar implementacao para proxima tela");
                 }
                 else
                 {
-                    //MessageBox.Show("Salvo! - Passar implementacao para proxima tela");
-                    //goToForm(new A3());
-                    goToForm(new A2());
+                    MessageBox.Show("Selecione uma das opcoes antes de continuar!");
                 }
-
-               
-                //MessageBox.Show("Salvo! - Passar implementacao para proxima tela");
             }
-            else
+            catch (OleDbException ex)
             {
-                MessageBox.Show("Selecione uma das opcoes antes de continuar!");
+                MessageBox.Show(String.Format("Cod:{0}: {1}", ex.ErrorCode, ex.Message));
             }
         }
 

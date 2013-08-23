@@ -33,6 +33,8 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.button3 = new System.Windows.Forms.Button();
+            this.idiomaPanel = new System.Windows.Forms.Panel();
+            this.idiomaPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // button2
@@ -67,19 +69,26 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // idiomaPanel
+            // 
+            this.idiomaPanel.Controls.Add(this.radioButton1);
+            this.idiomaPanel.Controls.Add(this.radioButton2);
+            resources.ApplyResources(this.idiomaPanel, "idiomaPanel");
+            this.idiomaPanel.Name = "idiomaPanel";
+            // 
             // Inicio
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.idiomaPanel);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.button2);
             this.Name = "Inicio";
             this.Load += new System.EventHandler(this.Inicio_Load);
             this.Shown += new System.EventHandler(this.Inicio_Shown);
+            this.idiomaPanel.ResumeLayout(false);
+            this.idiomaPanel.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -89,5 +98,6 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel idiomaPanel;
     }
 }

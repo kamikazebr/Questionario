@@ -117,7 +117,7 @@ namespace Questionario
             //adapter = new bancoDataSetTableAdapters.questionarioTableAdapter();
             //dataTable = new bancoDataSet.questionarioDataTable();
             //adapter.Fill(dataTable);
-            if (lastID != 0)
+            if (lastID != -1)
             {
                 rowCurrent = dataTable.Rows[dataTable.Rows.Count-1];
                 //rowCurrent = dataTable.Rows.Find(lastID);
@@ -308,7 +308,7 @@ namespace Questionario
 
         public object LastIDNaoEncerrado()
         {
-            global::System.Data.OleDb.OleDbCommand command = new OleDbCommand("",null);
+            global::System.Data.OleDb.OleDbCommand command = new OleDbCommand("select id from questionario where (encerrado IS NULL) OR (encerrado = 0) order by 1 desc", new OleDbConnection(Properties.Settings.Default.bancoConnectionString));
             global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
             if (((command.Connection.State & global::System.Data.ConnectionState.Open)
                         != global::System.Data.ConnectionState.Open))

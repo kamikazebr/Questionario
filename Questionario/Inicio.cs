@@ -69,9 +69,8 @@ namespace Questionario
                 Application.DoEvents();
                 Application.Exit();
             }
-
-            this.lastID = (int)LastIDNaoEncerrado();
-            
+            object t = LastIDNaoEncerrado();
+            this.lastID = t==null ?-1:(int)t;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -89,9 +88,7 @@ namespace Questionario
                 System.Globalization.CultureInfo.DefaultThreadCurrentUICulture = ci;
                 System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
                 RefreshResources(this, resources, ci);
-                radioButton1.Enabled = false;
-                radioButton1.Enabled = false;
-                
+                idiomaPanel.Visible = false;
             }catch(NullReferenceException){
                 button3.Enabled = false;
             }

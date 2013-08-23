@@ -435,9 +435,14 @@ namespace Questionario
             //My.rowCurrent = rowCurrent;
 
             Dictionary<string,object> row = new Dictionary<string,object>();
-            row[col_ultima] = this.Name;
 
-            updateRow(row);
+            if (!this.Name.Equals("Inicio", StringComparison.OrdinalIgnoreCase)
+                || !this.Name.Equals("Encerrado", StringComparison.OrdinalIgnoreCase))
+            {
+                row[col_ultima] = this.Name;
+                updateRow(row);
+            }
+
             Pilhas.Push(this);
             this.Hide();
             mf.Show();

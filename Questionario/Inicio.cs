@@ -75,7 +75,12 @@ namespace Questionario
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            string ultimaTela = (string)rowCurrent[col_ultima];
+            if (ultimaTela != null){
+                Console.WriteLine();
+                MyForm mf = (MyForm)Activator.CreateInstance(Type.GetType("Questionario." + ultimaTela, true));
+               goToForm(mf);
+            }
         }
 
         private void Inicio_Shown(object sender, EventArgs e)

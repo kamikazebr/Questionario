@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.OleDb;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -304,6 +305,39 @@ namespace Questionario
                 MessageBox.Show(ex.ErrorCode.ToString());
             }
         }
+
+        public object LastIDNaoEncerrado()
+        {
+            global::System.Data.OleDb.OleDbCommand command = new OleDbCommand("",null);
+            global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
+            if (((command.Connection.State & global::System.Data.ConnectionState.Open)
+                        != global::System.Data.ConnectionState.Open))
+            {
+                command.Connection.Open();
+            }
+            object returnValue;
+            try
+            {
+                returnValue = command.ExecuteScalar();
+            }
+            finally
+            {
+                if ((previousConnectionState == global::System.Data.ConnectionState.Closed))
+                {
+                    command.Connection.Close();
+                }
+            }
+            if (((returnValue == null)
+                        || (returnValue.GetType() == typeof(global::System.DBNull))))
+            {
+                return null;
+            }
+            else
+            {
+                return ((object)(returnValue));
+            }
+        }
+
         public object LastID() {
             global::System.Data.OleDb.OleDbCommand command = adapter.SelectCommand;
             global::System.Data.ConnectionState previousConnectionState = command.Connection.State;

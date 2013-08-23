@@ -315,11 +315,20 @@
     <EmbeddedResource Include="A16.resx">
       <DependentUpon>A16.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="A17.es.resx">
+      <DependentUpon>A17.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="A17.resx">
       <DependentUpon>A17.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="A18.es.resx">
+      <DependentUpon>A18.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="A18.resx">
       <DependentUpon>A18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A19.es.resx">
+      <DependentUpon>A19.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A19.resx">
       <DependentUpon>A19.cs</DependentUpon>
@@ -330,32 +339,62 @@
     <EmbeddedResource Include="A2.resx">
       <DependentUpon>A2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="A20.es.resx">
+      <DependentUpon>A20.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="A20.resx">
       <DependentUpon>A20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A21.es.resx">
+      <DependentUpon>A21.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A21.resx">
       <DependentUpon>A21.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="A22.es.resx">
+      <DependentUpon>A22.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="A22.resx">
       <DependentUpon>A22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A23.es.resx">
+      <DependentUpon>A23.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A23.resx">
       <DependentUpon>A23.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="A24.es.resx">
+      <DependentUpon>A24.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="A24.resx">
       <DependentUpon>A24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A25.es.resx">
+      <DependentUpon>A25.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A25.resx">
       <DependentUpon>A25.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="A26.es.resx">
+      <DependentUpon>A26.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="A26.resx">
       <DependentUpon>A26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A27.es.resx">
+      <DependentUpon>A27.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A27.resx">
       <DependentUpon>A27.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="A28.es.resx">
+      <DependentUpon>A28.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="A28.resx">
       <DependentUpon>A28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A29.es.resx">
+      <DependentUpon>A29.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A29.resx">
       <DependentUpon>A29.cs</DependentUpon>
@@ -365,6 +404,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="A3.resx">
       <DependentUpon>A3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A30.es.resx">
+      <DependentUpon>A30.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A30.resx">
       <DependentUpon>A30.cs</DependentUpon>

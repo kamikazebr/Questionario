@@ -62,14 +62,14 @@ namespace Questionario
             {
                 return;
             }
-            string msg = "De que marca é sua van?";
+            string msg = isPT() ? "De que marca é sua van?" : "¿Cuál es la marca de su camioneta?";
             int A1 = (int)rowCurrent["A1_A"];
             if (A1 == 1)
             {
                 int A1_EXTRAS = convertStringToInt((string)rowCurrent["A1_A_EXTRAS"]);
                 if (A1_EXTRAS > 1)
                 {
-                    msg = "De que marca é a sua van mais nova, <b>cujo ano modelo seja 2009 ou mais recente?</b>";
+                    msg = isPT() ? "De que marca é a sua van mais nova, cujo ano modelo seja 2009 ou mais recente?" : "¿Cuál es la marca de la camioneta que compró últimamente,modelo 2009 o más reciente?";
                 }
             }
             Label3.Text = msg;

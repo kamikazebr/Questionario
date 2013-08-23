@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.OleDb;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,12 +17,32 @@ namespace Questionario
         public OleDbDataAdapter adapter;
         public static DataSet dataSet;
         public static DataTable dataTable;
+
         //private OleDbConnection conn;
         private string tableName = "questionario";
 
-        public Stack<MyForm> pilhas { get; set; }
-        public int lastID { get; set; }
+        public static Stack<MyForm> _pilhas;
 
+        public static Stack<MyForm> Pilhas {
+            get {
+                if (_pilhas == null)
+                {
+                    _pilhas = new Stack<MyForm>();
+                }
+                return _pilhas;
+                }
+            set { _pilhas = value; }
+        }
+        
+        public int lastID { get; set; }
+        public String col_idioma = "idioma";
+        public String col_idioma_type = "TEXT";
+
+        public String col_encerrado = "encerrado";
+        public String col_encerrado_type = "int";
+
+        public String col_ultima = "ultima";
+        public String col_ultima_type = "TEXT";
 
         private global::System.Data.OleDb.OleDbCommand[] _commandCollection;
 
@@ -49,6 +70,10 @@ namespace Questionario
             initDB();
             
         }
+        public void buttonBack_Click(object sender, EventArgs e)
+        {
+            backToForm();
+        }
         private void MyForm_Load(object sender, EventArgs e)
         {
             if (this.DesignMode)
@@ -56,6 +81,22 @@ namespace Questionario
                 return;
             }
             //initDB();
+            if (this.Controls.ContainsKey("button1"))
+            {
+                this.SuspendLayout();
+                Button buttonBack = new System.Windows.Forms.Button();
+                //resources.ApplyResources(buttonBack, "buttonBack");
+                buttonBack.Name = "buttonBack";
+                buttonBack.UseVisualStyleBackColor = true;
+                buttonBack.Size = this.Controls["button1"].Size;
+                buttonBack.Location = new System.Drawing.Point(this.Controls["button1"].Location.X - buttonBack.Size.Width - 50, this.Controls["button1"].Location.Y);
+                buttonBack.Text = isPT() ? "Voltar" : "Volver";
+                buttonBack.Click += buttonBack_Click;
+                this.Controls.Add(buttonBack);
+                this.ResumeLayout(false);
+                this.PerformLayout();
+
+            }
         }
 
         public void initDB()
@@ -264,6 +305,39 @@ namespace Questionario
                 MessageBox.Show(ex.ErrorCode.ToString());
             }
         }
+
+        public object LastIDNaoEncerrado()
+        {
+            global::System.Data.OleDb.OleDbCommand command = new OleDbCommand("",null);
+            global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
+            if (((command.Connection.State & global::System.Data.ConnectionState.Open)
+                        != global::System.Data.ConnectionState.Open))
+            {
+                command.Connection.Open();
+            }
+            object returnValue;
+            try
+            {
+                returnValue = command.ExecuteScalar();
+            }
+            finally
+            {
+                if ((previousConnectionState == global::System.Data.ConnectionState.Closed))
+                {
+                    command.Connection.Close();
+                }
+            }
+            if (((returnValue == null)
+                        || (returnValue.GetType() == typeof(global::System.DBNull))))
+            {
+                return null;
+            }
+            else
+            {
+                return ((object)(returnValue));
+            }
+        }
+
         public object LastID() {
             global::System.Data.OleDb.OleDbCommand command = adapter.SelectCommand;
             global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
@@ -355,8 +429,49 @@ namespace Questionario
 
         public void goToForm(MyForm mf)
         {
+            this.lastID = (int)LastID();
+            mf.lastID = lastID;
+            initDB();
+            //My.rowCurrent = rowCurrent;
+
+            Dictionary<string,object> row = new Dictionary<string,object>();
+            row[col_ultima] = this.Name;
+
+            updateRow(row);
+            Pilhas.Push(this);
+            this.Hide();
+            mf.Show();
+        }
+
+        public void backToForm()
+        {
+            MyForm backkers = Pilhas.Pop();
+            this.lastID = (int)LastID();
+            backkers.lastID = lastID;
+            initDB();
+            //My.rowCurrent = rowCurrent;
+
+            Dictionary<string, object> row = new Dictionary<string, object>();
+            row[col_ultima] = this.Name;
+
+            updateRow(row);
+            
+            this.Hide();
+            backkers.Show();
+        }
+
+        public void goToFormEncerrar()
+        {
+            MyForm mf = new Encerrado();
+
             mf.lastID = (int)LastID();
             //My.rowCurrent = rowCurrent;
+
+            Dictionary<string, object> row = new Dictionary<string, object>();
+            row[col_ultima] = this.Name;
+
+            updateRow(row);
+            Pilhas.Push(this);
             this.Hide();
             mf.Show();
         }
@@ -365,52 +480,23 @@ namespace Questionario
 
         public bool isPT()
         {
+            if (System.Globalization.CultureInfo.CurrentCulture == null)
+            {
+                return true;
+            }
             return System.Globalization.CultureInfo.CurrentCulture.Name.Equals("pt", StringComparison.Ordinal);
         }
 
         private void BuildCommands()
         {
-
             OleDbCommandBuilder builder = new OleDbCommandBuilder(adapter);
-            //Console.WriteLine(builder.GetInsertCommand().CommandText);
-
-            // Use the select command's connection again
-            OleDbConnection connection =
-                (OleDbConnection)adapter.SelectCommand.Connection;
-
-
-
-            //this._commandCollection[0] = new global::System.Data.OleDb.OleDbCommand();
-            //this._commandCollection[0].Connection = this.conn;
-            //this._commandCollection[0].CommandText = "SELECT id FROM questionario ORDER BY id DESC";
-            //this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
-            // Declare a reusable insert command with parameters
-            //dataAdapter.InsertCommand = connection.CreateCommand();
-            //dataAdapter.InsertCommand.CommandText =
-            //    "insert into PhoneNumbers " +
-            //    "(Phonenum,Phonenu, Subscriber) " +
-            //    "values " +
-            //    "('kjhk',?, ?)";
-            ////dataAdapter.InsertCommand.Parameters.Add("Phonenum", OleDbType.Char, 0, "Phonenum");
-            //dataAdapter.InsertCommand.Parameters.Add("Phonenum", OleDbType.Char, 0, "Phonenu");
-            //dataAdapter.InsertCommand.Parameters.Add("Subscriber", OleDbType.Char, 0, "Subscriber");
-
-            //// Declare a reusable update command with parameters
-            //dataAdapter.UpdateCommand = connection.CreateCommand();
-            //dataAdapter.UpdateCommand.CommandText = "update PhoneNumbers " +
-            //    "set Subscriber = ? " +
-            //    "where Phonenum = ? ";
-            //dataAdapter.UpdateCommand.Parameters.Add("Subscriber", OleDbType.Char, 0, "Subscriber");
-            //dataAdapter.UpdateCommand.Parameters.Add("Phonenum", OleDbType.Char, 0, "Phonenum");
-
-            //// Declare a reusable delete command with parameters
-            //dataAdapter.DeleteCommand = connection.CreateCommand();
-            //dataAdapter.DeleteCommand.CommandText =
-            //    "delete from PhoneNumbers where Phonenum = ?";
-            //dataAdapter.DeleteCommand.Parameters.Add("Phonenum", OleDbType.Char, 0, "Phonenum");
-
         }
-
+         /// <summary>
+         /// Tenta criar uma coluna em tempo de execucao.
+         /// </summary>
+         /// <param name="colName">Nome da coluna (nao usar palavras reservadas do Banco de dados)</param>
+         /// <param name="colType">Tipo da coluna</param>
+        /// <exception cref="OleDbException">Normalmente quando o Banco de dados ja esta aberto!</exception>
         public void InsertColumnIFNotExist(string colName, string colType)
         {
             string cs = Properties.Settings.Default.bancoConnectionString;
@@ -435,7 +521,7 @@ namespace Questionario
                     {
                         cmd.ExecuteNonQuery();
                     }
-                    catch (OleDbException ex)
+                    catch (OleDbException)
                     {
                         //MessageBox.Show(ex.Message);
                         throw;
@@ -445,6 +531,38 @@ namespace Questionario
                    
                 }
                 con.Close();
+            }
+        }
+    }
+}
+
+
+
+namespace CustomExtensions
+{
+    public static class MyExtensions
+    {
+        public static void Shuffle<T>(this IList<T> list)
+        {
+            int n = list.Count;
+            while (n > 1)
+            {
+                n--;
+                int k = ThreadSafeRandom.ThisThreadsRandom.Next(n + 1);
+                T value = list[k];
+                list[k] = list[n];
+                list[n] = value;
+            }
+        }
+
+        public static class ThreadSafeRandom
+        {
+            [ThreadStatic]
+            private static Random Local;
+
+            public static Random ThisThreadsRandom
+            {
+                get { return Local ?? (Local = new Random(unchecked(Environment.TickCount * 31 + Thread.CurrentThread.ManagedThreadId))); }
             }
         }
     }

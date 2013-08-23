@@ -35,8 +35,7 @@ namespace Questionario
                 onePanelFoi = findPanels(row, onePanelFoi);
                 if (onePanelFoi)
                 {
-                    //initDB();
-                    newRow(row);
+                    updateRow(row);
                     goToForm(new A1());
                 }
                 else

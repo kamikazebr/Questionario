@@ -117,131 +117,319 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RadioButton5.Text" xml:space="preserve">
-    <value>5 - Recrutamento pelo entrevistador em outro local (especifique): </value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BradioButton6.TabIndex" type="System.Int32, mscorlib">
-    <value>47</value>
-  </data>
-  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BradioButton3.Name" xml:space="preserve">
-    <value>BradioButton3</value>
-  </data>
-  <data name="&gt;&gt;RadioButton4.Parent" xml:space="preserve">
-    <value>panel_A</value>
-  </data>
-  <data name="CheckBox2.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;RadioButton1.Name" xml:space="preserve">
-    <value>RadioButton1</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="BradioButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 111</value>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="RadioButton1.Text" xml:space="preserve">
-    <value>1 - Listagem de Polk / Listagem de endereços (adquirida)</value>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 361</value>
   </data>
-  <data name="panel_A.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 20</value>
   </data>
-  <data name="&gt;&gt;panel_B.Name" xml:space="preserve">
-    <value>panel_B</value>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
   </data>
-  <data name="RadioButton3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Documentos disponíveis</value>
   </data>
-  <data name="BradioButton3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
   </data>
   <data name="&gt;&gt;Label4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BradioButton3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;CheckBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="CheckBox2.Text" xml:space="preserve">
-    <value>2 - Documentos de registro/posse</value>
-  </data>
-  <data name="&gt;&gt;RadioButton3.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="RadioButton2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1186, 730</value>
-  </data>
-  <data name="&gt;&gt;RadioButton3.Name" xml:space="preserve">
-    <value>RadioButton3</value>
-  </data>
-  <data name="Label3.Text" xml:space="preserve">
-    <value>Respondente proveniete de:</value>
-  </data>
-  <data name="PictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>301</value>
-  </data>
-  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 103</value>
-  </data>
-  <data name="panel_B.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 397</value>
-  </data>
-  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;RadioButton3.Parent" xml:space="preserve">
-    <value>panel_A</value>
-  </data>
-  <data name="&gt;&gt;RadioButton5.Parent" xml:space="preserve">
-    <value>panel_A</value>
-  </data>
-  <data name="RadioButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 17</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BradioButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
-    <value>Label1</value>
-  </data>
-  <data name="RadioButton4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 86</value>
-  </data>
-  <data name="&gt;&gt;PictureBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="TextBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 20</value>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;BradioButton4.Parent" xml:space="preserve">
-    <value>panel_B</value>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>907, 589</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 110</value>
   </data>
-  <data name="BradioButton1.Text" xml:space="preserve">
-    <value>1 - Recibo/ nota de compra do veículo da cota	</value>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
   </data>
-  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Próxima questão</value>
   </data>
-  <data name="RadioButton4.TabIndex" type="System.Int32, mscorlib">
-    <value>50</value>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 166</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 20</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Respondente proveniete de:</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 127</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 13</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>ENTR: Preencha os seguintes detalhes sobre a entrevista</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 103</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 24</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>A.0 - Estatísticas da Entrevista</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="RadioButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="RadioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 17</value>
+  </data>
+  <data name="RadioButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="RadioButton1.Text" xml:space="preserve">
+    <value>1 - Listagem de Polk / Listagem de endereços (adquirida)</value>
+  </data>
+  <data name="&gt;&gt;RadioButton1.Name" xml:space="preserve">
+    <value>RadioButton1</value>
+  </data>
+  <data name="&gt;&gt;RadioButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioButton1.Parent" xml:space="preserve">
+    <value>panel_A</value>
+  </data>
+  <data name="&gt;&gt;RadioButton1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RadioButton5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 109</value>
+  </data>
+  <data name="RadioButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 17</value>
+  </data>
+  <data name="RadioButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="RadioButton5.Text" xml:space="preserve">
+    <value>5 - Recrutamento pelo entrevistador em outro local (especifique): </value>
+  </data>
+  <data name="&gt;&gt;RadioButton5.Name" xml:space="preserve">
+    <value>RadioButton5</value>
+  </data>
+  <data name="&gt;&gt;RadioButton5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioButton5.Parent" xml:space="preserve">
+    <value>panel_A</value>
+  </data>
+  <data name="&gt;&gt;RadioButton5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RadioButton3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 63</value>
+  </data>
+  <data name="RadioButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 17</value>
+  </data>
+  <data name="RadioButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="RadioButton3.Text" xml:space="preserve">
+    <value>3 - Recrutamento pelo entrevistador em ruas, estacionamentos, centro da cidade, shoppings</value>
+  </data>
+  <data name="&gt;&gt;RadioButton3.Name" xml:space="preserve">
+    <value>RadioButton3</value>
+  </data>
+  <data name="&gt;&gt;RadioButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioButton3.Parent" xml:space="preserve">
+    <value>panel_A</value>
+  </data>
+  <data name="&gt;&gt;RadioButton3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RadioButton4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 86</value>
+  </data>
+  <data name="RadioButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="RadioButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="RadioButton4.Text" xml:space="preserve">
+    <value>4 - Contato pessoal</value>
+  </data>
+  <data name="&gt;&gt;RadioButton4.Name" xml:space="preserve">
+    <value>RadioButton4</value>
+  </data>
+  <data name="&gt;&gt;RadioButton4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioButton4.Parent" xml:space="preserve">
+    <value>panel_A</value>
+  </data>
+  <data name="&gt;&gt;RadioButton4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RadioButton2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="RadioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 17</value>
+  </data>
+  <data name="RadioButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="RadioButton2.Text" xml:space="preserve">
+    <value>2 - Recrutamento pelo centro de coleta de dados</value>
+  </data>
+  <data name="&gt;&gt;RadioButton2.Name" xml:space="preserve">
+    <value>RadioButton2</value>
+  </data>
+  <data name="&gt;&gt;RadioButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioButton2.Parent" xml:space="preserve">
+    <value>panel_A</value>
+  </data>
+  <data name="&gt;&gt;RadioButton2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 108</value>
+  </data>
+  <data name="TextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 20</value>
+  </data>
+  <data name="TextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Name" xml:space="preserve">
+    <value>TextBox1</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Parent" xml:space="preserve">
+    <value>panel_A</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panel_A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 189</value>
+  </data>
+  <data name="panel_A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>557, 145</value>
+  </data>
+  <data name="panel_A.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;panel_A.Name" xml:space="preserve">
+    <value>panel_A</value>
+  </data>
+  <data name="&gt;&gt;panel_A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;panel_A.Parent" xml:space="preserve">
     <value>$this</value>
@@ -249,230 +437,201 @@
   <data name="&gt;&gt;panel_A.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
-    <value>Label4</value>
-  </data>
-  <data name="RadioButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>460, 17</value>
-  </data>
-  <data name="panel_A.Size" type="System.Drawing.Size, System.Drawing">
-    <value>557, 145</value>
-  </data>
-  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="Label1.Text" xml:space="preserve">
-    <value>A.0 - Estatísticas da Entrevista</value>
-  </data>
-  <data name="BradioButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="BradioButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="RadioButton5.TabIndex" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="CheckBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
   <data name="BradioButton6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="BradioButton3.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BradioButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;RadioButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="BradioButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 132</value>
   </data>
-  <data name="panel_B.TabIndex" type="System.Int32, mscorlib">
-    <value>49</value>
+  <data name="BradioButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
   </data>
-  <data name="&gt;&gt;BradioButton5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="CheckBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 39</value>
-  </data>
-  <data name="&gt;&gt;BradioButton4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RadioButton5.Name" xml:space="preserve">
-    <value>RadioButton5</value>
-  </data>
-  <data name="&gt;&gt;panel_B.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="panel_B.Size" type="System.Drawing.Size, System.Drawing">
-    <value>354, 198</value>
-  </data>
-  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
-    <value>Label3</value>
+  <data name="BradioButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
   </data>
   <data name="BradioButton6.Text" xml:space="preserve">
     <value>6 - Nenhum desses</value>
   </data>
-  <data name="&gt;&gt;CheckBox2.Parent" xml:space="preserve">
-    <value>panel_B</value>
+  <data name="&gt;&gt;BradioButton6.Name" xml:space="preserve">
+    <value>BradioButton6</value>
   </data>
-  <data name="BradioButton3.Text" xml:space="preserve">
-    <value>3 - Consórcio</value>
+  <data name="&gt;&gt;BradioButton6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="RadioButton4.Text" xml:space="preserve">
-    <value>4 - Contato pessoal</value>
-  </data>
-  <data name="&gt;&gt;CheckBox2.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="Label4.Text" xml:space="preserve">
-    <value>Documentos disponíveis</value>
-  </data>
-  <data name="&gt;&gt;BradioButton1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BradioButton6.Parent" xml:space="preserve">
     <value>panel_B</value>
   </data>
   <data name="&gt;&gt;BradioButton6.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;BradioButton6.Name" xml:space="preserve">
-    <value>BradioButton6</value>
-  </data>
-  <data name="RadioButton4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 166</value>
-  </data>
-  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;RadioButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="RadioButton2.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
-  </data>
-  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
-    <value>Label2</value>
-  </data>
   <data name="BradioButton5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="BradioButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 65</value>
-  </data>
-  <data name="BradioButton4.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="RadioButton5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 22</value>
-  </data>
-  <data name="BradioButton5.Text" xml:space="preserve">
-    <value>5 - Contrato de leasing</value>
-  </data>
-  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BradioButton6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 17</value>
-  </data>
-  <data name="&gt;&gt;TextBox1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;PictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BradioButton6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RadioButton4.Name" xml:space="preserve">
-    <value>RadioButton4</value>
-  </data>
-  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;BradioButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="RadioButton1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="BradioButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="CheckBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 20</value>
+  <data name="BradioButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 111</value>
   </data>
-  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
-    <value>Button1</value>
-  </data>
-  <data name="&gt;&gt;BradioButton5.Parent" xml:space="preserve">
-    <value>panel_B</value>
+  <data name="BradioButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 17</value>
   </data>
   <data name="BradioButton5.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
   </data>
-  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;RadioButton2.Name" xml:space="preserve">
-    <value>RadioButton2</value>
-  </data>
-  <data name="BradioButton4.Text" xml:space="preserve">
-    <value>4 - Outro contrato de financiamento</value>
-  </data>
-  <data name="&gt;&gt;RadioButton2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>A0</value>
+  <data name="BradioButton5.Text" xml:space="preserve">
+    <value>5 - Contrato de leasing</value>
   </data>
   <data name="&gt;&gt;BradioButton5.Name" xml:space="preserve">
     <value>BradioButton5</value>
   </data>
-  <data name="BradioButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 17</value>
+  <data name="&gt;&gt;BradioButton5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>907, 589</value>
+  <data name="&gt;&gt;BradioButton5.Parent" xml:space="preserve">
+    <value>panel_B</value>
+  </data>
+  <data name="&gt;&gt;BradioButton5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BradioButton4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BradioButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BradioButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 88</value>
+  </data>
+  <data name="BradioButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 17</value>
+  </data>
+  <data name="BradioButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="BradioButton4.Text" xml:space="preserve">
+    <value>4 - Outro contrato de financiamento</value>
+  </data>
+  <data name="&gt;&gt;BradioButton4.Name" xml:space="preserve">
+    <value>BradioButton4</value>
+  </data>
+  <data name="&gt;&gt;BradioButton4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BradioButton4.Parent" xml:space="preserve">
+    <value>panel_B</value>
   </data>
   <data name="&gt;&gt;BradioButton4.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 60</value>
+  <data name="BradioButton3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="BradioButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;TextBox1.Name" xml:space="preserve">
-    <value>TextBox1</value>
+  <data name="BradioButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 65</value>
   </data>
-  <data name="Label2.Text" xml:space="preserve">
-    <value>ENTR: Preencha os seguintes detalhes sobre a entrevista</value>
+  <data name="BradioButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="BradioButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="BradioButton3.Text" xml:space="preserve">
+    <value>3 - Consórcio</value>
+  </data>
+  <data name="&gt;&gt;BradioButton3.Name" xml:space="preserve">
+    <value>BradioButton3</value>
+  </data>
+  <data name="&gt;&gt;BradioButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BradioButton3.Parent" xml:space="preserve">
+    <value>panel_B</value>
+  </data>
+  <data name="&gt;&gt;BradioButton3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BradioButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BradioButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BradioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 14</value>
+  </data>
+  <data name="BradioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 17</value>
+  </data>
+  <data name="BradioButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="BradioButton1.Text" xml:space="preserve">
+    <value>1 - Recibo/ nota de compra do veículo da cota	</value>
+  </data>
+  <data name="&gt;&gt;BradioButton1.Name" xml:space="preserve">
+    <value>BradioButton1</value>
+  </data>
+  <data name="&gt;&gt;BradioButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BradioButton1.Parent" xml:space="preserve">
+    <value>panel_B</value>
+  </data>
+  <data name="&gt;&gt;BradioButton1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CheckBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="CheckBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="CheckBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 39</value>
+  </data>
+  <data name="CheckBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 20</value>
+  </data>
+  <data name="CheckBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="CheckBox2.Text" xml:space="preserve">
+    <value>2 - Documentos de registro/posse</value>
+  </data>
+  <data name="&gt;&gt;CheckBox2.Name" xml:space="preserve">
+    <value>CheckBox2</value>
+  </data>
+  <data name="&gt;&gt;CheckBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBox2.Parent" xml:space="preserve">
+    <value>panel_B</value>
+  </data>
+  <data name="&gt;&gt;CheckBox2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panel_B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 397</value>
+  </data>
+  <data name="panel_B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 198</value>
+  </data>
+  <data name="panel_B.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;panel_B.Name" xml:space="preserve">
+    <value>panel_B</value>
+  </data>
+  <data name="&gt;&gt;panel_B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;panel_B.Parent" xml:space="preserve">
     <value>$this</value>
@@ -480,205 +639,43 @@
   <data name="&gt;&gt;panel_B.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;RadioButton2.Parent" xml:space="preserve">
-    <value>panel_A</value>
+  <data name="PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 22</value>
   </data>
-  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 127</value>
+  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 60</value>
   </data>
-  <data name="&gt;&gt;CheckBox2.Name" xml:space="preserve">
-    <value>CheckBox2</value>
-  </data>
-  <data name="RadioButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 109</value>
-  </data>
-  <data name="&gt;&gt;RadioButton4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 24</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>A0</value>
+  <data name="PictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>301</value>
   </data>
   <data name="&gt;&gt;PictureBox2.Name" xml:space="preserve">
     <value>PictureBox2</value>
   </data>
-  <data name="&gt;&gt;BradioButton4.Name" xml:space="preserve">
-    <value>BradioButton4</value>
+  <data name="&gt;&gt;PictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BradioButton3.Parent" xml:space="preserve">
-    <value>panel_B</value>
-  </data>
-  <data name="&gt;&gt;BradioButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RadioButton1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel_A.Name" xml:space="preserve">
-    <value>panel_A</value>
-  </data>
-  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 361</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>Questionario.MyForm, Questionario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="TextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>335, 108</value>
-  </data>
-  <data name="BradioButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 17</value>
-  </data>
-  <data name="BradioButton6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 132</value>
-  </data>
-  <data name="BradioButton1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="RadioButton3.Text" xml:space="preserve">
-    <value>3 - Recrutamento pelo entrevistador em ruas, estacionamentos, centro da cidade, shoppings</value>
-  </data>
-  <data name="BradioButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RadioButton1.Parent" xml:space="preserve">
-    <value>panel_A</value>
-  </data>
-  <data name="&gt;&gt;RadioButton5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="RadioButton3.TabIndex" type="System.Int32, mscorlib">
-    <value>49</value>
-  </data>
-  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>254, 110</value>
-  </data>
-  <data name="&gt;&gt;TextBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
-  </data>
-  <data name="RadioButton2.Text" xml:space="preserve">
-    <value>2 - Recrutamento pelo centro de coleta de dados</value>
-  </data>
-  <data name="&gt;&gt;BradioButton1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="BradioButton4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="RadioButton5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 17</value>
-  </data>
-  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="&gt;&gt;TextBox1.Parent" xml:space="preserve">
-    <value>panel_A</value>
-  </data>
-  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>281, 13</value>
-  </data>
-  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="RadioButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 17</value>
-  </data>
-  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 20</value>
-  </data>
-  <data name="BradioButton5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 17</value>
-  </data>
-  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;PictureBox2.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="BradioButton4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 88</value>
-  </data>
-  <data name="TextBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>46</value>
-  </data>
-  <data name="&gt;&gt;BradioButton1.Name" xml:space="preserve">
-    <value>BradioButton1</value>
-  </data>
-  <data name="RadioButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 63</value>
-  </data>
-  <data name="BradioButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="RadioButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>47</value>
-  </data>
-  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 20</value>
-  </data>
-  <data name="RadioButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 17</value>
-  </data>
-  <data name="Button1.Text" xml:space="preserve">
-    <value>Próxima questão</value>
-  </data>
-  <data name="RadioButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 17</value>
-  </data>
-  <data name="BradioButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 17</value>
-  </data>
-  <data name="&gt;&gt;RadioButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="panel_A.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 189</value>
-  </data>
-  <data name="&gt;&gt;BradioButton5.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;RadioButton5.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="RadioButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 40</value>
-  </data>
-  <data name="BradioButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 14</value>
-  </data>
-  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="&gt;&gt;panel_A.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RadioButton4.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;PictureBox2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;BradioButton6.Parent" xml:space="preserve">
-    <value>panel_B</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>es</value>
-  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1186, 730</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>A0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>A0</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Questionario.MyForm, Questionario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
 </root>

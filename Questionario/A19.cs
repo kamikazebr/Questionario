@@ -27,5 +27,10 @@ namespace Questionario
             string msg = isPT() ? String.Format("O(a) Sr(a). consideraria fazer um consórcio / financiamento com uma concessionária {0}", rowCurrent["A3_A"]) : String.Format("¿Podría imaginarse estableciendo un consorcio / un financiamiento conel vendedor de una {0}", rowCurrent["A3_A"]);
             Label3.Text = msg;
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            goToForm(new A20());
+        }
     }
 }

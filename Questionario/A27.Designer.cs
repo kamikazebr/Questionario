@@ -35,12 +35,14 @@
             this.Label1 = new System.Windows.Forms.Label();
             this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_A = new System.Windows.Forms.Panel();
-            this.TextBox1 = new System.Windows.Forms.TextBox();
             this.RadioButton3 = new System.Windows.Forms.RadioButton();
             this.RadioButton1 = new System.Windows.Forms.RadioButton();
             this.RadioButton2 = new System.Windows.Forms.RadioButton();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.panel_A.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // Button1
@@ -51,6 +53,7 @@
             this.Button1.TabIndex = 271;
             this.Button1.Text = "Próxima questão";
             this.Button1.UseVisualStyleBackColor = true;
+            this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Label5
             // 
@@ -65,7 +68,7 @@
             // 
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(14, 157);
+            this.Label3.Location = new System.Drawing.Point(14, 149);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(21, 20);
             this.Label3.TabIndex = 265;
@@ -103,21 +106,14 @@
             // 
             // panel_A
             // 
-            this.panel_A.Controls.Add(this.TextBox1);
+            this.panel_A.Controls.Add(this.numericUpDown1);
             this.panel_A.Controls.Add(this.RadioButton3);
             this.panel_A.Controls.Add(this.RadioButton1);
             this.panel_A.Controls.Add(this.RadioButton2);
-            this.panel_A.Location = new System.Drawing.Point(18, 196);
+            this.panel_A.Location = new System.Drawing.Point(18, 217);
             this.panel_A.Name = "panel_A";
             this.panel_A.Size = new System.Drawing.Size(469, 110);
             this.panel_A.TabIndex = 290;
-            // 
-            // TextBox1
-            // 
-            this.TextBox1.Location = new System.Drawing.Point(317, 22);
-            this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(100, 20);
-            this.TextBox1.TabIndex = 276;
             // 
             // RadioButton3
             // 
@@ -153,11 +149,44 @@
             this.RadioButton2.Text = "Não sabe\t";
             this.RadioButton2.UseVisualStyleBackColor = true;
             // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(317, 22);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(67, 20);
+            this.numericUpDown1.TabIndex = 291;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(14, 179);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(510, 20);
+            this.label4.TabIndex = 291;
+            this.label4.Text = "Favor excluir a fileira da frente (os assentos do motorista e passageiro).";
+            // 
             // A27
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1219, 730);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.panel_A);
             this.Controls.Add(this.PictureBox2);
             this.Controls.Add(this.Button1);
@@ -168,9 +197,11 @@
             this.Name = "A27";
             this.Text = "A27";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.A27_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             this.panel_A.ResumeLayout(false);
             this.panel_A.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,9 +216,10 @@
         internal System.Windows.Forms.Label Label1;
         internal System.Windows.Forms.PictureBox PictureBox2;
         private System.Windows.Forms.Panel panel_A;
-        internal System.Windows.Forms.TextBox TextBox1;
         internal System.Windows.Forms.RadioButton RadioButton3;
         internal System.Windows.Forms.RadioButton RadioButton1;
         internal System.Windows.Forms.RadioButton RadioButton2;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        internal System.Windows.Forms.Label label4;
     }
 }

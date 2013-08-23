@@ -51,6 +51,7 @@
             this.Button1.TabIndex = 246;
             this.Button1.Text = "Próxima questão";
             this.Button1.UseVisualStyleBackColor = true;
+            this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Label5
             // 
@@ -167,6 +168,7 @@
             this.Name = "A21";
             this.Text = "A21";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.A21_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             this.panel_A.ResumeLayout(false);
             this.panel_A.PerformLayout();

@@ -35,7 +35,27 @@ namespace Questionario
                 }
             }
             Label3.Text = msg;
-        
+
+            List<string> list = new List<string>();
+            list.Add("Citroën Berlingo");
+            list.Add("Citroën Jumper");
+            list.Add("Fiat Qubo/ Fiat FiorinoQubo");
+            list.Add("Fiat Doblo");
+            list.Add("Fiat Ducato");
+            list.Add("Fiat Fiorino");
+            list.Add("Hyundai H1");
+            list.Add("Ford Transit");
+            list.Add("IvecoDaily");
+            list.Add("JinbeiTopic");
+            list.Add("MB Sprinter");
+            list.Add("Peugeot Boxer");
+            list.Add("Peugeot Expert");
+            list.Add("Peugeot Partner");
+            list.Add("Renault Kangoo");
+            list.Add("Renault Master");
+            list.Add("Volkswagen T2 ");
+
+            list.Add(isPT() ? "Outro modelo/não sabe/não responde" : "Otromodelo/no sabe/no contesta");
         }
 
         private void Button1_Click(object sender, EventArgs e)

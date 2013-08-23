@@ -83,7 +83,7 @@ namespace ClassLibrary1
           
             Console.WriteLine("InitializeComponent");
             this.SuspendLayout();
-
+            
             this.Controls.Clear();
 
             //listVis.Clear();

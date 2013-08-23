@@ -33,7 +33,7 @@
             this.Label1 = new System.Windows.Forms.Label();
             this.Button1 = new System.Windows.Forms.Button();
             this.panel_A = new System.Windows.Forms.Panel();
-            this.class11 = new ClassLibrary1.Class1();
+            this.class_A = new ClassLibrary1.Class1();
             this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_A.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
@@ -65,25 +65,25 @@
             this.Button1.Name = "Button1";
             this.Button1.Size = new System.Drawing.Size(254, 110);
             this.Button1.TabIndex = 65;
-            this.Button1.Text = "Siguiente Pregunta";
+            this.Button1.Text = "Próxima questão";
             this.Button1.UseVisualStyleBackColor = true;
             this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // panel_A
             // 
-            this.panel_A.Controls.Add(this.class11);
+            this.panel_A.Controls.Add(this.class_A);
             this.panel_A.Location = new System.Drawing.Point(22, 191);
             this.panel_A.Name = "panel_A";
             this.panel_A.Size = new System.Drawing.Size(530, 239);
             this.panel_A.TabIndex = 80;
             // 
-            // class11
+            // class_A
             // 
-            this.class11.Location = new System.Drawing.Point(3, 3);
-            this.class11.Name = "class11";
-            this.class11.Radios = ((System.Collections.Generic.Dictionary<string, System.Windows.Forms.RadioButton>)(resources.GetObject("class11.Radios")));
-            this.class11.Size = new System.Drawing.Size(449, 233);
-            this.class11.TabIndex = 0;
+            this.class_A.Location = new System.Drawing.Point(3, 3);
+            this.class_A.Name = "class_A";
+            this.class_A.Radios = ((System.Collections.Generic.Dictionary<string, System.Windows.Forms.RadioButton>)(resources.GetObject("class_A.Radios")));
+            this.class_A.Size = new System.Drawing.Size(449, 233);
+            this.class_A.TabIndex = 0;
             // 
             // PictureBox2
             // 
@@ -122,7 +122,7 @@
         internal System.Windows.Forms.Label Label1;
         internal System.Windows.Forms.Button Button1;
         private System.Windows.Forms.Panel panel_A;
-        private ClassLibrary1.Class1 class11;
+        private ClassLibrary1.Class1 class_A;
         //private ClassLibrary1.Class1 class11;
     }
 }

@@ -30,12 +30,12 @@
         {
             this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_A = new System.Windows.Forms.Panel();
+            this.class11 = new ClassLibrary1.Class1();
             this.RadioButton11 = new System.Windows.Forms.RadioButton();
             this.Button1 = new System.Windows.Forms.Button();
             this.Label3 = new System.Windows.Forms.Label();
             this.Label2 = new System.Windows.Forms.Label();
             this.Label1 = new System.Windows.Forms.Label();
-            this.class11 = new ClassLibrary1.Class1();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.panel_A.SuspendLayout();
             this.SuspendLayout();
@@ -58,6 +58,13 @@
             this.panel_A.Size = new System.Drawing.Size(397, 265);
             this.panel_A.TabIndex = 69;
             this.panel_A.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // class11
+            // 
+            this.class11.Location = new System.Drawing.Point(3, 3);
+            this.class11.Name = "class11";
+            this.class11.Size = new System.Drawing.Size(364, 224);
+            this.class11.TabIndex = 76;
             // 
             // RadioButton11
             // 
@@ -109,13 +116,6 @@
             this.Label1.Size = new System.Drawing.Size(294, 24);
             this.Label1.TabIndex = 53;
             this.Label1.Text = "A.3. Marca do Veículo da Cota";
-            // 
-            // class11
-            // 
-            this.class11.Location = new System.Drawing.Point(14, 3);
-            this.class11.Name = "class11";
-            this.class11.Size = new System.Drawing.Size(364, 224);
-            this.class11.TabIndex = 76;
             // 
             // A3
             // 

@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{07291DFB-D764-431D-B38F-6191236E757E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Questionario</RootNamespace>
+    <AssemblyName>Questionario</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Questionario.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="A0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A0.Designer.cs">
+      <DependentUpon>A0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A1.Designer.cs">
+      <DependentUpon>A1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A10.Designer.cs">
+      <DependentUpon>A10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A11.Designer.cs">
+      <DependentUpon>A11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A12.Designer.cs">
+      <DependentUpon>A12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A13.Designer.cs">
+      <DependentUpon>A13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A14.Designer.cs">
+      <DependentUpon>A14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A15.Designer.cs">
+      <DependentUpon>A15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A16.Designer.cs">
+      <DependentUpon>A16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A17.Designer.cs">
+      <DependentUpon>A17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A18.Designer.cs">
+      <DependentUpon>A18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A19.Designer.cs">
+      <DependentUpon>A19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A2.Designer.cs">
+      <DependentUpon>A2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A20.Designer.cs">
+      <DependentUpon>A20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A21.Designer.cs">
+      <DependentUpon>A21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A22.Designer.cs">
+      <DependentUpon>A22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A23.Designer.cs">
+      <DependentUpon>A23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A24.Designer.cs">
+      <DependentUpon>A24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A25.Designer.cs">
+      <DependentUpon>A25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A26.Designer.cs">
+      <DependentUpon>A26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A27.Designer.cs">
+      <DependentUpon>A27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A28.Designer.cs">
+      <DependentUpon>A28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A29.Designer.cs">
+      <DependentUpon>A29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A3.Designer.cs">
+      <DependentUpon>A3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A30.Designer.cs">
+      <DependentUpon>A30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A4.Designer.cs">
+      <DependentUpon>A4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A5.Designer.cs">
+      <DependentUpon>A5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A6.Designer.cs">
+      <DependentUpon>A6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A7.Designer.cs">
+      <DependentUpon>A7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A8.Designer.cs">
+      <DependentUpon>A8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A9.Designer.cs">
+      <DependentUpon>A9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bancoDataSet.cs">
+      <DependentUpon>bancoDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="bancoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bancoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Encerrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Encerrado.Designer.cs">
+      <DependentUpon>Encerrado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="A0.es.resx">
+      <DependentUpon>A0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A0.resx">
+      <DependentUpon>A0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A1.resx">
+      <DependentUpon>A1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A10.resx">
+      <DependentUpon>A10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A11.resx">
+      <DependentUpon>A11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A12.resx">
+      <DependentUpon>A12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A13.resx">
+      <DependentUpon>A13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A14.resx">
+      <DependentUpon>A14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A15.resx">
+      <DependentUpon>A15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A16.resx">
+      <DependentUpon>A16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A17.resx">
+      <DependentUpon>A17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A18.resx">
+      <DependentUpon>A18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A19.resx">
+      <DependentUpon>A19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A2.resx">
+      <DependentUpon>A2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A20.resx">
+      <DependentUpon>A20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A21.resx">
+      <DependentUpon>A21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A22.resx">
+      <DependentUpon>A22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A23.resx">
+      <DependentUpon>A23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A24.resx">
+      <DependentUpon>A24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A25.resx">
+      <DependentUpon>A25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A26.resx">
+      <DependentUpon>A26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A27.resx">
+      <DependentUpon>A27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A28.resx">
+      <DependentUpon>A28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A29.resx">
+      <DependentUpon>A29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A3.resx">
+      <DependentUpon>A3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A30.resx">
+      <DependentUpon>A30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A4.resx">
+      <DependentUpon>A4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A5.resx">
+      <DependentUpon>A5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A6.resx">
+      <DependentUpon>A6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A7.resx">
+      <DependentUpon>A7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A8.resx">
+      <DependentUpon>A8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A9.resx">
+      <DependentUpon>A9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Encerrado.resx">
+      <DependentUpon>Encerrado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.es.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="bancoDataSet.xsc">
+      <DependentUpon>bancoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="bancoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bancoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bancoDataSet.xss">
+      <DependentUpon>bancoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="banco.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\psyma-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+      <Project>{1AA5ACB5-75B0-4C50-A6C4-B17E68FB6A69}</Project>
+      <Name>ClassLibrary1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

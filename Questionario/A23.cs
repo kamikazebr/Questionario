@@ -23,7 +23,7 @@ namespace Questionario
             {
                 return;
             }
-            String msg = isPT() ? String.Format ("O(A) Sr(a). adquiriu seus serviços adicionais por meio da concessionária {0} ou por meio de um fornecedor de serviços independente?", rowCurrent["A3_A"]) : String.Format("¿Negoció los servicios adicionales conun vendedor de la {0} o un proveedor de servicios independiente?", rowCurrent["A3_A"];
+            String msg = isPT() ? String.Format ("O(A) Sr(a). adquiriu seus serviços adicionais por meio da concessionária {0} ou por meio de um fornecedor de serviços independente?", rowCurrent["A3_A"]) : String.Format("¿Negoció los servicios adicionales conun vendedor de la {0} o un proveedor de servicios independiente?", rowCurrent["A3_A"]);
             Label3.Text = msg;
         }
 

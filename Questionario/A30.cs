@@ -25,7 +25,7 @@ namespace Questionario
             }
 
             String msg = isPT() ? String.Format("Qual é a tara do veículo {0}, ou seja, o peso do veículo vazio, sem carga e sem passageiros?", rowCurrent["A3_A"]) : String.Format("¿Cuál es el peso neto de {0},es decir, el peso del vehículo vacíosin pasajeros ni carga?", rowCurrent["A3_A"]);
-            String msg1 = isPT() ? "ENT: verifique documentos de registro para saber a tara.";
+            String msg1 = isPT() ? "ENT: verifique documentos de registro para saber a tara.":"";
             Label3.Text = msg;  
             Label2.Text = msg1;
         }

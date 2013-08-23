@@ -111,21 +111,21 @@
             // 
             resources.ApplyResources(this.CheckBox3, "CheckBox3");
             this.CheckBox3.Name = "CheckBox3";
-            this.CheckBox3.Tag = "TextBox3";
+            this.CheckBox3.Tag = "numericUpDown3";
             this.CheckBox3.UseVisualStyleBackColor = true;
             // 
             // CheckBox2
             // 
             resources.ApplyResources(this.CheckBox2, "CheckBox2");
             this.CheckBox2.Name = "CheckBox2";
-            this.CheckBox2.Tag = "TextBox2";
+            this.CheckBox2.Tag = "numericUpDown2";
             this.CheckBox2.UseVisualStyleBackColor = true;
             // 
             // CheckBox1
             // 
             resources.ApplyResources(this.CheckBox1, "CheckBox1");
             this.CheckBox1.Name = "CheckBox1";
-            this.CheckBox1.Tag = "TextBox1";
+            this.CheckBox1.Tag = "numericUpDown1";
             this.CheckBox1.UseVisualStyleBackColor = true;
             // 
             // Label4

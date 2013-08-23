@@ -127,8 +127,15 @@
   <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
   <data name="&gt;&gt;CheckBox2.Parent" xml:space="preserve">
     <value>panel_A</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Próxima questão</value>
   </data>
   <data name="panel_A.Size" type="System.Drawing.Size, System.Drawing">
     <value>474, 133</value>
@@ -136,7 +143,6 @@
   <data name="numericUpDown3.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 20</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="CheckBox1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -179,8 +185,8 @@
   <data name="&gt;&gt;numericUpDown2.Parent" xml:space="preserve">
     <value>panel_A</value>
   </data>
-  <data name="Label3.Text" xml:space="preserve">
-    <value>...</value>
+  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 19</value>
   </data>
   <data name="PictureBox2.TabIndex" type="System.Int32, mscorlib">
     <value>153</value>
@@ -215,14 +221,8 @@
   <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 60</value>
-  </data>
   <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -257,9 +257,6 @@
   <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 20</value>
   </data>
-  <data name="&gt;&gt;numericUpDown2.Name" xml:space="preserve">
-    <value>numericUpDown2</value>
-  </data>
   <data name="numericUpDown2.TabIndex" type="System.Int32, mscorlib">
     <value>166</value>
   </data>
@@ -275,6 +272,9 @@
   <data name="CheckBox4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="CheckBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
   <data name="&gt;&gt;CheckBox1.Name" xml:space="preserve">
     <value>CheckBox1</value>
   </data>
@@ -287,8 +287,8 @@
   <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="CheckBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 20</value>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
   </data>
   <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>763, 13</value>
@@ -302,8 +302,8 @@
   <data name="&gt;&gt;Label6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
-    <value>Label3</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>A9</value>
   </data>
   <data name="Label1.TabIndex" type="System.Int32, mscorlib">
     <value>135</value>
@@ -311,8 +311,8 @@
   <data name="CheckBox4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
-  <data name="CheckBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 162</value>
@@ -331,6 +331,9 @@
   </data>
   <data name="&gt;&gt;Label2.Name" xml:space="preserve">
     <value>Label2</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -353,11 +356,14 @@
   <data name="&gt;&gt;CheckBox4.Name" xml:space="preserve">
     <value>CheckBox4</value>
   </data>
-  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;numericUpDown2.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBox2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
   </data>
   <data name="CheckBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 20</value>
@@ -392,9 +398,6 @@
   <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>952, 594</value>
   </data>
-  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -428,12 +431,6 @@
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>329, 24</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>A9</value>
-  </data>
-  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>358, 19</value>
-  </data>
   <data name="&gt;&gt;PictureBox2.Name" xml:space="preserve">
     <value>PictureBox2</value>
   </data>
@@ -460,9 +457,6 @@
   </data>
   <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 20</value>
-  </data>
-  <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="numericUpDown3.TabIndex" type="System.Int32, mscorlib">
     <value>167</value>
@@ -496,6 +490,12 @@
   </data>
   <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="CheckBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 20</value>
   </data>
   <data name="Label4.TabIndex" type="System.Int32, mscorlib">
     <value>153</value>
@@ -542,8 +542,8 @@
   <data name="numericUpDown3.Location" type="System.Drawing.Point, System.Drawing">
     <value>358, 71</value>
   </data>
-  <data name="Button1.Text" xml:space="preserve">
-    <value>Próxima questão</value>
+  <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -560,11 +560,11 @@
   <data name="panel_A.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 199</value>
   </data>
-  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;CheckBox2.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;numericUpDown2.Name" xml:space="preserve">
+    <value>numericUpDown2</value>
   </data>
   <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -572,14 +572,14 @@
   <data name="Label6.Text" xml:space="preserve">
     <value>%</value>
   </data>
-  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
-    <value>137</value>
+  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 60</value>
   </data>
   <data name="&gt;&gt;panel_A.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
-    <value>164</value>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
     <value>panel_A</value>

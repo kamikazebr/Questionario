@@ -166,9 +166,8 @@
   <data name="panel_A.Size" type="System.Drawing.Size, System.Drawing">
     <value>469, 110</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="RadioButton3.TabIndex" type="System.Int32, mscorlib">
-    <value>275</value>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>950, 595</value>
   </data>
   <data name="RadioButton1.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 22</value>
@@ -176,6 +175,7 @@
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>291</value>
   </data>
@@ -220,9 +220,6 @@
   </data>
   <data name="Button1.Text" xml:space="preserve">
     <value>Próxima questão</value>
-  </data>
-  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -299,8 +296,8 @@
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="RadioButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>275</value>
   </data>
   <data name="&gt;&gt;RadioButton1.Parent" xml:space="preserve">
     <value>panel_A</value>
@@ -401,14 +398,17 @@
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>577, 24</value>
   </data>
-  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>950, 595</value>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="RadioButton2.TabIndex" type="System.Int32, mscorlib">
     <value>273</value>
   </data>
   <data name="RadioButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>304, 17</value>
+  </data>
+  <data name="RadioButton3.Text" xml:space="preserve">
+    <value>Não responde</value>
   </data>
   <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
     <value>$this</value>
@@ -434,8 +434,8 @@
   <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>21, 20</value>
   </data>
-  <data name="RadioButton3.Text" xml:space="preserve">
-    <value>Não responde</value>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;RadioButton3.Name" xml:space="preserve">
     <value>RadioButton3</value>
@@ -445,8 +445,5 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>es</value>
   </metadata>
 </root>

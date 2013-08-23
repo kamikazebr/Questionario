@@ -120,9 +120,6 @@
   <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;RadioButton1.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="CheckBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>183, 17</value>
@@ -169,6 +166,9 @@
   </data>
   <data name="CheckBox3.TabIndex" type="System.Int32, mscorlib">
     <value>304</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;CheckBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -236,9 +236,6 @@
   <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -266,6 +263,9 @@
   <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 20</value>
   </data>
+  <data name="&gt;&gt;numericUpDown2.Name" xml:space="preserve">
+    <value>numericUpDown2</value>
+  </data>
   <data name="numericUpDown2.TabIndex" type="System.Int32, mscorlib">
     <value>306</value>
   </data>
@@ -290,8 +290,8 @@
   <data name="&gt;&gt;Label5.Name" xml:space="preserve">
     <value>Label5</value>
   </data>
-  <data name="CheckBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 17</value>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
   </data>
   <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>501, 13</value>
@@ -305,8 +305,8 @@
   <data name="Label4.Text" xml:space="preserve">
     <value>ENT: Mostre lista A.28</value>
   </data>
-  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
-    <value>Label3</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>A28</value>
   </data>
   <data name="Label1.TabIndex" type="System.Int32, mscorlib">
     <value>282</value>
@@ -340,9 +340,6 @@
   </data>
   <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="RadioButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 129</value>
   </data>
   <data name="numericUpDown4.Location" type="System.Drawing.Point, System.Drawing">
     <value>278, 84</value>
@@ -440,17 +437,17 @@
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>824, 24</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>A28</value>
-  </data>
   <data name="&gt;&gt;PictureBox2.Name" xml:space="preserve">
     <value>PictureBox2</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
     <value>A.28.		(A.25a) Número de assentos inteiriços ou individuais atrás dos assentos dianteiros</value>
   </data>
-  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;RadioButton1.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="&gt;&gt;panel_A.Name" xml:space="preserve">
     <value>panel_A</value>
@@ -493,6 +490,9 @@
   </data>
   <data name="RadioButton2.Text" xml:space="preserve">
     <value>Não responde</value>
+  </data>
+  <data name="CheckBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 17</value>
   </data>
   <data name="Label4.TabIndex" type="System.Int32, mscorlib">
     <value>291</value>
@@ -569,11 +569,11 @@
   <data name="panel_A.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 219</value>
   </data>
-  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;numericUpDown2.Name" xml:space="preserve">
-    <value>numericUpDown2</value>
+  <data name="RadioButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 129</value>
   </data>
   <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -586,8 +586,5 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>es</value>
   </metadata>
 </root>

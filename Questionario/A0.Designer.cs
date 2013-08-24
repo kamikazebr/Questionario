@@ -84,13 +84,13 @@
             // 
             // panel_A
             // 
+            resources.ApplyResources(this.panel_A, "panel_A");
             this.panel_A.Controls.Add(this.RadioButton1);
             this.panel_A.Controls.Add(this.RadioButton5);
             this.panel_A.Controls.Add(this.RadioButton3);
             this.panel_A.Controls.Add(this.RadioButton4);
             this.panel_A.Controls.Add(this.RadioButton2);
             this.panel_A.Controls.Add(this.TextBox1);
-            resources.ApplyResources(this.panel_A, "panel_A");
             this.panel_A.Name = "panel_A";
             // 
             // RadioButton1
@@ -140,13 +140,13 @@
             // 
             // panel_B
             // 
+            resources.ApplyResources(this.panel_B, "panel_B");
             this.panel_B.Controls.Add(this.BradioButton6);
             this.panel_B.Controls.Add(this.BradioButton5);
             this.panel_B.Controls.Add(this.BradioButton4);
             this.panel_B.Controls.Add(this.BradioButton3);
             this.panel_B.Controls.Add(this.BradioButton1);
             this.panel_B.Controls.Add(this.CheckBox2);
-            resources.ApplyResources(this.panel_B, "panel_B");
             this.panel_B.Name = "panel_B";
             // 
             // BradioButton6
@@ -192,8 +192,8 @@
             // 
             // PictureBox2
             // 
-            this.PictureBox2.Image = global::Questionario.Properties.Resources.psyma_logo;
             resources.ApplyResources(this.PictureBox2, "PictureBox2");
+            this.PictureBox2.Image = global::Questionario.Properties.Resources.psyma_logo;
             this.PictureBox2.Name = "PictureBox2";
             this.PictureBox2.TabStop = false;
             // 

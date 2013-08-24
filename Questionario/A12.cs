@@ -25,7 +25,7 @@ namespace Questionario
                 return;
             }
 
-            string msg = isPT() ? String.Format("Em que ano o {0} foi registrado no seu nome/nome da sua empresa/organização?", rowCurrent["A4_A"]) : String.Format("¿En qué año se registró su {0} como particular o bajo el nombre de su compañía u organización?", rowCurrent["A4_A"]);
+            string msg = isPT() ? String.Format("Em que ano o {0} foi registrado no seu nome/nome da sua empresa/organização?", rowCurrent["A4_A_NOME"]) : String.Format("¿En qué año se registró su {0} como particular o bajo el nombre de su compañía u organización?", rowCurrent["A4_A_NOME"]);
             int A1 = (int)rowCurrent["A1_A"];
             if (A1 == 1)
             {

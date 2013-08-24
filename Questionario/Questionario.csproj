@@ -11,6 +11,22 @@
     <AssemblyName>Questionario</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Rodolfo Castro\Desktop\Questionario 1.2\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,6 +49,18 @@
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>Questionario.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>57FD34D32355F7582FE4025D804392CBD044B0CA</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Questionario_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
@@ -199,11 +227,89 @@
     <Compile Include="A30.Designer.cs">
       <DependentUpon>A30.cs</DependentUpon>
     </Compile>
+    <Compile Include="A31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A31.Designer.cs">
+      <DependentUpon>A31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A32.Designer.cs">
+      <DependentUpon>A32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A33.Designer.cs">
+      <DependentUpon>A33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A33_A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A33_A.Designer.cs">
+      <DependentUpon>A33_A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A34.Designer.cs">
+      <DependentUpon>A34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A35.Designer.cs">
+      <DependentUpon>A35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A36.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A36.Designer.cs">
+      <DependentUpon>A36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A37.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A37.Designer.cs">
+      <DependentUpon>A37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A39.Designer.cs">
+      <DependentUpon>A39.cs</DependentUpon>
+    </Compile>
     <Compile Include="A4.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="A4.Designer.cs">
       <DependentUpon>A4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A40.Designer.cs">
+      <DependentUpon>A40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A41.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A41.Designer.cs">
+      <DependentUpon>A41.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A42.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A42.Designer.cs">
+      <DependentUpon>A42.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A43.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A43.Designer.cs">
+      <DependentUpon>A43.cs</DependentUpon>
     </Compile>
     <Compile Include="A5.cs">
       <SubType>Form</SubType>
@@ -295,6 +401,9 @@
       <DependentUpon>A13.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A13.resx">
+      <DependentUpon>A13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A13.sah.resx">
       <DependentUpon>A13.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A14.es.resx">
@@ -411,8 +520,92 @@
     <EmbeddedResource Include="A30.resx">
       <DependentUpon>A30.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="A31.es.resx">
+      <DependentUpon>A31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A31.resx">
+      <DependentUpon>A31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A32.es.resx">
+      <DependentUpon>A32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A32.resx">
+      <DependentUpon>A32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A33.es.resx">
+      <DependentUpon>A33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A33.resx">
+      <DependentUpon>A33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A33_A.es.resx">
+      <DependentUpon>A33_A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A33_A.resx">
+      <DependentUpon>A33_A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A34.es.resx">
+      <DependentUpon>A34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A34.resx">
+      <DependentUpon>A34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A35.es.resx">
+      <DependentUpon>A35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A35.resx">
+      <DependentUpon>A35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A36.af.resx">
+      <DependentUpon>A36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A36.es-AR.resx">
+      <DependentUpon>A36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A36.es.resx">
+      <DependentUpon>A36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A36.resx">
+      <DependentUpon>A36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A37.af.resx">
+      <DependentUpon>A37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A37.es.resx">
+      <DependentUpon>A37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A37.resx">
+      <DependentUpon>A37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A39.es.resx">
+      <DependentUpon>A39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A39.resx">
+      <DependentUpon>A39.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="A4.resx">
       <DependentUpon>A4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A40.es.resx">
+      <DependentUpon>A40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A40.resx">
+      <DependentUpon>A40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A41.es.resx">
+      <DependentUpon>A41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A41.resx">
+      <DependentUpon>A41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A42.es.resx">
+      <DependentUpon>A42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A42.resx">
+      <DependentUpon>A42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A43.resx">
+      <DependentUpon>A43.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A5.es.resx">
       <DependentUpon>A5.cs</DependentUpon>
@@ -453,6 +646,9 @@
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -491,6 +687,7 @@
     <Content Include="banco.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Questionario_TemporaryKey.pfx" />
     <None Include="Resources\psyma-logo.png" />
   </ItemGroup>
   <ItemGroup>
@@ -498,6 +695,23 @@
       <Project>{1AA5ACB5-75B0-4C50-A6C4-B17E68FB6A69}</Project>
       <Name>ClassLibrary1</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

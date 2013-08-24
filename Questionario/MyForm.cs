@@ -546,6 +546,24 @@ namespace Questionario
                 con.Close();
             }
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // MyForm
+            // 
+            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Name = "MyForm";
+            this.Load += new System.EventHandler(this.MyForm_Load_1);
+            this.ResumeLayout(false);
+
+        }
+
+        private void MyForm_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

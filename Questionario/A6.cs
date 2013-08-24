@@ -24,7 +24,7 @@ namespace Questionario
                 return;
             }
 
-            string msg = isPT() ? String.Format("Qual é o tipo de carroceria do seu {0}", rowCurrent["A4_A"]) : "¿Qué tipo de carrocería tienesu ";
+            string msg = isPT() ? String.Format("Qual é o tipo de carroceria do seu {0}", rowCurrent["A4_A_NOME"]) : "¿Qué tipo de carrocería tienesu ";
             int A1 = (int)rowCurrent["A1_A"];
             if (A1 == 1)
             {

@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace Questionario
 {
-    public partial class A13 : MyForm
+    public partial class A33 : MyForm
     {
-        public A13()
+        public A33()
         {
             InitializeComponent();
         }
 
-        private void A13_Load(object sender, EventArgs e)
+        private void A33_Load(object sender, EventArgs e)
         {
             if (this.DesignMode)
             {
@@ -36,10 +36,10 @@ namespace Questionario
                 onePanelFoi = findPanels(row, onePanelFoi);
                 if (onePanelFoi)
                 {
+
                     updateRow(row);
-                    goToForm(new A14());
-                    
-                }
+                    goToForm(new A33_A());
+             }
                 else
                 {
                     MessageBox.Show("Selecione uma das opcoes antes de continuar!");

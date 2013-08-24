@@ -24,7 +24,7 @@ namespace Questionario
             {
                 return;
             }
-             string msg = isPT() ? String.Format("Qual é a linha {1} de modelo do {0}?",rowCurrent["A4_A_NOME"],"Chupa-me") : String.Format("¿Cuál es el la línea de modelo de su {0}?",rowCurrent["A4_A_NOME"]);
+             string msg = isPT() ? String.Format("Qual é a linha de modelo do {0}?",rowCurrent["A4_A_NOME"]) : String.Format("¿Cuál es el la línea de modelo de su {0}?",rowCurrent["A4_A_NOME"]);
             int A1 = (int)rowCurrent["A1_A"];
             if (A1 == 1)
             {

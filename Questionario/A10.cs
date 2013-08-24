@@ -25,7 +25,7 @@ namespace Questionario
                 return;
             }
 
-            string msg = isPT() ? String.Format("O {0} foi adquirido (ou está sendo pago por financiamento ou leasing) novo ou usado?", rowCurrent["A4_A"]) : String.Format("¿El {0} fue comprado (arrendado/financiado)  nuevo o usado?", rowCurrent["A4_A"]);
+            string msg = isPT() ? String.Format("O {0} foi adquirido (ou está sendo pago por financiamento ou leasing) novo ou usado?", rowCurrent["A4_A_NOME"]) : String.Format("¿El {0} fue comprado (arrendado/financiado)  nuevo o usado?", rowCurrent["A4_A_NOME"]);
             int A1 = (int)rowCurrent["A1_A"];
             if (A1 == 1)
             {

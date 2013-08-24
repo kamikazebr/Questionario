@@ -11,19 +11,11 @@ using System.Windows.Forms;
 
 namespace Questionario
 {
-    public partial class A13 : MyForm
+    public partial class A33_A : MyForm
     {
-        public A13()
+        public A33_A()
         {
             InitializeComponent();
-        }
-
-        private void A13_Load(object sender, EventArgs e)
-        {
-            if (this.DesignMode)
-            {
-                return;
-            }
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -37,8 +29,8 @@ namespace Questionario
                 if (onePanelFoi)
                 {
                     updateRow(row);
-                    goToForm(new A14());
-                    
+                    goToForm(new A34());
+
                 }
                 else
                 {
@@ -48,6 +40,14 @@ namespace Questionario
             catch (OleDbException ex)
             {
                 MessageBox.Show(String.Format("Cod:{0}: {1}", ex.ErrorCode, ex.Message));
+            }
+        }
+
+        private void A33_A_Load(object sender, EventArgs e)
+        {
+            if (this.DesignMode)
+            {
+                return;
             }
         }
     }

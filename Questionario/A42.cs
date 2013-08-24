@@ -11,19 +11,21 @@ using System.Windows.Forms;
 
 namespace Questionario
 {
-    public partial class A13 : MyForm
+    public partial class A42 : MyForm
     {
-        public A13()
+        public A42()
         {
             InitializeComponent();
         }
 
-        private void A13_Load(object sender, EventArgs e)
+        private void A42_Load(object sender, EventArgs e)
         {
             if (this.DesignMode)
             {
                 return;
             }
+            string msg = isPT() ? String.Format("É possível rodar seu veículo {0} exclusivamente a gás, ou é somente possível rodar com uma mistura de gás / diesel?", rowCurrent["A4_A_NOME"]) : String.Format("¿Es posible que su {0} funcione solamente con gas o sololo hace con una combinación de gas/diesel?", rowCurrent["A4_A_NOME"]);
+            Label3.Text = msg;
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -36,9 +38,10 @@ namespace Questionario
                 onePanelFoi = findPanels(row, onePanelFoi);
                 if (onePanelFoi)
                 {
+
                     updateRow(row);
-                    goToForm(new A14());
-                    
+
+                    //goToForm(new A35());
                 }
                 else
                 {

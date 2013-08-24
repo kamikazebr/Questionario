@@ -11,19 +11,22 @@ using System.Windows.Forms;
 
 namespace Questionario
 {
-    public partial class A13 : MyForm
+    public partial class A31 : MyForm
     {
-        public A13()
+        public A31()
         {
             InitializeComponent();
         }
 
-        private void A13_Load(object sender, EventArgs e)
+        private void A31_Load(object sender, EventArgs e)
         {
             if (this.DesignMode)
             {
                 return;
             }
+
+            String msg = isPT() ? String.Format("Seu {0} tem …?", rowCurrent["A4_A_NOME"]) : String.Format("¿Su {0} tiene …?", rowCurrent["A4_A_NOME"]);
+            Label3.Text = msg;
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -36,8 +39,9 @@ namespace Questionario
                 onePanelFoi = findPanels(row, onePanelFoi);
                 if (onePanelFoi)
                 {
+
                     updateRow(row);
-                    goToForm(new A14());
+                    goToForm(new A32());
                     
                 }
                 else

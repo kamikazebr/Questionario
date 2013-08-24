@@ -11,19 +11,23 @@ using System.Windows.Forms;
 
 namespace Questionario
 {
-    public partial class A13 : MyForm
+    public partial class A39 : MyForm
     {
-        public A13()
+        public A39()
         {
             InitializeComponent();
         }
 
-        private void A13_Load(object sender, EventArgs e)
+        private void A39_Load(object sender, EventArgs e)
         {
             if (this.DesignMode)
             {
                 return;
             }
+          
+
+            //string msg = isPT() ? String.Format("O motor a {0} veio de fábrica ou foi convertido posteriormente?", rowCurrent["A4_A_NOME"]) : String.Format("¿Sabe si el motor de {0} de su vehículo esde fábrica o lo adaptaron después?", rowCurrent["A4_A_NOME"]);
+            //Label3.Text = msg;
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -36,9 +40,10 @@ namespace Questionario
                 onePanelFoi = findPanels(row, onePanelFoi);
                 if (onePanelFoi)
                 {
+
                     updateRow(row);
-                    goToForm(new A14());
-                    
+
+                    goToForm(new A40());
                 }
                 else
                 {

@@ -1,7 +1,9 @@
-﻿using System;
+﻿using ClassLibrary1;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -17,15 +19,14 @@ namespace Questionario
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void A43_Load(object sender, EventArgs e)
         {
-
             if (this.DesignMode)
             {
                 return;
             }
 
-            List<string> list = new List<string>();
+            MyList<string> list = new MyList<string>();
             list.Add(isPT() ? "Gasolina" : "Nafta");
             list.Add(isPT() ? "Diesel" : "Diesel");
             list.Add(isPT() ? "GLP/ Gas Licuado de Petróleo más nafta" : "GLP/Gás de petróleo liquefeito mais gasolina");
@@ -41,13 +42,39 @@ namespace Questionario
             list.Add(isPT() ? "Motor híbrido combinado com gasolina" : "Motor híbrido combinado con nafta");
             list.Add(isPT() ? "Célula de combustível" : "Pila de combustible");
 
-            List<string> listVisiveis = new List<string>();
+            MyList<string> listVisiveis = new MyList<string>();
 
             listVisiveis.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14" });
-           
+
             
             class_A.Lista = list;
             class_A.Visiveis = listVisiveis;
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            bool onePanelFoi = false;
+            Dictionary<string, object> row = new Dictionary<string, object>();
+            try
+            {
+
+                onePanelFoi = findPanels(row, onePanelFoi);
+                if (onePanelFoi)
+                {
+
+                    updateRow(row);
+
+                    goToForm(new A44());
+                }
+                else
+                {
+                    MessageBox.Show("Selecione uma das opcoes antes de continuar!");
+                }
+            }
+            catch (OleDbException ex)
+            {
+                MessageBox.Show(String.Format("Cod:{0}: {1}", ex.ErrorCode, ex.Message));
+            }
         }
     }
 }

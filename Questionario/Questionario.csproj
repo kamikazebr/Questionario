@@ -75,6 +75,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsFormsControlLibrary1">
+      <HintPath>..\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="A0.cs">
@@ -311,17 +314,155 @@
     <Compile Include="A43.Designer.cs">
       <DependentUpon>A43.cs</DependentUpon>
     </Compile>
+    <Compile Include="A44.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A44.Designer.cs">
+      <DependentUpon>A44.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A45.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A45.Designer.cs">
+      <DependentUpon>A45.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A46.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A46.Designer.cs">
+      <DependentUpon>A46.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A47.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A47.Designer.cs">
+      <DependentUpon>A47.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A48.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A48.Designer.cs">
+      <DependentUpon>A48.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A49.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A49.Designer.cs">
+      <DependentUpon>A49.cs</DependentUpon>
+    </Compile>
     <Compile Include="A5.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="A5.Designer.cs">
       <DependentUpon>A5.cs</DependentUpon>
     </Compile>
+    <Compile Include="A50.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A50.Designer.cs">
+      <DependentUpon>A50.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A51.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A51.Designer.cs">
+      <DependentUpon>A51.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A52.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A52.Designer.cs">
+      <DependentUpon>A52.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A53.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A53.Designer.cs">
+      <DependentUpon>A53.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A54.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A54.Designer.cs">
+      <DependentUpon>A54.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A55.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A55.Designer.cs">
+      <DependentUpon>A55.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A56.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A56.Designer.cs">
+      <DependentUpon>A56.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A57.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A57.Designer.cs">
+      <DependentUpon>A57.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A58.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A58.Designer.cs">
+      <DependentUpon>A58.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A59.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A59.Designer.cs">
+      <DependentUpon>A59.cs</DependentUpon>
+    </Compile>
     <Compile Include="A6.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="A6.Designer.cs">
       <DependentUpon>A6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A60.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A60.Designer.cs">
+      <DependentUpon>A60.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A61.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A61.Designer.cs">
+      <DependentUpon>A61.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A62.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A62.Designer.cs">
+      <DependentUpon>A62.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A63.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A63.Designer.cs">
+      <DependentUpon>A63.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A64.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A64.Designer.cs">
+      <DependentUpon>A64.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A65.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A65.Designer.cs">
+      <DependentUpon>A65.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A66.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A66.Designer.cs">
+      <DependentUpon>A66.cs</DependentUpon>
     </Compile>
     <Compile Include="A7.cs">
       <SubType>Form</SubType>
@@ -604,8 +745,53 @@
     <EmbeddedResource Include="A42.resx">
       <DependentUpon>A42.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="A43.af.resx">
+      <DependentUpon>A43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A43.es.resx">
+      <DependentUpon>A43.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="A43.resx">
       <DependentUpon>A43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A44.es.resx">
+      <DependentUpon>A44.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A44.resx">
+      <DependentUpon>A44.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A45.af.resx">
+      <DependentUpon>A45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A45.es.resx">
+      <DependentUpon>A45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A45.resx">
+      <DependentUpon>A45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A46.es.resx">
+      <DependentUpon>A46.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A46.resx">
+      <DependentUpon>A46.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A47.es.resx">
+      <DependentUpon>A47.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A47.resx">
+      <DependentUpon>A47.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A48.es.resx">
+      <DependentUpon>A48.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A48.resx">
+      <DependentUpon>A48.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A49.es.resx">
+      <DependentUpon>A49.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A49.resx">
+      <DependentUpon>A49.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A5.es.resx">
       <DependentUpon>A5.cs</DependentUpon>
@@ -613,11 +799,80 @@
     <EmbeddedResource Include="A5.resx">
       <DependentUpon>A5.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="A50.es.resx">
+      <DependentUpon>A50.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A50.resx">
+      <DependentUpon>A50.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A51.es.resx">
+      <DependentUpon>A51.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A51.resx">
+      <DependentUpon>A51.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A52.es.resx">
+      <DependentUpon>A52.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A52.resx">
+      <DependentUpon>A52.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A53.es.resx">
+      <DependentUpon>A53.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A53.resx">
+      <DependentUpon>A53.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A54.es.resx">
+      <DependentUpon>A54.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A54.resx">
+      <DependentUpon>A54.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A55.es.resx">
+      <DependentUpon>A55.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A55.resx">
+      <DependentUpon>A55.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A56.resx">
+      <DependentUpon>A56.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A57.resx">
+      <DependentUpon>A57.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A58.resx">
+      <DependentUpon>A58.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A59.resx">
+      <DependentUpon>A59.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="A6.es.resx">
       <DependentUpon>A6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A6.resx">
       <DependentUpon>A6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A60.resx">
+      <DependentUpon>A60.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A61.resx">
+      <DependentUpon>A61.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A62.resx">
+      <DependentUpon>A62.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A63.resx">
+      <DependentUpon>A63.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A64.resx">
+      <DependentUpon>A64.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A65.resx">
+      <DependentUpon>A65.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A66.resx">
+      <DependentUpon>A66.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A7.es.resx">
       <DependentUpon>A7.cs</DependentUpon>

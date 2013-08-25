@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary1;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,7 +28,7 @@ namespace Questionario
             string msg = isPT() ? String.Format("Seu {0} é movido a que combustível?", rowCurrent["A4_A_NOME"]) : String.Format("¿Qué de combustible usa el motor de su {0}?", rowCurrent["A4_A_NOME"]);
             Label3.Text = msg;
 
-            List<string> list = new List<string>();
+            MyList<string> list = new MyList<string>();
             list.Add(isPT() ? "Gasolina" : "Nafta");
             list.Add(isPT() ? "Diesel" : "Diesel");
             list.Add(isPT() ? "GLP/ Gás de petróleo liquefeito mais gasolina " : "GLP/Gas Licuado de Petróleo más nafta");
@@ -37,7 +38,7 @@ namespace Questionario
             list.Add(isPT() ? "Flex / total flex: etanol e gasolina ou uma mistura dos dois" : "Combustible flexible (Flex fuel)/vehículo total flex: etanoly nafta o una mezcla de los mismos");
             list.Add(isPT() ? "Triflex/ Multiflex/ Nafta, gas más alcohol" : "Triflex/ Multiflex/ Nafta, gas más alcohol");
 
-            List<string> listVisiveis = new List<string>();
+            MyList<string> listVisiveis = new MyList<string>();
 
             if (isPT())
             {

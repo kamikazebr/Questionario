@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary1;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -72,7 +73,7 @@ namespace Questionario
             }
             Label3.Text = msg;
 
-            List<string> list = new List<string>();
+            MyList<string> list = new MyList<string>();
             list.Add("Citroën Berlingo");
             list.Add("Citroën Jumper");
             list.Add("Fiat Qubo/ Fiat FiorinoQubo");
@@ -93,7 +94,7 @@ namespace Questionario
 
             list.Add(isPT() ? "Outro modelo/não sabe/não responde" : "Otromodelo/no sabe/no contesta");
 
-            List<string> listVisiveis = new List<string>();
+            MyList<string> listVisiveis = new MyList<string>();
 
             int A3_A = (int)rowCurrent["A3_A"];
 
@@ -105,7 +106,7 @@ namespace Questionario
                 case 2:
                     if (!isPT())
                     {
-                        list.Add("3");
+                        listVisiveis.Add("3");
                     }
                     listVisiveis.AddRange(new string[] { "4", "5", "6" });
 

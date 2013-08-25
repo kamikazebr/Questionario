@@ -12,9 +12,9 @@ namespace ClassLibrary1
 {
     public class Class1:Panel
     {
-        public List<string> _lista = new List<string>();
+        public MyList<string> _lista = new MyList<string>();
 
-        public List<string> _visiveis = new List<string>();
+        public MyList<string> _visiveis = new MyList<string>();
 
         public Dictionary<string,RadioButton> Radios {get;set;}
 
@@ -24,7 +24,7 @@ namespace ClassLibrary1
        typeof(System.Drawing.Design.UITypeEditor))]
         [DesignerSerializationVisibility(
             DesignerSerializationVisibility.Content)]
-        public List<string> Lista
+        public MyList<string> Lista
         {
             get
             {
@@ -33,7 +33,7 @@ namespace ClassLibrary1
             
             set{
                 _lista = value;
-                InitializeComponent();
+               
             }
         }
 
@@ -42,7 +42,7 @@ namespace ClassLibrary1
        typeof(System.Drawing.Design.UITypeEditor))]
         [DesignerSerializationVisibility(
             DesignerSerializationVisibility.Content)]
-        public List<string> Visiveis
+        public MyList<string> Visiveis
         {
             get
             {
@@ -52,7 +52,7 @@ namespace ClassLibrary1
             set
             {
                 _visiveis = value;
-                InitializeComponent();
+            
             }
         }
 
@@ -64,8 +64,14 @@ namespace ClassLibrary1
         public Class1():base()
         {
             Init();
+            Lista.ListChanged += new ListChangedEventHandler(Lista_ListChanged);
+            Visiveis.ListChanged += new ListChangedEventHandler(Lista_ListChanged);
         }
 
+        void Lista_ListChanged(object sender, ListChangedEventArgs e)
+        {
+            InitializeComponent();
+        }
 
      
 
@@ -88,23 +94,6 @@ namespace ClassLibrary1
 
             //listVis.Clear();
             Radios = new Dictionary<string,RadioButton>();
-
-
-            //foreach (string vis in _visiveis)
-            //{
-            //    int inteiro = Int16.Parse(vis);
-            //    if (inteiro > 0)
-            //    {
-            //        inteiro--;
-            //    }
-
-            //    listVis.Add(_lista.ElementAt(inteiro));
-            //}
-
-            //if (_visiveis == null)
-            //{
-            //    listVis = _lista;
-            //}
 
             int w = 104;
             int h = 24;
@@ -133,11 +122,6 @@ namespace ClassLibrary1
 
         }
 
-        void service_ComponentChanged(object sender, ComponentChangedEventArgs e)
-        {
-            InitializeComponent();       
-        }
-
         private RadioButton criarRadioButton(string name,string text,Point point ,Size size)
         {
             RadioButton radioButton1 = new System.Windows.Forms.RadioButton();
@@ -152,5 +136,52 @@ namespace ClassLibrary1
             return radioButton1;
         }
 
+
+     
+       
+    }
+    using CustomExtensions;
+    public class MyList<T> : BindingList<T>
+    {
+
+        public void AddRange(T[] p)
+        {
+            for (int i = 0; i < p.Length; i++)
+            {
+                base.Add(p[i]);
+            }
+        }
+       
     }
 }
+
+namespace CustomExtensions
+{
+    public static class MyExtensions
+    {
+        public static void Shuffle<T>(this IList<T> list)
+        {
+            int n = list.Count;
+            while (n > 1)
+            {
+                n--;
+                int k = ThreadSafeRandom.ThisThreadsRandom.Next(n + 1);
+                T value = list[k];
+                list[k] = list[n];
+                list[n] = value;
+            }
+        }
+
+        public static class ThreadSafeRandom
+        {
+            [ThreadStatic]
+            private static Random Local;
+
+            public static Random ThisThreadsRandom
+            {
+                get { return Local ?? (Local = new Random(unchecked(Environment.TickCount * 31 + Thread.CurrentThread.ManagedThreadId))); }
+            }
+        }
+    }
+}
+

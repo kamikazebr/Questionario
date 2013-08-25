@@ -119,7 +119,12 @@ namespace Questionario
             //adapter.Fill(dataTable);
             if (lastID != -1)
             {
-                rowCurrent = dataTable.Rows[dataTable.Rows.Count-1];
+                try
+                {
+                    rowCurrent = dataTable.Rows[dataTable.Rows.Count - 1];
+                }catch(Exception ex){
+                    MessageBox.Show(String.Format("Contate o desenvolvedor: Code{0}", ex.StackTrace));
+                }
                 //rowCurrent = dataTable.Rows.Find(lastID);
                 //FindByid(lastID);
             }
@@ -568,33 +573,3 @@ namespace Questionario
 }
 
 
-
-namespace CustomExtensions
-{
-    public static class MyExtensions
-    {
-        public static void Shuffle<T>(this IList<T> list)
-        {
-            int n = list.Count;
-            while (n > 1)
-            {
-                n--;
-                int k = ThreadSafeRandom.ThisThreadsRandom.Next(n + 1);
-                T value = list[k];
-                list[k] = list[n];
-                list[n] = value;
-            }
-        }
-
-        public static class ThreadSafeRandom
-        {
-            [ThreadStatic]
-            private static Random Local;
-
-            public static Random ThisThreadsRandom
-            {
-                get { return Local ?? (Local = new Random(unchecked(Environment.TickCount * 31 + Thread.CurrentThread.ManagedThreadId))); }
-            }
-        }
-    }
-}

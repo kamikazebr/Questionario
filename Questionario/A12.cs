@@ -24,18 +24,24 @@ namespace Questionario
             {
                 return;
             }
-
-            string msg = isPT() ? String.Format("Em que ano o {0} foi registrado no seu nome/nome da sua empresa/organização?", rowCurrent["A4_A_NOME"]) : String.Format("¿En qué año se registró su {0} como particular o bajo el nombre de su compañía u organización?", rowCurrent["A4_A_NOME"]);
-            int A1 = (int)rowCurrent["A1_A"];
-            if (A1 == 1)
+            try
             {
-                int A1_EXTRAS = convertStringToInt((string)rowCurrent["A1_A_EXTRAS"]);
-                if (A1_EXTRAS > 1)
+                string msg = isPT() ? String.Format("Em que ano o {0} foi registrado no seu nome/nome da sua empresa/organização?", rowCurrent["A4_A_NOME"]) : String.Format("¿En qué año se registró su {0} como particular o bajo el nombre de su compañía u organización?", rowCurrent["A4_A_NOME"]);
+                int A1 = (int)rowCurrent["A1_A"];
+                if (A1 == 1)
                 {
-                    //msg = isPT() ? "Qual é o modelo da sua van mais nova?" : "¿Cuál es el modelo de la camioneta que compró más recientemente?";
+                    int A1_EXTRAS = convertStringToInt((string)rowCurrent["A1_A_EXTRAS"]);
+                    if (A1_EXTRAS > 1)
+                    {
+                        //msg = isPT() ? "Qual é o modelo da sua van mais nova?" : "¿Cuál es el modelo de la camioneta que compró más recientemente?";
+                    }
                 }
+
+                Label3.Text = msg;
             }
-            Label3.Text = msg;
+            catch (Exception)
+            {
+            }
         }
 
         private void Button1_Click(object sender, EventArgs e)

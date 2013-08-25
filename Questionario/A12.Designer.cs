@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(A12));
+            this.userControl11 = new WindowsFormsControlLibrary1.UserControl1();
             this.panel_A = new System.Windows.Forms.Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.RadioButton3 = new System.Windows.Forms.RadioButton();
@@ -43,18 +44,30 @@
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
+            // userControl11
+            // 
+            this.userControl11.Lista.Add("1");
+            this.userControl11.Lista.Add("2");
+            this.userControl11.Lista.Add("3");
+            this.userControl11.Lista.Add("4");
+            resources.ApplyResources(this.userControl11, "userControl11");
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Visiveis.Add("1");
+            this.userControl11.Visiveis.Add("2");
+            this.userControl11.Visiveis.Add("3");
+            this.userControl11.Visiveis.Add("4");
+            // 
             // panel_A
             // 
-            resources.ApplyResources(this.panel_A, "panel_A");
             this.panel_A.Controls.Add(this.comboBox1);
             this.panel_A.Controls.Add(this.RadioButton3);
             this.panel_A.Controls.Add(this.RadioButton1);
             this.panel_A.Controls.Add(this.RadioButton2);
+            resources.ApplyResources(this.panel_A, "panel_A");
             this.panel_A.Name = "panel_A";
             // 
             // comboBox1
             // 
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
@@ -62,6 +75,7 @@
             resources.GetString("comboBox1.Items2"),
             resources.GetString("comboBox1.Items3"),
             resources.GetString("comboBox1.Items4")});
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             // 
             // RadioButton3
@@ -76,7 +90,7 @@
             resources.ApplyResources(this.RadioButton1, "RadioButton1");
             this.RadioButton1.Name = "RadioButton1";
             this.RadioButton1.TabStop = true;
-            this.RadioButton1.Tag = "TextBox1";
+            this.RadioButton1.Tag = "comboBox1";
             this.RadioButton1.UseVisualStyleBackColor = true;
             // 
             // RadioButton2
@@ -111,8 +125,8 @@
             // 
             // PictureBox2
             // 
-            resources.ApplyResources(this.PictureBox2, "PictureBox2");
             this.PictureBox2.Image = global::Questionario.Properties.Resources.psyma_logo;
+            resources.ApplyResources(this.PictureBox2, "PictureBox2");
             this.PictureBox2.Name = "PictureBox2";
             this.PictureBox2.TabStop = false;
             // 
@@ -120,6 +134,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.userControl11);
             this.Controls.Add(this.panel_A);
             this.Controls.Add(this.PictureBox2);
             this.Controls.Add(this.Button1);
@@ -149,5 +164,6 @@
         internal System.Windows.Forms.RadioButton RadioButton1;
         internal System.Windows.Forms.RadioButton RadioButton2;
         private System.Windows.Forms.ComboBox comboBox1;
+        private WindowsFormsControlLibrary1.UserControl1 userControl11;
     }
 }

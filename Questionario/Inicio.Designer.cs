@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
-            this.button2 = new System.Windows.Forms.Button();
+            this.idiomaPanel = new System.Windows.Forms.Panel();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.button3 = new System.Windows.Forms.Button();
-            this.idiomaPanel = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.idiomaPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button2
+            // idiomaPanel
             // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button1_Click);
+            this.idiomaPanel.Controls.Add(this.radioButton1);
+            this.idiomaPanel.Controls.Add(this.radioButton2);
+            resources.ApplyResources(this.idiomaPanel, "idiomaPanel");
+            this.idiomaPanel.Name = "idiomaPanel";
             // 
             // radioButton1
             // 
@@ -69,12 +69,12 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // idiomaPanel
+            // button2
             // 
-            this.idiomaPanel.Controls.Add(this.radioButton1);
-            this.idiomaPanel.Controls.Add(this.radioButton2);
-            resources.ApplyResources(this.idiomaPanel, "idiomaPanel");
-            this.idiomaPanel.Name = "idiomaPanel";
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button1_Click);
             // 
             // Inicio
             // 

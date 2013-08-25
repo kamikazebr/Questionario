@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using ClassLibrary1;
 namespace Questionario
 {
     public partial class A37 : MyForm
@@ -28,7 +28,7 @@ namespace Questionario
             string msg = isPT() ? String.Format("Com que tipo de gasolina o(a) Sr(a). geralmente abastece seu {0}?", rowCurrent["A4_A_NOME"]) : String.Format("¿Con qué tipo de nafta reabastece normalmente su {0}?", rowCurrent["A4_A_NOME"]);
             Label3.Text = msg;
 
-            List<string> list = new List<string>();
+            MyList<string> list = new MyList<string>();
             list.Add(isPT() ? "Petrobras: 101.5 octanas" : "Petrobras: 101.5 octanos");
             list.Add(isPT() ? "YPF fangio XXI: 98 octanas" : "YPF fangio XXI: 98 octanos");
             list.Add(isPT() ? "SHELL V-Power: 97,5 octanas" : "SHELL V-Power: 97.5 octanos");
@@ -39,7 +39,7 @@ namespace Questionario
             list.Add(isPT() ? "Gasolina Premium: 91 octanas" : "Nafta Premium: 91 octanos");
             list.Add(isPT() ? "Gasolina Podium: 95 octanas" : "NaftaPodium: 95 octanos");
 
-            List<string> listVisiveis = new List<string>();
+            MyList<string> listVisiveis = new MyList<string>();
 
             if (isPT())
             {

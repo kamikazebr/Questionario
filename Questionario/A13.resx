@@ -183,11 +183,11 @@
   <data name="RadioButton7.Text" xml:space="preserve">
     <value>Não responde</value>
   </data>
-  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 20</value>
-  </data>
   <data name="&gt;&gt;TextBox1.Name" xml:space="preserve">
     <value>TextBox1</value>
+  </data>
+  <data name="RadioButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;PictureBox2.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -240,14 +240,14 @@
   <data name="Button1.Text" xml:space="preserve">
     <value>Próxima questão</value>
   </data>
+  <data name="&gt;&gt;RadioButton4.Parent" xml:space="preserve">
+    <value>panel_A</value>
+  </data>
   <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;RadioButton6.Name" xml:space="preserve">
     <value>RadioButton6</value>
-  </data>
-  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="TextBox1.TabIndex" type="System.Int32, mscorlib">
     <value>167</value>
@@ -266,6 +266,9 @@
   </data>
   <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RadioButton2.Parent" xml:space="preserve">
+    <value>panel_A</value>
   </data>
   <data name="&gt;&gt;RadioButton2.Name" xml:space="preserve">
     <value>RadioButton2</value>
@@ -296,9 +299,6 @@
   </data>
   <data name="&gt;&gt;RadioButton4.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="RadioButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>161</value>
   </data>
   <data name="RadioButton5.TabIndex" type="System.Int32, mscorlib">
     <value>164</value>
@@ -342,8 +342,8 @@
   <data name="RadioButton6.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 17</value>
   </data>
-  <data name="RadioButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;RadioButton1.Parent" xml:space="preserve">
+    <value>panel_A</value>
   </data>
   <data name="&gt;&gt;Label3.Name" xml:space="preserve">
     <value>Label3</value>
@@ -372,8 +372,8 @@
   <data name="RadioButton4.Size" type="System.Drawing.Size, System.Drawing">
     <value>127, 17</value>
   </data>
-  <data name="&gt;&gt;RadioButton1.Parent" xml:space="preserve">
-    <value>panel_A</value>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="RadioButton3.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 17</value>
@@ -435,8 +435,8 @@
   <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;RadioButton2.Parent" xml:space="preserve">
-    <value>panel_A</value>
+  <data name="RadioButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
   </data>
   <data name="TextBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
@@ -492,8 +492,8 @@
   <data name="&gt;&gt;TextBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;RadioButton4.Parent" xml:space="preserve">
-    <value>panel_A</value>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 20</value>
   </data>
   <data name="RadioButton3.Text" xml:space="preserve">
     <value>(não via "consórcio") </value>
@@ -506,8 +506,5 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>sah</value>
   </metadata>
 </root>

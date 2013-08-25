@@ -38,7 +38,6 @@ namespace ClassLibrary1
             }
         }
 
-
         [Editor(@"System.Windows.Forms.Design.StringCollectionEditor," +
         "System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
        typeof(System.Drawing.Design.UITypeEditor))]
@@ -107,16 +106,19 @@ namespace ClassLibrary1
 
         private void InitializeComponent()
         {
-
-          
-            Console.WriteLine("InitializeComponent");
-            this.SuspendLayout();
-            
-            this.Controls.Clear();
+            //Console.WriteLine("InitializeComponent");
+           
 
             //listVis.Clear();
             Radios = new Dictionary<string,RadioButton>();
 
+            if (_lista.Count == 0)
+            {
+                return;
+            }
+            this.SuspendLayout();
+
+            this.Controls.Clear();
             int w = 104;
             int h = 24;
 
@@ -142,10 +144,30 @@ namespace ClassLibrary1
             for (int i = 0; i < _visiveis.Count; i++)
             {
                 //string posString = String.Format("{0}",i+1);
-                Point p = new System.Drawing.Point(0, i * h);
+
+                string[] part = _visiveis[i].Split("-".ToCharArray());
+               
                 RadioButton rb = _radios[_visiveis[i]];
+
+                if (i > 0)
+                {
+                    h = _radios[_visiveis[i-1]].Size.Height;
+                }
+
+                Point p = new System.Drawing.Point(0, i * h);
+              
                 rb.Location = p;
+                
+                
                 this.Controls.Add(rb);
+
+                if (part.Length > 1)
+                {
+                    Point pT = new System.Drawing.Point(rb.Size.Width + 15, i * h);
+                    this.Controls.Add(criarTextBox(String.Format("TextBox{0}", i + 1), "", pT, new Size(this.Size.Width - rb.Size.Width, h)));
+               
+                }
+               
             }
             this.PerformLayout();
             this.ResumeLayout(true);
@@ -155,7 +177,7 @@ namespace ClassLibrary1
         private RadioButton criarRadioButton(string name,string text,Point point ,Size size)
         {
             RadioButton radioButton1 = new System.Windows.Forms.RadioButton();
-            radioButton1.AutoSize = true;
+            radioButton1.MaximumSize = new Size(this.Size.Width, 0);
             radioButton1.Location = point;
             radioButton1.Name = name;
             radioButton1.Size = size;
@@ -163,9 +185,24 @@ namespace ClassLibrary1
             radioButton1.TabStop = true;
             radioButton1.Text = text;
             radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.AutoSize = true;
             return radioButton1;
         }
 
+        private TextBox criarTextBox(string name, string text, Point point, Size size)
+        {
+            TextBox radioButton1 = new System.Windows.Forms.TextBox();
+            //radioButton1.AutoSize = true;
+            
+            radioButton1.Location = point;
+            radioButton1.Name = name;
+            radioButton1.Size = size;
+            radioButton1.TabIndex = 0;
+            radioButton1.TabStop = true;
+            radioButton1.Text = text;
+            //radioButton1.UseVisualStyleBackColor = true;
+            return radioButton1;
+        }
 
      
        

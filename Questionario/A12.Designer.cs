@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(A12));
-            this.userControl11 = new WindowsFormsControlLibrary1.UserControl1();
             this.panel_A = new System.Windows.Forms.Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.RadioButton3 = new System.Windows.Forms.RadioButton();
@@ -43,19 +42,6 @@
             this.panel_A.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // userControl11
-            // 
-            this.userControl11.Lista.Add("1");
-            this.userControl11.Lista.Add("2");
-            this.userControl11.Lista.Add("3");
-            this.userControl11.Lista.Add("4");
-            resources.ApplyResources(this.userControl11, "userControl11");
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Visiveis.Add("1");
-            this.userControl11.Visiveis.Add("2");
-            this.userControl11.Visiveis.Add("3");
-            this.userControl11.Visiveis.Add("4");
             // 
             // panel_A
             // 
@@ -134,7 +120,6 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.userControl11);
             this.Controls.Add(this.panel_A);
             this.Controls.Add(this.PictureBox2);
             this.Controls.Add(this.Button1);
@@ -164,6 +149,5 @@
         internal System.Windows.Forms.RadioButton RadioButton1;
         internal System.Windows.Forms.RadioButton RadioButton2;
         private System.Windows.Forms.ComboBox comboBox1;
-        private WindowsFormsControlLibrary1.UserControl1 userControl11;
     }
 }

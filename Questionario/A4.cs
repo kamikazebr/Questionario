@@ -82,7 +82,7 @@ namespace Questionario
             list.Add("Fiat Fiorino");
             list.Add("Hyundai H1");
             list.Add("Ford Transit");
-            list.Add("IvecoDaily");
+            list.Add("Iveco Daily");
             list.Add("JinbeiTopic");
             list.Add("MB Sprinter");
             list.Add("Peugeot Boxer");

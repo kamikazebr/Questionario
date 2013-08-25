@@ -117,32 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="userControl11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>399, 78</value>
-  </data>
-  <data name="userControl11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 90</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="userControl11.TabIndex" type="System.Int32, mscorlib">
-    <value>158</value>
-  </data>
-  <data name="userControl11.Text" xml:space="preserve">
-    <value>userControl11</value>
-  </data>
-  <data name="&gt;&gt;userControl11.Name" xml:space="preserve">
-    <value>userControl11</value>
-  </data>
-  <data name="&gt;&gt;userControl11.Type" xml:space="preserve">
-    <value>WindowsFormsControlLibrary1.UserControl1, WindowsFormsControlLibrary1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;userControl11.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;userControl11.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="comboBox1.Items" xml:space="preserve">
     <value>2009</value>
   </data>
@@ -158,12 +132,14 @@
   <data name="comboBox1.Items4" xml:space="preserve">
     <value>2013</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>65, 21</value>
   </data>
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 21</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>148</value>
   </data>
@@ -289,7 +265,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel_A.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="Button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -316,7 +292,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -349,7 +325,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -379,7 +355,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -412,7 +388,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -436,7 +412,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;PictureBox2.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

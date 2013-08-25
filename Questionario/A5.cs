@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ClassLibrary1;
+using Questionario.Banco_de_Dados1DataSetTableAdapters;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -43,26 +45,34 @@ namespace Questionario
                  MessageBox.Show(exNull.Message);
              }
 
-            List<string> list = new List<string>();
-            list.Add("Citroën Berlingo");
-            list.Add("Citroën Jumper");
-            list.Add("Fiat Qubo/ Fiat FiorinoQubo");
-            list.Add("Fiat Doblo");
-            list.Add("Fiat Ducato");
-            list.Add("Fiat Fiorino");
-            list.Add("Hyundai H1");
-            list.Add("Ford Transit");
-            list.Add("IvecoDaily");
-            list.Add("JinbeiTopic");
-            list.Add("MB Sprinter");
-            list.Add("Peugeot Boxer");
-            list.Add("Peugeot Expert");
-            list.Add("Peugeot Partner");
-            list.Add("Renault Kangoo");
-            list.Add("Renault Master");
-            list.Add("Volkswagen T2 ");
+            int A4_A = (int)rowCurrent["A4_A"];
 
-            list.Add(isPT() ? "Outro modelo/não sabe/não responde" : "Otromodelo/no sabe/no contesta");
+
+             MyList<string> listVisiveis = new MyList<string>();
+
+             
+            switch (A4_A)
+            {
+                case 1:
+                    listVisiveis.AddRange(new string[]{"1","2"});        
+                    break;
+                case 2:
+                    listVisiveis.AddRange(new string[] { "54","55","56" });
+                    break;
+                case 3:
+                    listVisiveis.AddRange(new string[] { "7", "8", "9", "10", "11", "12" });
+                    break;
+                case 4:
+                    listVisiveis.AddRange(new string[] { "1", "2" });
+                    break;
+                case 5:
+                    listVisiveis.AddRange(new string[] { "1", "2" });
+                    break;
+            }
+
+
+            class_A.Visiveis = listVisiveis;   
+        
         }
 
         private void Button1_Click(object sender, EventArgs e)

@@ -117,23 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 26</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
-    <value>605</value>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="checkedListBox4.Size" type="System.Drawing.Size, System.Drawing">
     <value>470, 64</value>
   </data>
   <data name="&gt;&gt;checkedListBox2.ZOrder" xml:space="preserve">
     <value>7</value>
+  </data>
+  <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 190</value>
+  </data>
+  <data name="checkedListBox4.Items3" xml:space="preserve">
+    <value>Estribo adicional</value>
   </data>
   <data name="&gt;&gt;Label10.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -153,14 +161,11 @@
   <data name="&gt;&gt;checkedListBox4.Name" xml:space="preserve">
     <value>checkedListBox4</value>
   </data>
-  <data name="&gt;&gt;checkedListBox3.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="checkedListBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>313, 259</value>
   </data>
-  <data name="Label10.Text" xml:space="preserve">
-    <value>Outros</value>
+  <data name="checkedListBox1.Items1" xml:space="preserve">
+    <value>CD player/CD changer</value>
   </data>
   <data name="&gt;&gt;panel1.Name" xml:space="preserve">
     <value>panel1</value>
@@ -174,14 +179,14 @@
   <data name="&gt;&gt;Label4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="radioButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>516, 459</value>
-  </data>
   <data name="&gt;&gt;radioButton2.Name" xml:space="preserve">
     <value>radioButton2</value>
   </data>
   <data name="radioButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 17</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -198,23 +203,20 @@
   <data name="&gt;&gt;Label7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="checkedListBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>516, 121</value>
-  </data>
   <data name="checkedListBox5.Location" type="System.Drawing.Point, System.Drawing">
     <value>515, 212</value>
   </data>
   <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 13</value>
   </data>
-  <data name="checkedListBox6.Items6" xml:space="preserve">
-    <value>Mesa na parte de trás do banco</value>
-  </data>
   <data name="checkedListBox5.Items3" xml:space="preserve">
     <value>Sistemas adicionais para fixação da carga (p. ex. trilhos para fixação da carga)	</value>
   </data>
-  <data name="radioButton2.TabIndex" type="System.Int32, mscorlib">
-    <value>685</value>
+  <data name="Label10.TabIndex" type="System.Int32, mscorlib">
+    <value>677</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Label3.Text" xml:space="preserve">
     <value>Seu veículo tem …, mesmo se não tiver vindo de fábrica?</value>
@@ -240,11 +242,8 @@
   <data name="&gt;&gt;radioButton1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="Label9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="checkedListBox6.Items6" xml:space="preserve">
+    <value>Mesa na parte de trás do banco</value>
   </data>
   <data name="radioButton3.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 17</value>
@@ -288,9 +287,6 @@
   <data name="checkedListBox5.Items1" xml:space="preserve">
     <value>Porta-bagagens de teto, traseira ou outros	</value>
   </data>
-  <data name="radioButton1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>164, 13</value>
   </data>
@@ -318,9 +314,6 @@
   <data name="&gt;&gt;checkedListBox4.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="checkedListBox1.Items3" xml:space="preserve">
-    <value>Rádio por satélite </value>
-  </data>
   <data name="&gt;&gt;checkedListBox3.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -329,6 +322,9 @@
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 326</value>
   </data>
   <data name="&gt;&gt;radioButton2.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -342,20 +338,11 @@
   <data name="checkedListBox5.Items" xml:space="preserve">
     <value>Gancho de reboque	</value>
   </data>
-  <data name="checkedListBox2.Items10" xml:space="preserve">
-    <value>Sensor de chuva/sensor de luz</value>
-  </data>
   <data name="&gt;&gt;Button1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="checkedListBox1.Items8" xml:space="preserve">
     <value>Telefone por satélite</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 142</value>
   </data>
   <data name="Label8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
@@ -372,8 +359,11 @@
   <data name="checkedListBox6.Items5" xml:space="preserve">
     <value>Bolsão na parte de trás do banco</value>
   </data>
-  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 60</value>
+  </data>
+  <data name="checkedListBox1.Items" xml:space="preserve">
+    <value>Tacógrafo/caixa-preta	</value>
   </data>
   <data name="&gt;&gt;checkedListBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -384,11 +374,11 @@
   <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
   <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>241, 13</value>
-  </data>
-  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -396,8 +386,8 @@
   <data name="&gt;&gt;PictureBox2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="radioButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>684</value>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;radioButton1.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -408,11 +398,8 @@
   <data name="Label1.TabIndex" type="System.Int32, mscorlib">
     <value>604</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1219, 730</value>
-  </data>
-  <data name="&gt;&gt;PictureBox2.Name" xml:space="preserve">
-    <value>PictureBox2</value>
+  <data name="&gt;&gt;checkedListBox2.Name" xml:space="preserve">
+    <value>checkedListBox2</value>
   </data>
   <data name="Label5.TabIndex" type="System.Int32, mscorlib">
     <value>607</value>
@@ -432,11 +419,8 @@
   <data name="checkedListBox1.Items6" xml:space="preserve">
     <value>Sistema de telefone hands-free - integrado</value>
   </data>
-  <data name="&gt;&gt;Label10.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="checkedListBox2.Items1" xml:space="preserve">
+    <value>Airbag para o motorista		</value>
   </data>
   <data name="checkedListBox2.Items2" xml:space="preserve">
     <value>Airbag para o passageiro	</value>
@@ -447,6 +431,9 @@
   <data name="checkedListBox6.Items3" xml:space="preserve">
     <value>Barras esportivas/barras de estilo</value>
   </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;checkedListBox1.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
@@ -456,17 +443,11 @@
   <data name="checkedListBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 266</value>
   </data>
-  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
-    <value>609</value>
-  </data>
   <data name="checkedListBox1.Items7" xml:space="preserve">
     <value>Sistema de telefone hands-free - por Bluetooth </value>
   </data>
   <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 28</value>
   </data>
   <data name="checkedListBox2.Items3" xml:space="preserve">
     <value>Sistema de detecção de ponto cego	</value>
@@ -480,11 +461,14 @@
   <data name="&gt;&gt;checkedListBox1.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;PictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="checkedListBox3.Items2" xml:space="preserve">
     <value>Aquecimento adicional na área de carga/passageiros	</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;Label9.Name" xml:space="preserve">
     <value>Label9</value>
@@ -494,12 +478,6 @@
   </data>
   <data name="&gt;&gt;checkedListBox5.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Label9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
-    <value>674</value>
   </data>
   <data name="checkedListBox1.Items4" xml:space="preserve">
     <value>Entrada USB/ cartão SD	</value>
@@ -534,8 +512,8 @@
   <data name="checkedListBox3.Items3" xml:space="preserve">
     <value>Aquecimento auxiliar (aquece a cabine do veículo sem estar com o motor em funcionamento)	</value>
   </data>
-  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 244</value>
+  <data name="radioButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>684</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>A54</value>
@@ -555,8 +533,8 @@
   <data name="&gt;&gt;checkedListBox4.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>513, 190</value>
+  <data name="Label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
   <data name="checkedListBox6.TabIndex" type="System.Int32, mscorlib">
     <value>683</value>
@@ -564,20 +542,23 @@
   <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="checkedListBox2.Items1" xml:space="preserve">
-    <value>Airbag para o motorista		</value>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="checkedListBox4.Items3" xml:space="preserve">
-    <value>Estribo adicional</value>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>Outros</value>
   </data>
   <data name="Label2.Text" xml:space="preserve">
     <value>Entretenimento/informação/comunicação</value>
   </data>
-  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 73</value>
+  <data name="&gt;&gt;checkedListBox5.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="checkedListBox2.Items10" xml:space="preserve">
+    <value>Sensor de chuva/sensor de luz</value>
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
   <data name="checkedListBox6.Location" type="System.Drawing.Point, System.Drawing">
     <value>515, 344</value>
@@ -588,9 +569,6 @@
   <data name="checkedListBox1.Items2" xml:space="preserve">
     <value>Interface para MP3 player, iPod</value>
   </data>
-  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="checkedListBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>515, 36</value>
   </data>
@@ -600,8 +578,8 @@
   <data name="checkedListBox2.Items" xml:space="preserve">
     <value>Alarme</value>
   </data>
-  <data name="Label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  <data name="radioButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -612,8 +590,11 @@
   <data name="&gt;&gt;radioButton3.Name" xml:space="preserve">
     <value>radioButton3</value>
   </data>
-  <data name="&gt;&gt;checkedListBox5.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 105</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.Name" xml:space="preserve">
+    <value>PictureBox2</value>
   </data>
   <data name="radioButton3.Text" xml:space="preserve">
     <value>Não sabe</value>
@@ -633,17 +614,14 @@
   <data name="Label1.Text" xml:space="preserve">
     <value>A.54.		(A.40) Equipamentos do veículo</value>
   </data>
-  <data name="Label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="checkedListBox1.Items3" xml:space="preserve">
+    <value>Rádio por satélite </value>
   </data>
   <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 17</value>
   </data>
   <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>19, 129</value>
@@ -663,6 +641,9 @@
   <data name="checkedListBox4.Items1" xml:space="preserve">
     <value>Vidros escurecidos	</value>
   </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
   <data name="checkedListBox6.Items2" xml:space="preserve">
     <value>Partes cromadas, acabamentos na carroceria em alumínio (p. ex. maçaneta da porta, espelhos retrovisores)</value>
   </data>
@@ -672,14 +653,17 @@
   <data name="&gt;&gt;Label8.Name" xml:space="preserve">
     <value>Label8</value>
   </data>
+  <data name="checkedListBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>679</value>
+  </data>
   <data name="Label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;checkedListBox1.Name" xml:space="preserve">
     <value>checkedListBox1</value>
   </data>
-  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 244</value>
   </data>
   <data name="&gt;&gt;Label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -687,20 +671,17 @@
   <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;checkedListBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="Button1.TabIndex" type="System.Int32, mscorlib">
     <value>608</value>
   </data>
-  <data name="checkedListBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 36</value>
+  <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
   </data>
-  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 28</value>
   </data>
-  <data name="Label10.TabIndex" type="System.Int32, mscorlib">
-    <value>677</value>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="checkedListBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>470, 64</value>
@@ -708,17 +689,18 @@
   <data name="checkedListBox4.Items" xml:space="preserve">
     <value>Suspensão a ar / pneumática</value>
   </data>
-  <data name="checkedListBox6.Items" xml:space="preserve">
-    <value>Rodas de alumínio</value>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 73</value>
   </data>
-  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;checkedListBox2.Name" xml:space="preserve">
-    <value>checkedListBox2</value>
+  <data name="radioButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>685</value>
   </data>
-  <data name="checkedListBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>679</value>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 142</value>
   </data>
   <data name="checkedListBox6.Size" type="System.Drawing.Size, System.Drawing">
     <value>470, 109</value>
@@ -726,23 +708,26 @@
   <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 13</value>
   </data>
-  <data name="checkedListBox1.Items1" xml:space="preserve">
-    <value>CD player/CD changer</value>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>609</value>
   </data>
   <data name="&gt;&gt;checkedListBox3.Name" xml:space="preserve">
     <value>checkedListBox3</value>
   </data>
-  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>513, 105</value>
+  <data name="&gt;&gt;Label10.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>359, 26</value>
+  <data name="&gt;&gt;checkedListBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;radioButton3.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  <data name="radioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 459</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Label9.TabIndex" type="System.Int32, mscorlib">
     <value>676</value>
@@ -753,8 +738,8 @@
   <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="checkedListBox1.Items" xml:space="preserve">
-    <value>Tacógrafo/caixa-preta	</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1219, 730</value>
   </data>
   <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>513, 20</value>
@@ -765,20 +750,29 @@
   <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>387, 13</value>
   </data>
+  <data name="checkedListBox5.Items4" xml:space="preserve">
+    <value>Sistema de rack de teto</value>
+  </data>
   <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>400, 20</value>
   </data>
   <data name="&gt;&gt;checkedListBox3.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
+  <data name="checkedListBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 36</value>
+  </data>
   <data name="Button1.Text" xml:space="preserve">
     <value>Próxima questão</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
   </data>
   <data name="radioButton3.TabIndex" type="System.Int32, mscorlib">
     <value>686</value>
   </data>
-  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -795,17 +789,23 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>A54</value>
   </data>
-  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>513, 326</value>
+  <data name="&gt;&gt;checkedListBox3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="checkedListBox6.Items" xml:space="preserve">
+    <value>Rodas de alumínio</value>
+  </data>
+  <data name="Label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="checkedListBox5.Items4" xml:space="preserve">
-    <value>Sistema de rack de teto</value>
+  <data name="checkedListBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 121</value>
   </data>
   <data name="Label6.Text" xml:space="preserve">
     <value>Segurança/direção segura/auxílios à direção</value>
@@ -813,14 +813,14 @@
   <data name="&gt;&gt;checkedListBox2.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 60</value>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>605</value>
   </data>
   <data name="&gt;&gt;checkedListBox5.Name" xml:space="preserve">
     <value>checkedListBox5</value>
   </data>
-  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>674</value>
   </data>
   <data name="radioButton1.Text" xml:space="preserve">
     <value>Sim</value>
@@ -830,8 +830,5 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>es</value>
   </metadata>
 </root>

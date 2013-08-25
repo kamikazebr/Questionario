@@ -491,6 +491,15 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>bancoDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Banco_de_Dados1DataSet.cs">
+      <DependentUpon>Banco_de_Dados1DataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Banco_de_Dados1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banco_de_Dados1DataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Encerrado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -542,9 +551,6 @@
       <DependentUpon>A13.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A13.resx">
-      <DependentUpon>A13.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="A13.sah.resx">
       <DependentUpon>A13.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="A14.es.resx">
@@ -925,6 +931,17 @@
     <None Include="bancoDataSet.xss">
       <DependentUpon>bancoDataSet.xsd</DependentUpon>
     </None>
+    <None Include="Banco_de_Dados1DataSet.xsc">
+      <DependentUpon>Banco_de_Dados1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Banco_de_Dados1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banco_de_Dados1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banco_de_Dados1DataSet.xss">
+      <DependentUpon>Banco_de_Dados1DataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -939,6 +956,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Banco de Dados1.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="banco.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

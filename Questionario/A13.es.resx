@@ -117,15 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="Button1.Text" xml:space="preserve">
     <value>Siguiente Pregunta</value>
-  </data>
-  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
@@ -133,9 +126,6 @@
   </data>
   <data name="Label3.Text" xml:space="preserve">
     <value>El vehículo fue…</value>
-  </data>
-  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>189, 24</value>
@@ -146,17 +136,11 @@
   <data name="TextBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>189, 101</value>
   </data>
-  <data name="RadioButton7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="RadioButton7.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 17</value>
   </data>
   <data name="RadioButton7.Text" xml:space="preserve">
     <value>No contesto</value>
-  </data>
-  <data name="RadioButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="RadioButton6.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 17</value>
@@ -164,17 +148,11 @@
   <data name="RadioButton6.Text" xml:space="preserve">
     <value>No sabe</value>
   </data>
-  <data name="RadioButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="RadioButton5.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 17</value>
   </data>
   <data name="RadioButton5.Text" xml:space="preserve">
     <value>Otro tipo de pago, especifique</value>
-  </data>
-  <data name="RadioButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="RadioButton4.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 17</value>
@@ -182,17 +160,11 @@
   <data name="RadioButton4.Text" xml:space="preserve">
     <value>Arrendado</value>
   </data>
-  <data name="RadioButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="RadioButton3.Size" type="System.Drawing.Size, System.Drawing">
     <value>207, 17</value>
   </data>
   <data name="RadioButton3.Text" xml:space="preserve">
     <value>Financiado (no con «Plan de Ahorro») </value>
-  </data>
-  <data name="RadioButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="RadioButton1.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 17</value>
@@ -200,16 +172,10 @@
   <data name="RadioButton1.Text" xml:space="preserve">
     <value>Pagado al contado</value>
   </data>
-  <data name="RadioButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="RadioButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 17</value>
   </data>
   <data name="RadioButton2.Text" xml:space="preserve">
     <value>Plan de Ahorro </value>
-  </data>
-  <data name="PictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
 </root>

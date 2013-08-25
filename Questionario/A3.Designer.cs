@@ -51,7 +51,6 @@
             // 
             resources.ApplyResources(this.class_A, "class_A");
             this.class_A.Name = "class_A";
-            this.class_A.Radios = ((System.Collections.Generic.Dictionary<string, System.Windows.Forms.RadioButton>)(resources.GetObject("class_A.Radios")));
             // 
             // Button1
             // 

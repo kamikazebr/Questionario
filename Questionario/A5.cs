@@ -24,17 +24,24 @@ namespace Questionario
             {
                 return;
             }
-             string msg = isPT() ? String.Format("Qual é a linha de modelo do {0}?",rowCurrent["A4_A_NOME"]) : String.Format("¿Cuál es el la línea de modelo de su {0}?",rowCurrent["A4_A_NOME"]);
-            int A1 = (int)rowCurrent["A1_A"];
-            if (A1 == 1)
-            {
-                int A1_EXTRAS = convertStringToInt((string)rowCurrent["A1_A_EXTRAS"]);
-                if (A1_EXTRAS > 1)
-                {
-                    //msg = isPT() ? "Qual é o modelo da sua van mais nova?" : "¿Cuál es el modelo de la camioneta que compró más recientemente?";
-                }
-            }
-            Label3.Text = msg;
+             try
+             {
+                 string msg = isPT() ? String.Format("Qual é a linha de modelo do {0}?", rowCurrent["A4_A_NOME"]) : String.Format("¿Cuál es el la línea de modelo de su {0}?", rowCurrent["A4_A_NOME"]);
+                 int A1 = (int)rowCurrent["A1_A"];
+                 if (A1 == 1)
+                 {
+                     int A1_EXTRAS = convertStringToInt((string)rowCurrent["A1_A_EXTRAS"]);
+                     if (A1_EXTRAS > 1)
+                     {
+                         //msg = isPT() ? "Qual é o modelo da sua van mais nova?" : "¿Cuál es el modelo de la camioneta que compró más recientemente?";
+                     }
+                 }
+                 Label3.Text = msg;
+             }
+             catch(NullReferenceException exNull)
+             {
+                 MessageBox.Show(exNull.Message);
+             }
 
             List<string> list = new List<string>();
             list.Add("Citroën Berlingo");
@@ -68,7 +75,7 @@ namespace Questionario
                 onePanelFoi = findPanels(row, onePanelFoi);
 
                 goToForm(new A6());
-                return;
+                
                 if (onePanelFoi)
                 {
 

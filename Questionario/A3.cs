@@ -37,8 +37,7 @@ namespace Questionario
 
                     if (this.class_A.Radios["11"].Checked)
                     {
-                        MessageBox.Show("Salvo! - Encerrando");
-                        Application.Exit();
+                        goToFormEncerrar();
                     }
                     else
                     {

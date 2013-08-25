@@ -58,7 +58,7 @@ namespace Questionario
 
                     if (this.numericUpDown1.Value < 2009)
                     {
-                        goToForm(new Encerrado());
+                        goToFormEncerrar("","Ano inferior a 2009");
                     }
                     else
                     {

@@ -16,7 +16,7 @@ namespace Questionario
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new A12());
+            Application.Run(new Inicio());
         }
     }
 }

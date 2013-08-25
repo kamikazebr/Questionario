@@ -5,18 +5,38 @@ using System.ComponentModel.Design;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ClassLibrary1
 {
+    using CustomExtensions;
     public class Class1:Panel
     {
         public MyList<string> _lista = new MyList<string>();
 
         public MyList<string> _visiveis = new MyList<string>();
 
-        public Dictionary<string,RadioButton> Radios {get;set;}
+        [Browsable(false)]
+        private Dictionary<string,RadioButton> _radios = new Dictionary<string,RadioButton>();
+
+       [Browsable(false)]
+        [DesignerSerializationVisibility(
+            DesignerSerializationVisibility.Hidden)]
+        public Dictionary<string, RadioButton> Radios
+        {
+            get
+            {
+                return _radios;
+            }
+
+            set
+            {
+                _radios = value;
+
+            }
+        }
 
 
         [Editor(@"System.Windows.Forms.Design.StringCollectionEditor," +
@@ -33,6 +53,7 @@ namespace ClassLibrary1
             
             set{
                 _lista = value;
+                InitializeComponent(); ;
                
             }
         }
@@ -52,7 +73,7 @@ namespace ClassLibrary1
             set
             {
                 _visiveis = value;
-            
+                InitializeComponent();
             }
         }
 
@@ -70,6 +91,7 @@ namespace ClassLibrary1
 
         void Lista_ListChanged(object sender, ListChangedEventArgs e)
         {
+          
             InitializeComponent();
         }
 
@@ -105,15 +127,23 @@ namespace ClassLibrary1
                 Size s = new System.Drawing.Size(w, h);
                 string name = String.Format("RadioButton{0}", i + 1);
                 RadioButton rb = criarRadioButton(name, _lista.ElementAt<string>(i), p, s);
-                Radios.Add(posString, rb);
+                _radios.Add(posString, rb);
             }
 
+
+            //if (_visiveis.Count == 0)
+            //{
+            //    for (int i = 1; i <= _lista.Count; i++)
+            //    {
+            //        _visiveis.Add(i.ToString());
+            //    }
+            //}
 
             for (int i = 0; i < _visiveis.Count; i++)
             {
                 //string posString = String.Format("{0}",i+1);
                 Point p = new System.Drawing.Point(0, i * h);
-                RadioButton rb = Radios[_visiveis[i]];
+                RadioButton rb = _radios[_visiveis[i]];
                 rb.Location = p;
                 this.Controls.Add(rb);
             }
@@ -140,7 +170,7 @@ namespace ClassLibrary1
      
        
     }
-    using CustomExtensions;
+   
     public class MyList<T> : BindingList<T>
     {
 

@@ -44,7 +44,7 @@ namespace Questionario
         public String col_ultima = "ultima";
         public String col_ultima_type = "TEXT";
 
-        private global::System.Data.OleDb.OleDbCommand[] _commandCollection;
+        //private global::System.Data.OleDb.OleDbCommand[] _commandCollection;
 
         //public bancoDataSetTableAdapters.questionarioTableAdapter adapter;
         public static DataRow rowCurrent;
@@ -58,7 +58,13 @@ namespace Questionario
             }
             this.Load +=MyForm_Load;
             this.Shown += MyForm_Shown;
-            this._commandCollection = new global::System.Data.OleDb.OleDbCommand[1];
+            this.FormClosed += MyForm_FormClosed;
+            //this._commandCollection = new global::System.Data.OleDb.OleDbCommand[1];
+        }
+
+        void MyForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Environment.Exit(0);
         }
 
         void MyForm_Shown(object sender, EventArgs e)
@@ -123,7 +129,7 @@ namespace Questionario
                 {
                     rowCurrent = dataTable.Rows[dataTable.Rows.Count - 1];
                 }catch(Exception ex){
-                    MessageBox.Show(String.Format("Contate o desenvolvedor: Code{0}", ex.StackTrace));
+                    MessageBox.Show(String.Format("Contate o desenvolvedor: Code:\n{0}", ex.StackTrace));
                 }
                 //rowCurrent = dataTable.Rows.Find(lastID);
                 //FindByid(lastID);
@@ -442,6 +448,10 @@ namespace Questionario
 
         public void goToForm(MyForm mf)
         {
+            if (this is Encerrado)
+            {
+                this.Dispose();
+            }
             this.lastID = (int)LastID();
             mf.lastID = lastID;
             initDB();
@@ -452,7 +462,7 @@ namespace Questionario
             if (!this.Name.Equals("Inicio", StringComparison.OrdinalIgnoreCase)
                 || !this.Name.Equals("Encerrado", StringComparison.OrdinalIgnoreCase))
             {
-                row[col_ultima] = this.Name;
+                row[col_ultima] = mf.Name;
                 updateRow(row);
             }
 
@@ -480,8 +490,14 @@ namespace Questionario
 
         public void goToFormEncerrar()
         {
-            MyForm mf = new Encerrado();
+            goToFormEncerrar("", "");
+        }
 
+        public void goToFormEncerrar(string entMsg, string motivoMsg)
+        {
+            Encerrado mf = new Encerrado();
+            mf.Label2.Text = entMsg;
+            mf.Label3.Text = motivoMsg;
             mf.lastID = (int)LastID();
             //My.rowCurrent = rowCurrent;
 
@@ -493,7 +509,6 @@ namespace Questionario
             this.Hide();
             mf.Show();
         }
-
 
 
         public bool isPT()
@@ -560,13 +575,8 @@ namespace Questionario
             // 
             this.ClientSize = new System.Drawing.Size(284, 262);
             this.Name = "MyForm";
-            this.Load += new System.EventHandler(this.MyForm_Load_1);
+            this.Load += new System.EventHandler(this.MyForm_Load);
             this.ResumeLayout(false);
-
-        }
-
-        private void MyForm_Load_1(object sender, EventArgs e)
-        {
 
         }
     }

@@ -75,9 +75,6 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="WindowsFormsControlLibrary1">
-      <HintPath>..\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="A0.cs">

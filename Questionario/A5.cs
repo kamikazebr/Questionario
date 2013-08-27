@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ClassLibrary1;
+using Questionario.Banco_de_Dados1DataSetTableAdapters;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,38 +26,53 @@ namespace Questionario
             {
                 return;
             }
-             string msg = isPT() ? String.Format("Qual é a linha {1} de modelo do {0}?",rowCurrent["A4_A_NOME"],"Chupa-me") : String.Format("¿Cuál es el la línea de modelo de su {0}?",rowCurrent["A4_A_NOME"]);
-            int A1 = (int)rowCurrent["A1_A"];
-            if (A1 == 1)
+             try
+             {
+                 string msg = isPT() ? String.Format("Qual é a linha de modelo do {0}?", rowCurrent["A4_A_NOME"]) : String.Format("¿Cuál es el la línea de modelo de su {0}?", rowCurrent["A4_A_NOME"]);
+                 int A1 = (int)rowCurrent["A1_A"];
+                 if (A1 == 1)
+                 {
+                     int A1_EXTRAS = convertStringToInt((string)rowCurrent["A1_A_EXTRAS"]);
+                     if (A1_EXTRAS > 1)
+                     {
+                         //msg = isPT() ? "Qual é o modelo da sua van mais nova?" : "¿Cuál es el modelo de la camioneta que compró más recientemente?";
+                     }
+                 }
+                 Label3.Text = msg;
+             }
+             catch(NullReferenceException exNull)
+             {
+                 MessageBox.Show(exNull.Message);
+             }
+
+            int A4_A = (int)rowCurrent["A4_A"];
+
+
+             MyList<string> listVisiveis = new MyList<string>();
+
+             
+            switch (A4_A)
             {
-                int A1_EXTRAS = convertStringToInt((string)rowCurrent["A1_A_EXTRAS"]);
-                if (A1_EXTRAS > 1)
-                {
-                    //msg = isPT() ? "Qual é o modelo da sua van mais nova?" : "¿Cuál es el modelo de la camioneta que compró más recientemente?";
-                }
+                case 1:
+                    listVisiveis.AddRange(new string[]{"1","2"});        
+                    break;
+                case 2:
+                    listVisiveis.AddRange(new string[] { "54","55","56" });
+                    break;
+                case 3:
+                    listVisiveis.AddRange(new string[] { "7", "8", "9", "10", "11", "12" });
+                    break;
+                case 4:
+                    listVisiveis.AddRange(new string[] { "1", "2" });
+                    break;
+                case 5:
+                    listVisiveis.AddRange(new string[] { "1", "2" });
+                    break;
             }
-            Label3.Text = msg;
 
-            List<string> list = new List<string>();
-            list.Add("Citroën Berlingo");
-            list.Add("Citroën Jumper");
-            list.Add("Fiat Qubo/ Fiat FiorinoQubo");
-            list.Add("Fiat Doblo");
-            list.Add("Fiat Ducato");
-            list.Add("Fiat Fiorino");
-            list.Add("Hyundai H1");
-            list.Add("Ford Transit");
-            list.Add("IvecoDaily");
-            list.Add("JinbeiTopic");
-            list.Add("MB Sprinter");
-            list.Add("Peugeot Boxer");
-            list.Add("Peugeot Expert");
-            list.Add("Peugeot Partner");
-            list.Add("Renault Kangoo");
-            list.Add("Renault Master");
-            list.Add("Volkswagen T2 ");
 
-            list.Add(isPT() ? "Outro modelo/não sabe/não responde" : "Otromodelo/no sabe/no contesta");
+            class_A.Visiveis = listVisiveis;   
+        
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -68,7 +85,7 @@ namespace Questionario
                 onePanelFoi = findPanels(row, onePanelFoi);
 
                 goToForm(new A6());
-                return;
+                
                 if (onePanelFoi)
                 {
 

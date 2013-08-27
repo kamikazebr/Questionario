@@ -27,7 +27,7 @@ namespace Questionario
             if (rowCurrent == null){
                 return;
             }
-            string msg = isPT() ? String.Format("Em que porcentagens o {0} é usado para fins comerciais, para ir e voltar do trabalho, e para fins particulares?", rowCurrent["A4_A"]) : String.Format("¿En qué porcentaje se utiliza el {0} confines empresariales, para trasladarse al lugar de trabajo y confines particulares?", rowCurrent["A4_A"]);
+            string msg = isPT() ? String.Format("Em que porcentagens o {0} é usado para fins comerciais, para ir e voltar do trabalho, e para fins particulares?", rowCurrent["A4_A_NOME"]) : String.Format("¿En qué porcentaje se utiliza el {0} confines empresariales, para trasladarse al lugar de trabajo y confines particulares?", rowCurrent["A4_A_NOME"]);
             int A1 = (int)rowCurrent["A1_A"];
             if (A1 == 1)
             {

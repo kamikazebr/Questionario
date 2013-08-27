@@ -84,6 +84,7 @@
             // RadioButton1
             // 
             this.RadioButton1.AutoSize = true;
+            
             this.RadioButton1.Location = new System.Drawing.Point(22, 14);
             this.RadioButton1.Name = "RadioButton1";
             this.RadioButton1.Size = new System.Drawing.Size(42, 17);
@@ -92,6 +93,7 @@
             this.RadioButton1.Text = "Sim";
             this.RadioButton1.UseVisualStyleBackColor = true;
             this.RadioButton1.CheckedChanged += new System.EventHandler(this.RadioButton1_CheckedChanged);
+            this.RadioButton1.Checked = true;
             // 
             // panel_A
             // 
@@ -109,7 +111,6 @@
             this.RadioButton2.Name = "RadioButton2";
             this.RadioButton2.Size = new System.Drawing.Size(45, 17);
             this.RadioButton2.TabIndex = 97;
-            this.RadioButton2.TabStop = true;
             this.RadioButton2.Text = "Nao";
             this.RadioButton2.UseVisualStyleBackColor = true;
             // 

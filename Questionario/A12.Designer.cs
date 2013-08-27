@@ -45,16 +45,15 @@
             // 
             // panel_A
             // 
-            resources.ApplyResources(this.panel_A, "panel_A");
             this.panel_A.Controls.Add(this.comboBox1);
             this.panel_A.Controls.Add(this.RadioButton3);
             this.panel_A.Controls.Add(this.RadioButton1);
             this.panel_A.Controls.Add(this.RadioButton2);
+            resources.ApplyResources(this.panel_A, "panel_A");
             this.panel_A.Name = "panel_A";
             // 
             // comboBox1
             // 
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
@@ -62,6 +61,7 @@
             resources.GetString("comboBox1.Items2"),
             resources.GetString("comboBox1.Items3"),
             resources.GetString("comboBox1.Items4")});
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             // 
             // RadioButton3
@@ -76,7 +76,7 @@
             resources.ApplyResources(this.RadioButton1, "RadioButton1");
             this.RadioButton1.Name = "RadioButton1";
             this.RadioButton1.TabStop = true;
-            this.RadioButton1.Tag = "TextBox1";
+            this.RadioButton1.Tag = "comboBox1";
             this.RadioButton1.UseVisualStyleBackColor = true;
             // 
             // RadioButton2
@@ -111,8 +111,8 @@
             // 
             // PictureBox2
             // 
-            resources.ApplyResources(this.PictureBox2, "PictureBox2");
             this.PictureBox2.Image = global::Questionario.Properties.Resources.psyma_logo;
+            resources.ApplyResources(this.PictureBox2, "PictureBox2");
             this.PictureBox2.Name = "PictureBox2";
             this.PictureBox2.TabStop = false;
             // 

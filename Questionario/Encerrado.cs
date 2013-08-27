@@ -47,7 +47,8 @@ namespace Questionario
                 Dictionary<string, object> row = new Dictionary<string, object>();
                 row[col_encerrado] = 1;
                 updateRow(row);
-                Application.Exit();
+
+                Environment.Exit(0);
             }
         }
     }

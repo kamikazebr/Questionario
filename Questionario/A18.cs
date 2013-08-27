@@ -25,7 +25,7 @@ namespace Questionario
                 return;
             }
 
-            string msg = isPT() ? String.Format("O(a) Sr(a). fez o financiamento / consórcio para {0} por meio de uma concessionária {1} ou por um modelo de serviço independente?", rowCurrent["A4_A"], rowCurrent["A3_A"]) : String.Format("¿Ustedsolicitóel financiamiento / plan de ahorro para su {0} por intermedio de un vendedor de {1} o de un proveedor de servicios independiente?  ", rowCurrent["A4_A"], rowCurrent["A3_A"]);
+            string msg = isPT() ? String.Format("O(a) Sr(a). fez o financiamento / consórcio para {0} por meio de uma concessionária {1} ou por um modelo de serviço independente?", rowCurrent["A4_A_NOME"], rowCurrent["A3_A"]) : String.Format("¿Ustedsolicitóel financiamiento / plan de ahorro para su {0} por intermedio de un vendedor de {1} o de un proveedor de servicios independiente?  ", rowCurrent["A4_A"], rowCurrent["A3_A"]);
             string msg1 = isPT() ? String.Format("Por meio de uma concessionária {0}", rowCurrent["A3_A"]) : String.Format("Por intermedio de un vendedor de {0}", rowCurrent["A3_A"]);
             CheckBox1.Text = msg1;
             Label3.Text = msg;

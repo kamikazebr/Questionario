@@ -12,6 +12,7 @@ using System.Windows.Forms;
 namespace Questionario
 {
 
+    using ClassLibrary1;
     using CustomExtensions;
     using System.Data.OleDb;
     public partial class A3 : MyForm
@@ -36,8 +37,7 @@ namespace Questionario
 
                     if (this.class_A.Radios["11"].Checked)
                     {
-                        MessageBox.Show("Salvo! - Encerrando");
-                        Application.Exit();
+                        goToFormEncerrar();
                     }
                     else
                     {
@@ -74,7 +74,7 @@ namespace Questionario
             }
             Label3.Text = msg;
 
-            List<string> list = new List<string>();
+            MyList<string> list = new MyList<string>();
             list.Add("Citroën");
             list.Add("Fiat");
             list.Add("Ford");
@@ -86,7 +86,7 @@ namespace Questionario
             list.Add("Renault");
             list.Add("VW");
 
-            List<string> listVisiveis = new List<string>();
+            MyList<string> listVisiveis = new MyList<string>();
 
 
 

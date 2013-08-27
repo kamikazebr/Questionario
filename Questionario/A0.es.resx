@@ -127,9 +127,6 @@
   <data name="Label4.Text" xml:space="preserve">
     <value>Papeles disponibles</value>
   </data>
-  <data name="Button1.Text" xml:space="preserve">
-    <value>Siguiente Pregunta</value>
-  </data>
   <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>241, 20</value>
   </data>

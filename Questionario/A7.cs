@@ -38,7 +38,7 @@ namespace Questionario
                 {
 
                     updateRow(row);
-                        goToForm(new A8());
+                    goToForm(new A8());
                     
                 }
                 else

@@ -93,7 +93,7 @@ namespace Questionario
                 System.Globalization.CultureInfo.DefaultThreadCurrentUICulture = ci;
                 System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
                 RefreshResources(this, resources, ci);
-                idiomaPanel.Visible = false;
+                //idiomaPanel.Visible = false;
             }catch(NullReferenceException){
                 button3.Enabled = false;
             }

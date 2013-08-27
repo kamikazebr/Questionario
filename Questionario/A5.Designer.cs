@@ -48,143 +48,137 @@
             // 
             // class_A
             // 
-            this.class_A.Lista.Add("Van de carga - Furgón");
-            this.class_A.Lista.Add("Van de Passeio - Multispace");
-            this.class_A.Lista.Add("Van de carga - Cargo Active");
-            this.class_A.Lista.Add("Van de Passeio - Active");
-            this.class_A.Lista.Add("Van de carga - Furgon");
-            this.class_A.Lista.Add("Van de Passeio - Combinato");
-            this.class_A.Lista.Add("Van de carga - Fire");
-            this.class_A.Lista.Add("Van de carga - Fire Confort");
-            this.class_A.Lista.Add("Van de carga - Fire");
-            this.class_A.Lista.Add("Van de carga - FireComfort");
-            this.class_A.Lista.Add("Van de Passeio - Active");
-            this.class_A.Lista.Add("Van de Passeio - Dynamic");
-            this.class_A.Lista.Add("Van de carga - Furgón Corto");
-            this.class_A.Lista.Add("Van de carga - Furgón Largo");
-            this.class_A.Lista.Add("Van de Passeio - Minibus");
-            this.class_A.Lista.Add("Chassis - Chasis");
-            this.class_A.Lista.Add("Van de Passeio - Mini Bus");
-            this.class_A.Lista.Add("Van de carga - Furgone");
-            this.class_A.Lista.Add("Van de carga - Gran Furgone");
-            this.class_A.Lista.Add("Van de carga - Vetrato");
-            this.class_A.Lista.Add("Chassis - Cabina Simple");
-            this.class_A.Lista.Add("Chassis - Cabina Doble");
-            this.class_A.Lista.Add("Chassis - Doble Cabina");
-            this.class_A.Lista.Add("Van de carga - Furgón Corto ");
-            this.class_A.Lista.Add("Van de carga - Furgón Mediana ");
-            this.class_A.Lista.Add("Van de carga - Furgón Largo");
-            this.class_A.Lista.Add("Crew Van - Furgón Corto Mixto");
-            this.class_A.Lista.Add("Crew Van - Furgón Mediana Mixto");
-            this.class_A.Lista.Add("Van de Passeio - Combi 415");
-            this.class_A.Lista.Add("Van de Passeio - Combi Corta");
-            this.class_A.Lista.Add("Van de Passeio - Combi Mediana");
-            this.class_A.Lista.Add("Van de Passeio - 413 CDI Minibus");
-            this.class_A.Lista.Add("Van de Passeio - Minibus 515");
-            this.class_A.Lista.Add("Chassis - Chasis 415");
-            this.class_A.Lista.Add("Chassis - Chasis 515");
-            this.class_A.Lista.Add("Chassis - Chasiscabina 313");
-            this.class_A.Lista.Add("Chassis - Chasis cabina 413");
-            this.class_A.Lista.Add("Van de carga - 1.6 HDI");
-            this.class_A.Lista.Add("Van de carga - FurgonPresence");
-            this.class_A.Lista.Add("Van de carga - FurgonConfort");
-            this.class_A.Lista.Add("Van de Passeio - Patagónica");
-            this.class_A.Lista.Add("Van de carga - Confort");
-            this.class_A.Lista.Add("Van de carga - Grand Confort");
-            this.class_A.Lista.Add("Van de Passeio - Authentique");
-            this.class_A.Lista.Add("Van de Passeio - Authentique Plus");
-            this.class_A.Lista.Add("Van de Passeio - Sportway");
-            this.class_A.Lista.Add("Van de carga - L1H1 / Furgón L1H1");
-            this.class_A.Lista.Add("Van de carga - Furgón L1H2");
-            this.class_A.Lista.Add("Van de carga - L1H1 Confort");
-            this.class_A.Lista.Add("Van de carga - L2H2 / Furgón L2H2");
-            this.class_A.Lista.Add("Van de carga - L3H2 / Furgón L3H2");
-            this.class_A.Lista.Add("Van de Passeio - Minibus");
-            this.class_A.Lista.Add("Chassis - Master Chasis Cabina");
-            this.class_A.Lista.Add("Van de carga - Furgão");
-            this.class_A.Lista.Add("Van de carga - Vetrato");
-            this.class_A.Lista.Add("Van de Passeio - Minibus");
-            this.class_A.Lista.Add("Van de carga - Cargo ");
-            this.class_A.Lista.Add("Van de carga - Attractive");
-            this.class_A.Lista.Add("Van de carga - Essence");
-            this.class_A.Lista.Add("Van de carga - Adventure");
-            this.class_A.Lista.Add("Van de carga - Cargo");
-            this.class_A.Lista.Add("Van de carga - Maxicargo");
-            this.class_A.Lista.Add("Van de carga - Multi Cargo");
-            this.class_A.Lista.Add("Van de Passeio - Minibus");
-            this.class_A.Lista.Add("Van de Passeio - MultiPassenger");
-            this.class_A.Lista.Add("Van de carga - Furgão");
-            this.class_A.Lista.Add("Van de carga - Furgão Curto");
-            this.class_A.Lista.Add("Van de carga - Furgão Longo");
-            this.class_A.Lista.Add("Van de passeio - Passageiros");
-            this.class_A.Lista.Add("Chassis - Chassi");
-            this.class_A.Lista.Add("Chassis - Chassi Estendido");
-            this.class_A.Lista.Add("Van de carga - Furgone");
-            this.class_A.Lista.Add("Van de carga - Grand Furgone");
-            this.class_A.Lista.Add("Van de carga - Maxi Furgone");
-            this.class_A.Lista.Add("Van de carga - Vetrato");
-            this.class_A.Lista.Add("Van de passeio - Minibus Turismo/ Executivo");
-            this.class_A.Lista.Add("Van de passeio - Minibus Fretamento");
-            this.class_A.Lista.Add("Chassis - Chassi Cabine");
-            this.class_A.Lista.Add("Chassis - Chassi Cabine Dupla");
-            this.class_A.Lista.Add("Chassis - Truck 7 Ton Chassis Cabine");
-            this.class_A.Lista.Add("Chassis - Truck 7 Ton Chassis Cabine Dupla");
-            this.class_A.Lista.Add("Van de carga - Furgão");
-            this.class_A.Lista.Add("Van de carga - Ambulância");
-            this.class_A.Lista.Add("Van de Passeio - Topic");
-            this.class_A.Lista.Add("Van de Passeio - Passageiro");
-            this.class_A.Lista.Add("Van de Passeio - Escolar");
-            this.class_A.Lista.Add("Van de carga - Furgão 311");
-            this.class_A.Lista.Add("Van de carga - Furgão 313");
-            this.class_A.Lista.Add("Van de carga - Furgão 413");
-            this.class_A.Lista.Add("Van de carga - Furgão 415");
-            this.class_A.Lista.Add("Van de carga - Furgão 515");
-            this.class_A.Lista.Add("Van de passeio - 313 CDI Family");
-            this.class_A.Lista.Add("Van de passeio - 313 CDI Executiva");
-            this.class_A.Lista.Add("Van de passeio - 313 CDI Standard");
-            this.class_A.Lista.Add("Van de passeio - 313 CDI Luxo");
-            this.class_A.Lista.Add("Van de passeio - 313 CDI Street");
-            this.class_A.Lista.Add("Van de passeio - 313 CDI Street Luxo");
-            this.class_A.Lista.Add("Van de passeio - 413 CDI\t");
-            this.class_A.Lista.Add("Van de passeio - 415 CDI");
-            this.class_A.Lista.Add("Van de passeio - 515 CDI");
-            this.class_A.Lista.Add("Chassis - \t311 Street");
-            this.class_A.Lista.Add("Chassis - 311 CDI Street Longo");
-            this.class_A.Lista.Add("Chassis - 311 CDI Street Extra-Longo");
-            this.class_A.Lista.Add("Chassis - 313 CDI Chassis com cabina");
-            this.class_A.Lista.Add("Chassis - 413 CDI Chassis com cabina");
-            this.class_A.Lista.Add("Chassis - 415 CDI Longo");
-            this.class_A.Lista.Add("Chassis - 515 CDI Longo");
-            this.class_A.Lista.Add("Chassis - 515 CDI Extra-Longo");
-            this.class_A.Lista.Add("Van de carga - Furgão");
-            this.class_A.Lista.Add("Van de passeio - 110\tVan");
-            this.class_A.Lista.Add("Van de carga - Furgão ");
-            this.class_A.Lista.Add("Van de Passeio - Passageiros");
-            this.class_A.Lista.Add("Van de carga - Express");
-            this.class_A.Lista.Add("Van de carga - Furgão");
-            this.class_A.Lista.Add("Van de carga - Furgão Vitre");
-            this.class_A.Lista.Add("Van de carga - Grand Furgão");
-            this.class_A.Lista.Add("Van de carga - Extra Furgão");
-            this.class_A.Lista.Add("Van de carga - Vitre");
-            this.class_A.Lista.Add("Van de carga - Grand Vitre");
-            this.class_A.Lista.Add("Van de carga - Extra Vitre");
-            this.class_A.Lista.Add("Van de passeio - Minibus");
-            this.class_A.Lista.Add("Van de passeio - Standard/ Escolar");
-            this.class_A.Lista.Add("Van de passeio - Standard");
-            this.class_A.Lista.Add("Van de passeio - Executive");
-            this.class_A.Lista.Add("Van de passeio - VIP");
-            this.class_A.Lista.Add("Chassis - Chassi Cabine");
-            this.class_A.Lista.Add("Van de carga - Furgão");
-            this.class_A.Lista.Add("Van de Passeio - Standard");
+            this.class_A.Lista.AddRange(new string[] {
+            "Van de carga - Furgón",
+            "Van de Passeio - Multispace",
+            "Van de carga - Cargo Active",
+            "Van de Passeio - Active",
+            "Van de carga - Furgon",
+            "Van de Passeio - Combinato",
+            "Van de carga - Fire",
+            "Van de carga - Fire Confort",
+            "Van de carga - Fire",
+            "Van de carga - FireComfort",
+            "Van de Passeio - Active",
+            "Van de Passeio - Dynamic",
+            "Van de carga - Furgón Corto",
+            "Van de carga - Furgón Largo",
+            "Van de Passeio - Minibus",
+            "Chassis - Chasis",
+            "Van de Passeio - Mini Bus",
+            "Van de carga - Furgone",
+            "Van de carga - Gran Furgone",
+            "Van de carga - Vetrato",
+            "Chassis - Cabina Simple",
+            "Chassis - Cabina Doble",
+            "Chassis - Doble Cabina",
+            "Van de carga - Furgón Corto ",
+            "Van de carga - Furgón Mediana ",
+            "Van de carga - Furgón Largo",
+            "Crew Van - Furgón Corto Mixto",
+            "Crew Van - Furgón Mediana Mixto",
+            "Van de Passeio - Combi 415",
+            "Van de Passeio - Combi Corta",
+            "Van de Passeio - Combi Mediana",
+            "Van de Passeio - 413 CDI Minibus",
+            "Van de Passeio - Minibus 515",
+            "Chassis - Chasis 415",
+            "Chassis - Chasis 515",
+            "Chassis - Chasiscabina 313",
+            "Chassis - Chasis cabina 413",
+            "Van de carga - 1.6 HDI",
+            "Van de carga - FurgonPresence",
+            "Van de carga - FurgonConfort",
+            "Van de Passeio - Patagónica",
+            "Van de carga - Confort",
+            "Van de carga - Grand Confort",
+            "Van de Passeio - Authentique",
+            "Van de Passeio - Authentique Plus",
+            "Van de Passeio - Sportway",
+            "Van de carga - L1H1 / Furgón L1H1",
+            "Van de carga - Furgón L1H2",
+            "Van de carga - L1H1 Confort",
+            "Van de carga - L2H2 / Furgón L2H2",
+            "Van de carga - L3H2 / Furgón L3H2",
+            "Van de Passeio - Minibus",
+            "Chassis - Master Chasis Cabina",
+            "Van de carga - Furgão",
+            "Van de carga - Vetrato",
+            "Van de Passeio - Minibus",
+            "Van de carga - Cargo ",
+            "Van de carga - Attractive",
+            "Van de carga - Essence",
+            "Van de carga - Adventure",
+            "Van de carga - Cargo",
+            "Van de carga - Maxicargo",
+            "Van de carga - Multi Cargo",
+            "Van de Passeio - Minibus",
+            "Van de Passeio - MultiPassenger",
+            "Van de carga - Furgão",
+            "Van de carga - Furgão Curto",
+            "Van de carga - Furgão Longo",
+            "Van de passeio - Passageiros",
+            "Chassis - Chassi",
+            "Chassis - Chassi Estendido",
+            "Van de carga - Furgone",
+            "Van de carga - Grand Furgone",
+            "Van de carga - Maxi Furgone",
+            "Van de carga - Vetrato",
+            "Van de passeio - Minibus Turismo/ Executivo",
+            "Van de passeio - Minibus Fretamento",
+            "Chassis - Chassi Cabine",
+            "Chassis - Chassi Cabine Dupla",
+            "Chassis - Truck 7 Ton Chassis Cabine",
+            "Chassis - Truck 7 Ton Chassis Cabine Dupla",
+            "Van de carga - Furgão",
+            "Van de carga - Ambulância",
+            "Van de Passeio - Topic",
+            "Van de Passeio - Passageiro",
+            "Van de Passeio - Escolar",
+            "Van de carga - Furgão 311",
+            "Van de carga - Furgão 313",
+            "Van de carga - Furgão 413",
+            "Van de carga - Furgão 415",
+            "Van de carga - Furgão 515",
+            "Van de passeio - 313 CDI Family",
+            "Van de passeio - 313 CDI Executiva",
+            "Van de passeio - 313 CDI Standard",
+            "Van de passeio - 313 CDI Luxo",
+            "Van de passeio - 313 CDI Street",
+            "Van de passeio - 313 CDI Street Luxo",
+            "Van de passeio - 413 CDI\t",
+            "Van de passeio - 415 CDI",
+            "Van de passeio - 515 CDI",
+            "Chassis - \t311 Street",
+            "Chassis - 311 CDI Street Longo",
+            "Chassis - 311 CDI Street Extra-Longo",
+            "Chassis - 313 CDI Chassis com cabina",
+            "Chassis - 413 CDI Chassis com cabina",
+            "Chassis - 415 CDI Longo",
+            "Chassis - 515 CDI Longo",
+            "Chassis - 515 CDI Extra-Longo",
+            "Van de carga - Furgão",
+            "Van de passeio - 110\tVan",
+            "Van de carga - Furgão ",
+            "Van de Passeio - Passageiros",
+            "Van de carga - Express",
+            "Van de carga - Furgão",
+            "Van de carga - Furgão Vitre",
+            "Van de carga - Grand Furgão",
+            "Van de carga - Extra Furgão",
+            "Van de carga - Vitre",
+            "Van de carga - Grand Vitre",
+            "Van de carga - Extra Vitre",
+            "Van de passeio - Minibus",
+            "Van de passeio - Standard/ Escolar",
+            "Van de passeio - Standard",
+            "Van de passeio - Executive",
+            "Van de passeio - VIP",
+            "Chassis - Chassi Cabine",
+            "Van de carga - Furgão",
+            "Van de Passeio - Standard"});
             resources.ApplyResources(this.class_A, "class_A");
             this.class_A.Name = "class_A";
-            this.class_A.Radios = ((System.Collections.Generic.Dictionary<string, System.Windows.Forms.RadioButton>)(resources.GetObject("class_A.Radios")));
-            this.class_A.Visiveis.Add("1");
-            this.class_A.Visiveis.Add("2");
-            this.class_A.Visiveis.Add("3");
-            this.class_A.Visiveis.Add("4");
-            this.class_A.Visiveis.Add("5");
-            this.class_A.Visiveis.Add("6");
             // 
             // Label3
             // 

@@ -117,35 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 85</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 23</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Nova pesquisa</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="radioButton1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radioButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="radioButton1.Location" type="System.Drawing.Point, System.Drawing">
     <value>33, 25</value>
   </data>
@@ -173,6 +153,9 @@
   <data name="radioButton2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="radioButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="radioButton2.Location" type="System.Drawing.Point, System.Drawing">
     <value>33, 48</value>
   </data>
@@ -196,6 +179,30 @@
   </data>
   <data name="&gt;&gt;radioButton2.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="idiomaPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 149</value>
+  </data>
+  <data name="idiomaPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="idiomaPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;idiomaPanel.Name" xml:space="preserve">
+    <value>idiomaPanel</value>
+  </data>
+  <data name="&gt;&gt;idiomaPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;idiomaPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;idiomaPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
     <value>121, 114</value>
@@ -221,26 +228,32 @@
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="idiomaPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 149</value>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="idiomaPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 85</value>
   </data>
-  <data name="idiomaPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 23</value>
   </data>
-  <data name="&gt;&gt;idiomaPanel.Name" xml:space="preserve">
-    <value>idiomaPanel</value>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;idiomaPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Nova pesquisa</value>
   </data>
-  <data name="&gt;&gt;idiomaPanel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;idiomaPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -250,6 +263,9 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>423, 261</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Inicio</value>
